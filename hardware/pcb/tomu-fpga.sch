@@ -565,7 +565,9 @@ P 2450 7000
 F 0 "U4" H 2000 6950 50  0000 C CNN
 F 1 "SPI-ROM" H 2100 6850 50  0000 C CNN
 F 2 "" H 2250 7000 50  0001 C CNN
-F 3 "" H 2250 7000 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 2250 7000 50  0001 C CNN
+F 4 "W25Q128JVSIM " H 2450 7000 50  0001 C CNN "MPN"
+F 5 "Winbond Electronics" H 2450 7000 50  0001 C CNN "Manufacturer"
 	1    2450 7000
 	1    0    0    -1  
 $EndComp
