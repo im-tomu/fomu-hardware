@@ -1,4 +1,4 @@
-(module XTAL-2520 (layer F.Cu) (tedit 5BD93025)
+(module XTAL-2520 (layer F.Cu) (tedit 5BD93EB1)
   (fp_text reference REF** (at -0.1 2.3) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
@@ -13,6 +13,7 @@
   (pad 2 smd rect (at 0.925 -0.725 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.925 -0.725 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -0.925 0.725 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad "" smd circle (at -1.7 -0.8 180) (size 0.3 0.3) (layers F.SilkS))
   (model ${KISYS3DMOD}/Oscillators.3dshapes/Oscillator_SMD_TCXO_G158.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.11 0.18 0.1))
