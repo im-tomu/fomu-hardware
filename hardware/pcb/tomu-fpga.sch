@@ -430,10 +430,6 @@ F 3 "" H 8800 3100 50  0001 C CNN
 	1    8800 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 3300 10000 3300
-Wire Wire Line
-	10000 3200 9650 3200
 $Comp
 L Device:R_Small R12
 U 1 1 5BDB00B1
@@ -490,89 +486,22 @@ F 6 "ANY" H 650 150 50  0001 C CNN "Manufacturer"
 $EndComp
 Text Label 9600 2200 2    50   ~ 0
 USBP_PU_CTRL
-Wire Wire Line
-	9650 3400 10000 3400
 $Comp
 L tomu-fpga:Oscillator U6
 U 1 1 5BDD6B36
-P 4700 1650
-F 0 "U6" H 5000 1600 50  0000 C CNN
-F 1 "MEMS Oscillator" H 4600 1600 50  0000 C CNN
-F 2 "tomu-fpga:MEMS-20005625B" H 4700 1650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005625B.pdf" H 4700 1650 50  0001 C CNN
-F 4 "DSC6001HI2A-048.0000T" H 4700 1650 50  0001 C CNN "MPN"
-F 5 "Microchip" H 4700 1650 50  0001 C CNN "Manufacturer"
-F 6 "DSC6001HI2A-048.0000T-ND" H 4700 1650 50  0001 C CNN "DPN"
-F 7 "MEMS OSC XO 48.0000MHZ CMOS SMD" H 0   0   50  0001 C CNN "Description"
-	1    4700 1650
-	1    0    0    -1  
+P 4750 1600
+F 0 "U6" H 5050 1550 50  0000 C CNN
+F 1 "MEMS Oscillator" H 4650 1550 50  0000 C CNN
+F 2 "tomu-fpga:MEMS-20005625B" H 4750 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005625B.pdf" H 4750 1600 50  0001 C CNN
+F 4 "DSC6001HI2A-048.0000T" H 4750 1600 50  0001 C CNN "MPN"
+F 5 "Microchip" H 4750 1600 50  0001 C CNN "Manufacturer"
+F 6 "DSC6001HI2A-048.0000T-ND" H 4750 1600 50  0001 C CNN "DPN"
+F 7 "MEMS OSC XO 48.0000MHZ CMOS SMD" H 50  -50 50  0001 C CNN "Description"
+	1    4750 1600
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5050 1400 5150 1400
-Wire Wire Line
-	5150 1400 5150 1150
-Wire Wire Line
-	5150 1150 4700 1150
-Wire Wire Line
-	4250 1150 4250 1400
-Wire Wire Line
-	4250 1400 4350 1400
-$Comp
-L power:+3V3 #PWR022
-U 1 1 5BDE59C3
-P 4700 1000
-F 0 "#PWR022" H 4700 850 50  0001 C CNN
-F 1 "+3V3" H 4715 1173 50  0000 C CNN
-F 2 "" H 4700 1000 50  0001 C CNN
-F 3 "" H 4700 1000 50  0001 C CNN
-	1    4700 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 1000 4700 1150
-Connection ~ 4700 1150
-Wire Wire Line
-	4700 1150 4250 1150
-$Comp
-L Device:C_Small C12
-U 1 1 5BDE79EE
-P 5250 1500
-F 0 "C12" H 5300 1600 50  0000 L CNN
-F 1 "0805, 100nF, 10V, X5R, 20%" H 4650 1700 50  0000 L CNN
-F 2 "tomu-fpga:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 1500 50  0001 C CNN
-F 3 "" H 5250 1500 50  0001 C CNN
-F 4 "ANY" H 200 -600 50  0001 C CNN "MPN"
-F 5 "ANY" H 200 -600 50  0001 C CNN "MYPN"
-F 6 "ANY" H 200 -600 50  0001 C CNN "Manufacturer"
-	1    5250 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 1600 5100 1600
-Wire Wire Line
-	5100 1600 5100 1750
-Connection ~ 5100 1600
-Wire Wire Line
-	5100 1600 5050 1600
-$Comp
-L power:GND #PWR023
-U 1 1 5BDEBDAC
-P 5100 1750
-F 0 "#PWR023" H 5100 1500 50  0001 C CNN
-F 1 "GND" H 5105 1577 50  0000 C CNN
-F 2 "" H 5100 1750 50  0001 C CNN
-F 3 "" H 5100 1750 50  0001 C CNN
-	1    5100 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 1400 5150 1400
-Connection ~ 5150 1400
-Wire Wire Line
-	4350 1600 4250 1600
-Wire Wire Line
-	4250 2050 5250 2050
-Text Label 4850 2050 0    50   ~ 0
+Text Label 5550 2050 0    50   ~ 0
 OSC_IN
 Wire Wire Line
 	1050 6950 1000 6950
@@ -652,10 +581,6 @@ F 8 "PCB-etched captouch pads" H 0   0   50  0001 C CNN "Description"
 	1    5500 2200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5700 2550 5850 2550
-Wire Wire Line
-	5850 2450 5700 2450
 Wire Wire Line
 	5700 2350 5850 2350
 Wire Wire Line
@@ -737,37 +662,7 @@ F 6 "DNP" H 350 100 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9150 5100 9600 5100
-Wire Wire Line
 	8700 5200 8700 5100
-$Comp
-L tomu-fpga:Testpoint TP1
-U 1 1 5BE9F404
-P 2300 5500
-F 0 "TP1" V 2300 5600 50  0000 L CNN
-F 1 "Testpoint" V 2350 5450 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 2300 5500 50  0001 C CNN
-F 3 "" H 2300 5500 50  0001 C CNN
-F 4 "DNP" H 2300 5500 50  0001 C CNN "MPN"
-F 5 "DNP" H 2300 5500 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -1000 200 50  0001 C CNN "MYPN"
-	1    2300 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L tomu-fpga:Testpoint TP8
-U 1 1 5BEA519B
-P 3750 5900
-F 0 "TP8" V 3800 5850 50  0000 L CNN
-F 1 "Testpoint" V 3700 6000 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 3750 5900 50  0001 C CNN
-F 3 "" H 3750 5900 50  0001 C CNN
-F 4 "DNP" V 3750 5900 50  0001 C CNN "MPN"
-F 5 "DNP" V 3750 5900 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -1100 350 50  0001 C CNN "MYPN"
-	1    3750 5900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8850 1550 8850 1700
 $Comp
@@ -864,7 +759,7 @@ $Comp
 L Device:R_Small R1
 U 1 1 5C0F3302
 P 2550 5000
-F 0 "R1" H 2450 5050 50  0000 C CNN
+F 0 "R1" V 2550 5000 50  0000 C CNN
 F 1 "0805, 10k, 1/16W" H 2700 4900 50  0000 C CNN
 F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2550 5000 50  0001 C CNN
 F 3 "" H 2550 5000 50  0001 C CNN
@@ -882,73 +777,60 @@ Wire Wire Line
 Wire Wire Line
 	2550 4850 2550 4900
 $Comp
-L Switch:SW_Push SW3
+L tomu-fpga:SW_Push SW3
 U 1 1 5C1DD9BA
-P 8300 2500
-F 0 "SW3" H 8300 2785 50  0000 C CNN
-F 1 "USER1" H 8300 2694 50  0000 C CNN
-F 2 "tomu-fpga:SPST-NO-Button" H 8300 2700 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1467/pts525.pdf" H 8300 2700 50  0001 C CNN
-F 4 "PTS525SM15SMTR2 LFS" H 650 100 50  0001 C CNN "MPN"
-F 5 "SW-PB-5X5-1.6" H 650 100 50  0001 C CNN "MYPN"
-F 6 "C&K" H 650 100 50  0001 C CNN "Manufacturer"
-F 7 "CKN9104CT-ND" H 0   0   50  0001 C CNN "DPN"
-F 8 "SWITCH TACTILE SPST-NO 0.02A 15V" H 0   0   50  0001 C CNN "Description"
-	1    8300 2500
-	1    0    0    -1  
+P 8300 2450
+F 0 "SW3" H 8300 2735 50  0000 C CNN
+F 1 "USER1" H 8300 2644 50  0000 C CNN
+F 2 "tomu-fpga:SPST-NO-Button" H 8300 2650 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1467/pts525.pdf" H 8300 2650 50  0001 C CNN
+F 4 "PTS525SM15SMTR2 LFS" H 650 50  50  0001 C CNN "MPN"
+F 5 "SW-PB-5X5-1.6" H 650 50  50  0001 C CNN "MYPN"
+F 6 "C&K" H 650 50  50  0001 C CNN "Manufacturer"
+F 7 "CKN9104CT-ND" H 0   -50 50  0001 C CNN "DPN"
+F 8 "SWITCH TACTILE SPST-NO 0.02A 15V" H 0   -50 50  0001 C CNN "Description"
+	1    8300 2450
+	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW4
+L tomu-fpga:SW_Push SW4
 U 1 1 5C1DDAF6
-P 8300 2850
-F 0 "SW4" H 8300 3135 50  0000 C CNN
-F 1 "USER2" H 8300 3044 50  0000 C CNN
-F 2 "tomu-fpga:SPST-NO-Button" H 8300 3050 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1467/pts525.pdf" H 8300 3050 50  0001 C CNN
-F 4 "PTS525SM15SMTR2 LFS" H 650 100 50  0001 C CNN "MPN"
-F 5 "SW-PB-5X5-1.6" H 650 100 50  0001 C CNN "MYPN"
-F 6 "C&K" H 650 100 50  0001 C CNN "Manufacturer"
-F 7 "CKN9104CT-ND" H 8300 2850 50  0001 C CNN "DPN"
-F 8 "SWITCH TACTILE SPST-NO 0.02A 15V" H 0   0   50  0001 C CNN "Description"
-	1    8300 2850
-	1    0    0    -1  
+P 8300 3000
+F 0 "SW4" H 8300 3285 50  0000 C CNN
+F 1 "USER2" H 8300 3194 50  0000 C CNN
+F 2 "tomu-fpga:SPST-NO-Button" H 8300 3200 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1467/pts525.pdf" H 8300 3200 50  0001 C CNN
+F 4 "PTS525SM15SMTR2 LFS" H 650 250 50  0001 C CNN "MPN"
+F 5 "SW-PB-5X5-1.6" H 650 250 50  0001 C CNN "MYPN"
+F 6 "C&K" H 650 250 50  0001 C CNN "Manufacturer"
+F 7 "CKN9104CT-ND" H 8300 3000 50  0001 C CNN "DPN"
+F 8 "SWITCH TACTILE SPST-NO 0.02A 15V" H 0   150 50  0001 C CNN "Description"
+	1    8300 3000
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8500 2850 9200 2850
+	8650 2800 9200 2800
 Wire Wire Line
-	9200 2850 9200 3100
+	9200 2800 9200 3100
 Wire Wire Line
 	9200 3100 10000 3100
 Wire Wire Line
 	10000 3000 9350 3000
 Wire Wire Line
-	9350 3000 9350 2600
+	9350 3000 9350 2650
 Wire Wire Line
-	9350 2600 8600 2600
-Wire Wire Line
-	8600 2600 8600 2500
-Wire Wire Line
-	8600 2500 8500 2500
+	9350 2650 8650 2650
 $Comp
 L power:GND #PWR030
 U 1 1 5C20065F
-P 8050 3100
-F 0 "#PWR030" H 8050 2850 50  0001 C CNN
-F 1 "GND" H 8055 2927 50  0000 C CNN
-F 2 "" H 8050 3100 50  0001 C CNN
-F 3 "" H 8050 3100 50  0001 C CNN
-	1    8050 3100
+P 8050 3300
+F 0 "#PWR030" H 8050 3050 50  0001 C CNN
+F 1 "GND" H 8055 3127 50  0000 C CNN
+F 2 "" H 8050 3300 50  0001 C CNN
+F 3 "" H 8050 3300 50  0001 C CNN
+	1    8050 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 2500 8050 2500
-Wire Wire Line
-	8050 2500 8050 2850
-Wire Wire Line
-	8100 2850 8050 2850
-Connection ~ 8050 2850
-Wire Wire Line
-	8050 2850 8050 3100
 Wire Notes Line
 	600  4250 600  7450
 Wire Notes Line
@@ -1026,20 +908,6 @@ USBN_PU_CTRL
 Text Notes 7950 1200 0    50   ~ 0
 Activate this PU to enable LS mode
 $Comp
-L Device:R_Small R3
-U 1 1 5C3B8B51
-P 3750 7150
-F 0 "R3" V 3650 7150 50  0000 C CNN
-F 1 "0805, 10k, 1/16W (DNP)" V 3550 7450 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 7150 50  0001 C CNN
-F 3 "" H 3750 7150 50  0001 C CNN
-F 4 "DNP" H -1250 0   50  0001 C CNN "MPN"
-F 5 "DNP" H -1250 0   50  0001 C CNN "MYPN"
-F 6 "DNP" H -1250 0   50  0001 C CNN "Manufacturer"
-	1    3750 7150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR019
 U 1 1 5C3C4455
 P 4050 7200
@@ -1055,15 +923,15 @@ Wire Wire Line
 $Comp
 L Device:R_Small R4
 U 1 1 5C41A61D
-P 3800 5050
-F 0 "R4" V 3700 5050 50  0000 C CNN
-F 1 "0805, 10k, 1/16W (DNP)" H 3750 5200 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3800 5050 50  0001 C CNN
-F 3 "" H 3800 5050 50  0001 C CNN
-F 4 "DNP" H 3800 5050 50  0001 C CNN "MPN"
-F 5 "DNP" H 3800 5050 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -1350 0   50  0001 C CNN "MYPN"
-	1    3800 5050
+P 3800 5000
+F 0 "R4" V 3800 5000 50  0000 C CNN
+F 1 "0805, 10k, 1/16W (DNP)" H 3750 5150 50  0000 C CNN
+F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3800 5000 50  0001 C CNN
+F 3 "" H 3800 5000 50  0001 C CNN
+F 4 "DNP" H 3800 5000 50  0001 C CNN "MPN"
+F 5 "DNP" H 3800 5000 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H -1350 -50 50  0001 C CNN "MYPN"
+	1    3800 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1081,47 +949,28 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR018
 U 1 1 5C488914
-P 4050 6750
-F 0 "#PWR018" H 4050 6600 50  0001 C CNN
-F 1 "+3V3" H 4065 6923 50  0000 C CNN
-F 2 "" H 4050 6750 50  0001 C CNN
-F 3 "" H 4050 6750 50  0001 C CNN
-	1    4050 6750
+P 3700 6250
+F 0 "#PWR018" H 3700 6100 50  0001 C CNN
+F 1 "+3V3" H 3715 6423 50  0000 C CNN
+F 2 "" H 3700 6250 50  0001 C CNN
+F 3 "" H 3700 6250 50  0001 C CNN
+	1    3700 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 5C493DB2
-P 3800 6850
-F 0 "R5" V 3850 6850 50  0000 C CNN
-F 1 "0805, 10k, 1/16W" V 3700 6700 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3800 6850 50  0001 C CNN
-F 3 "" H 3800 6850 50  0001 C CNN
-F 4 "ANY" H -1200 0   50  0001 C CNN "MPN"
-F 5 "ANY" H -1200 0   50  0001 C CNN "MYPN"
-F 6 "ANY" H -1200 0   50  0001 C CNN "Manufacturer"
-	1    3800 6850
+P 3600 7250
+F 0 "R5" V 3600 7250 50  0000 C CNN
+F 1 "0805, 10k, 1/16W" V 3500 7350 50  0000 C CNN
+F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 7250 50  0001 C CNN
+F 3 "" H 3600 7250 50  0001 C CNN
+F 4 "ANY" H -1400 400 50  0001 C CNN "MPN"
+F 5 "ANY" H -1400 400 50  0001 C CNN "MYPN"
+F 6 "ANY" H -1400 400 50  0001 C CNN "Manufacturer"
+	1    3600 7250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3600 7250 3600 7150
-Wire Wire Line
-	3600 6850 3700 6850
-Wire Wire Line
-	3600 7250 2400 7250
-Wire Wire Line
-	3900 6850 4050 6850
-Wire Wire Line
-	4050 6850 4050 6750
-Wire Wire Line
-	3850 7150 4050 7150
-Wire Wire Line
-	4050 7150 4050 7200
-Wire Wire Line
-	3650 7150 3600 7150
-Connection ~ 3600 7150
-Wire Wire Line
-	3600 6850 3600 7150
 $Comp
 L Device:C_Small C21
 U 1 1 5C52D560
@@ -1208,7 +1057,7 @@ Wire Wire Line
 	8850 5300 8850 5200
 Connection ~ 8850 5200
 Wire Wire Line
-	8850 5200 9600 5200
+	8850 5200 9500 5200
 Wire Wire Line
 	8350 5200 8450 5200
 Connection ~ 8700 5200
@@ -1543,7 +1392,7 @@ Wire Wire Line
 	8550 4500 9000 4500
 Connection ~ 9150 4900
 Wire Wire Line
-	9150 4900 9150 5100
+	9150 4900 9150 5000
 Wire Wire Line
 	7850 4500 7850 4600
 Wire Wire Line
@@ -1649,16 +1498,16 @@ $EndComp
 $Comp
 L power:+3V3 #PWR020
 U 1 1 5C122FDC
-P 4200 2350
-F 0 "#PWR020" H 4200 2200 50  0001 C CNN
-F 1 "+3V3" H 4215 2523 50  0000 C CNN
-F 2 "" H 4200 2350 50  0001 C CNN
-F 3 "" H 4200 2350 50  0001 C CNN
-	1    4200 2350
+P 4200 1600
+F 0 "#PWR020" H 4200 1450 50  0001 C CNN
+F 1 "+3V3" H 4215 1773 50  0000 C CNN
+F 2 "" H 4200 1600 50  0001 C CNN
+F 3 "" H 4200 1600 50  0001 C CNN
+	1    4200 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 2350 4200 2600
+	4200 1600 4200 2150
 Wire Wire Line
 	4200 2600 4350 2600
 Wire Wire Line
@@ -1687,9 +1536,9 @@ $Comp
 L Device:R_Small R7
 U 1 1 5C1737EA
 P 5250 2250
-F 0 "R7" H 5150 2300 50  0000 C CNN
-F 1 "0805, 0ohm (DNP)" H 5500 2150 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 2250 50  0001 C CNN
+F 0 "R7" V 5250 2250 50  0000 C CNN
+F 1 "0201, 0ohm (DNP)" V 5150 2500 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 5250 2250 50  0001 C CNN
 F 3 "" H 5250 2250 50  0001 C CNN
 F 4 "DNP" H 5250 2250 50  0001 C CNN "MPN"
 F 5 "DNP" H 5250 2250 50  0001 C CNN "Manufacturer"
@@ -1703,32 +1552,27 @@ Wire Wire Line
 	5250 2400 5250 2350
 Wire Wire Line
 	5250 2150 5250 2050
-Connection ~ 5250 2050
 Wire Wire Line
 	5250 2050 5850 2050
 $Comp
 L Device:R_Small R6
 U 1 1 5C1B1B9B
-P 4250 1900
-F 0 "R6" H 4350 2000 50  0000 C CNN
-F 1 "0805, 0ohm (DNP)" H 3950 1900 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 1900 50  0001 C CNN
-F 3 "" H 4250 1900 50  0001 C CNN
-F 4 "DNP" H 4250 1900 50  0001 C CNN "MPN"
-F 5 "DNP" H 4250 1900 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 700 -3100 50  0001 C CNN "MYPN"
-	1    4250 1900
-	-1   0    0    1   
+P 5250 1850
+F 0 "R6" V 5250 1850 50  0000 C CNN
+F 1 "0201, 0ohm (DNP)" V 5350 2050 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 5250 1850 50  0001 C CNN
+F 3 "" H 5250 1850 50  0001 C CNN
+F 4 "DNP" H 5250 1850 50  0001 C CNN "MPN"
+F 5 "DNP" H 5250 1850 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 1700 -3150 50  0001 C CNN "MYPN"
+	1    5250 1850
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 2000 4250 2050
-Wire Wire Line
-	4250 1800 4250 1600
 $Comp
 L Device:C_Small C11
 U 1 1 5C1F1DFB
 P 4350 2500
-F 0 "C11" H 4450 2550 50  0000 L CNN
+F 0 "C11" H 4400 2550 50  0000 L CNN
 F 1 "0805, 100nF, 10V, X5R, 20%" H 4200 2300 50  0000 L CNN
 F 2 "tomu-fpga:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 2500 50  0001 C CNN
 F 3 "" H 4350 2500 50  0001 C CNN
@@ -1756,7 +1600,7 @@ Text Label 2300 6550 0    50   ~ 0
 SPI_IO2
 Text Label 2300 6450 0    50   ~ 0
 SPI_IO3
-Text Label 3800 5450 3    50   ~ 0
+Text Label 3800 5350 1    50   ~ 0
 CDONE
 $Comp
 L tomu-fpga:ICE40UP5K-SG48ITR U5
@@ -1875,8 +1719,6 @@ Connection ~ 1500 4600
 Connection ~ 2550 4850
 Wire Wire Line
 	3150 4850 3800 4850
-Wire Wire Line
-	3800 4950 3800 4850
 Wire Wire Line
 	5200 6700 5200 6800
 Wire Wire Line
@@ -2006,11 +1848,8 @@ To program SPI flash, put FPGA in RESET\nTo program FPGA, keep SPI_IO3 LOW
 Connection ~ 8450 5200
 Wire Wire Line
 	8450 5200 8700 5200
-Connection ~ 3800 5350
 Wire Wire Line
-	3800 5150 3800 5350
-Wire Wire Line
-	3800 5750 3800 5350
+	3800 5100 3800 5350
 Wire Wire Line
 	1700 4600 1900 4600
 Wire Wire Line
@@ -2023,8 +1862,6 @@ Text Label 4450 5700 0    50   ~ 0
 DBG_2
 Wire Wire Line
 	6400 5100 6750 5100
-Text Label 6450 5100 0    50   ~ 0
-DBG_3
 Wire Wire Line
 	4800 5000 4450 5000
 Text Label 4450 5000 0    50   ~ 0
@@ -2033,26 +1870,10 @@ Wire Wire Line
 	6400 4900 6750 4900
 Wire Wire Line
 	6400 4800 6750 4800
-Text Label 6450 4900 0    50   ~ 0
-DBG_5
-Text Label 6450 4800 0    50   ~ 0
-DBG_6
-Text Label 9650 2700 0    50   ~ 0
-DBG_6
-Text Label 9650 2600 0    50   ~ 0
-DBG_5
-Wire Wire Line
-	10000 2600 9650 2600
-Wire Wire Line
-	9650 2700 10000 2700
 Wire Wire Line
 	5850 1850 5550 1850
-Wire Wire Line
-	5850 1950 5550 1950
 Text Label 5550 1850 0    50   ~ 0
 DBG_4
-Text Label 5550 1950 0    50   ~ 0
-DBG_3
 Text Label 2400 5650 0    50   ~ 0
 DBG_2
 Text Label 2400 5750 0    50   ~ 0
@@ -2072,20 +1893,20 @@ Wire Notes Line
 Text Notes 6800 3750 2    50   ~ 0
 Raspberry Pi "Hat"\nUsed for firmware development
 $Comp
-L Switch:SW_Push SW1
+L tomu-fpga:SW_Push SW1
 U 1 1 5D126443
-P 1950 5650
-F 0 "SW1" H 1950 5935 50  0000 C CNN
-F 1 "RESET" H 1950 5844 50  0000 C CNN
-F 2 "tomu-fpga:SPST-NO-Button" H 1950 5850 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1467/pts525.pdf" H 1950 5850 50  0001 C CNN
-F 4 "PTS525SM15SMTR2 LFS" H -5700 2900 50  0001 C CNN "MPN"
-F 5 "SW-PB-5X5-1.6" H -5700 2900 50  0001 C CNN "MYPN"
-F 6 "C&K" H -5700 2900 50  0001 C CNN "Manufacturer"
-F 7 "CKN9104CT-ND" H 1950 5650 50  0001 C CNN "DPN"
-F 8 "SWITCH TACTILE SPST-NO 0.02A 15V" H 0   0   50  0001 C CNN "Description"
-	1    1950 5650
-	-1   0    0    1   
+P 1950 5800
+F 0 "SW1" H 1950 6085 50  0000 C CNN
+F 1 "RESET" H 1950 5994 50  0000 C CNN
+F 2 "tomu-fpga:SPST-NO-Button" H 1950 6000 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1467/pts525.pdf" H 1950 6000 50  0001 C CNN
+F 4 "PTS525SM15SMTR2 LFS" H -5700 3050 50  0001 C CNN "MPN"
+F 5 "SW-PB-5X5-1.6" H -5700 3050 50  0001 C CNN "MYPN"
+F 6 "C&K" H -5700 3050 50  0001 C CNN "Manufacturer"
+F 7 "CKN9104CT-ND" H 1950 5800 50  0001 C CNN "DPN"
+F 8 "SWITCH TACTILE SPST-NO 0.02A 15V" H 0   150 50  0001 C CNN "Description"
+	1    1950 5800
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1700 4500 1700 4600
@@ -2095,25 +1916,18 @@ Connection ~ 1900 4850
 Wire Wire Line
 	1900 4850 1900 5050
 Wire Wire Line
-	2150 5350 2150 5650
-Wire Wire Line
-	2150 5350 2350 5350
-Connection ~ 2350 5350
-Wire Wire Line
-	2350 5350 2550 5350
+	2150 5350 2150 5600
 $Comp
 L power:GND #PWR011
 U 1 1 5D1AAF27
-P 1700 5750
-F 0 "#PWR011" H 1700 5500 50  0001 C CNN
-F 1 "GND" H 1705 5577 50  0000 C CNN
-F 2 "" H 1700 5750 50  0001 C CNN
-F 3 "" H 1700 5750 50  0001 C CNN
-	1    1700 5750
+P 1700 6000
+F 0 "#PWR011" H 1700 5750 50  0001 C CNN
+F 1 "GND" H 1800 5900 50  0000 C CNN
+F 2 "" H 1700 6000 50  0001 C CNN
+F 3 "" H 1700 6000 50  0001 C CNN
+	1    1700 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 5750 1700 5650
 $Comp
 L Device:LED D1
 U 1 1 5D1C64EF
@@ -2155,34 +1969,16 @@ Wire Wire Line
 Wire Wire Line
 	3400 3600 2500 3600
 Connection ~ 2500 3600
-Wire Wire Line
-	6400 4500 6750 4500
-Wire Wire Line
-	6400 4600 6750 4600
-Wire Wire Line
-	6400 5200 6750 5200
-Wire Wire Line
-	6400 5300 6750 5300
-Text Label 6450 4500 0    50   ~ 0
+Text Label 6450 4800 0    50   ~ 0
 DBG_7
-Text Label 6450 4600 0    50   ~ 0
+Text Label 6450 4900 0    50   ~ 0
 DBG_8
-Text Label 6450 5200 0    50   ~ 0
+Text Label 6450 5100 0    50   ~ 0
 DBG_9
-Text Label 6450 5300 0    50   ~ 0
+Text Label 6450 5500 0    50   ~ 0
 DBG_10
 Wire Wire Line
 	6400 5500 6750 5500
-Text Label 6450 5500 0    50   ~ 0
-DBG_11
-Text Label 6450 6100 0    50   ~ 0
-DBG_12
-Text Label 6450 6200 0    50   ~ 0
-DBG_13
-Wire Wire Line
-	6400 6100 6750 6100
-Wire Wire Line
-	6400 6200 6750 6200
 $Comp
 L Connector:Raspberry_Pi_2_3 J1
 U 1 1 5C14D2BF
@@ -2195,22 +1991,6 @@ F 4 "Connector for development" H 0   0   50  0001 C CNN "Description"
 	1    5600 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 6000 4450 6000
-Wire Wire Line
-	4800 5400 4450 5400
-Wire Wire Line
-	4800 5300 4450 5300
-Wire Wire Line
-	4800 5200 4450 5200
-Text Label 4450 6000 0    50   ~ 0
-DBG_14
-Text Label 4450 5400 0    50   ~ 0
-DBG_15
-Text Label 4450 5300 0    50   ~ 0
-DBG_16
-Text Label 4450 5200 0    50   ~ 0
-DBG_17
 Text Label 2300 6350 0    50   ~ 0
 DBG_7
 Text Label 2300 6050 0    50   ~ 0
@@ -2227,20 +2007,6 @@ Wire Wire Line
 	2300 6050 2650 6050
 Wire Wire Line
 	2650 6350 2300 6350
-Text Label 9650 2900 0    50   ~ 0
-DBG_11
-Text Label 9650 2800 0    50   ~ 0
-DBG_12
-Text Label 9650 2500 0    50   ~ 0
-DBG_13
-Text Label 9650 2400 0    50   ~ 0
-DBG_14
-Text Label 9650 2300 0    50   ~ 0
-DBG_15
-Text Label 9650 2200 0    50   ~ 0
-DBG_16
-Text Label 5550 2150 0    50   ~ 0
-DBG_17
 Text Label 7100 4500 0    50   ~ 0
 DBG_18
 $Comp
@@ -2264,20 +2030,6 @@ Connection ~ 9000 1900
 Wire Wire Line
 	9000 1900 9300 1900
 Wire Wire Line
-	9650 2500 10000 2500
-Wire Wire Line
-	10000 2400 9650 2400
-Wire Wire Line
-	9650 2300 10000 2300
-Wire Wire Line
-	10000 2200 9650 2200
-Wire Wire Line
-	5550 2150 5850 2150
-Wire Wire Line
-	9650 2800 10000 2800
-Wire Wire Line
-	10000 2900 9650 2900
-Wire Wire Line
 	9600 2100 9600 2350
 Wire Wire Line
 	9600 2100 10000 2100
@@ -2288,114 +2040,201 @@ Wire Wire Line
 Wire Wire Line
 	9600 2350 9250 2350
 NoConn ~ 4800 4800
-$Comp
-L tomu-fpga:Testpoint TP2
-U 1 1 5D6568F9
-P 2500 4500
-F 0 "TP2" H 2500 4550 50  0000 L CNN
-F 1 "Testpoint" H 2650 4550 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 2500 4500 50  0001 C CNN
-F 3 "" H 2500 4500 50  0001 C CNN
-F 4 "DNP" V 2500 4500 50  0001 C CNN "MPN"
-F 5 "DNP" V 2500 4500 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -2350 -1050 50  0001 C CNN "MYPN"
-	1    2500 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L tomu-fpga:Testpoint TP3
-U 1 1 5D656A3B
-P 2500 4650
-F 0 "TP3" H 2500 4700 50  0000 L CNN
-F 1 "Testpoint" H 2650 4700 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 2500 4650 50  0001 C CNN
-F 3 "" H 2500 4650 50  0001 C CNN
-F 4 "DNP" V 2500 4650 50  0001 C CNN "MPN"
-F 5 "DNP" V 2500 4650 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -2350 -900 50  0001 C CNN "MYPN"
-	1    2500 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L tomu-fpga:Testpoint TP4
-U 1 1 5D676FC0
-P 2500 4800
-F 0 "TP4" H 2500 4850 50  0000 L CNN
-F 1 "Testpoint" H 2650 4850 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 2500 4800 50  0001 C CNN
-F 3 "" H 2500 4800 50  0001 C CNN
-F 4 "DNP" V 2500 4800 50  0001 C CNN "MPN"
-F 5 "DNP" V 2500 4800 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -2350 -750 50  0001 C CNN "MYPN"
-	1    2500 4800
-	1    0    0    -1  
-$EndComp
-Text Label 2000 4750 0    50   ~ 0
-SPI_CLK
-Text Label 2000 4600 0    50   ~ 0
-SPI_MISO
-Text Label 2000 4450 0    50   ~ 0
-SPI_MOSI
+Connection ~ 4200 2150
 Wire Wire Line
-	2000 4450 2350 4450
+	4200 2150 4200 2600
 Wire Wire Line
-	2350 4600 2000 4600
+	4400 1650 4250 1650
 Wire Wire Line
-	2000 4750 2350 4750
+	4250 1650 4250 2400
+Connection ~ 4250 2400
 Wire Wire Line
-	1700 5650 1750 5650
+	5250 1950 5250 2050
+Connection ~ 5250 2050
+Wire Wire Line
+	5250 1750 5250 1650
+Wire Wire Line
+	5250 1650 5100 1650
+Wire Wire Line
+	4350 2150 4350 1850
+Wire Wire Line
+	4350 1850 4400 1850
+Connection ~ 4350 2150
+Wire Wire Line
+	4350 2150 4200 2150
+Wire Wire Line
+	4350 2150 5150 2150
+Wire Wire Line
+	5150 2150 5150 1850
+Wire Wire Line
+	5150 1850 5100 1850
+Wire Wire Line
+	3500 7250 2400 7250
+Wire Wire Line
+	3700 7250 3700 6900
+Wire Wire Line
+	3700 6900 4050 6900
 $Comp
-L tomu-fpga:Testpoint TP5
-U 1 1 5D800171
-P 3650 4500
-F 0 "TP5" H 3650 4550 50  0000 L CNN
-F 1 "Testpoint" H 3800 4550 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 3650 4500 50  0001 C CNN
-F 3 "" H 3650 4500 50  0001 C CNN
-F 4 "DNP" V 3650 4500 50  0001 C CNN "MPN"
-F 5 "DNP" V 3650 4500 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -1200 -1050 50  0001 C CNN "MYPN"
-	1    3650 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L tomu-fpga:Testpoint TP6
-U 1 1 5D80017A
-P 3650 4650
-F 0 "TP6" H 3650 4700 50  0000 L CNN
-F 1 "Testpoint" H 3800 4700 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 3650 4650 50  0001 C CNN
-F 3 "" H 3650 4650 50  0001 C CNN
-F 4 "DNP" V 3650 4650 50  0001 C CNN "MPN"
-F 5 "DNP" V 3650 4650 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -1200 -900 50  0001 C CNN "MYPN"
-	1    3650 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L tomu-fpga:Testpoint TP7
-U 1 1 5D800183
-P 3650 4800
-F 0 "TP7" H 3650 4850 50  0000 L CNN
-F 1 "Testpoint" H 3800 4850 50  0000 L CNN
-F 2 "tomu-fpga:TestPoint_Pad_D1.5mm" H 3650 4800 50  0001 C CNN
-F 3 "" H 3650 4800 50  0001 C CNN
-F 4 "DNP" V 3650 4800 50  0001 C CNN "MPN"
-F 5 "DNP" V 3650 4800 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H -1200 -750 50  0001 C CNN "MYPN"
-	1    3650 4800
+L Device:R_Small R3
+U 1 1 5DB7470B
+P 3700 6550
+F 0 "R3" V 3700 6550 50  0000 C CNN
+F 1 "0201, 0ohm (DNP)" V 3800 6600 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 3700 6550 50  0001 C CNN
+F 3 "" H 3700 6550 50  0001 C CNN
+F 4 "DNP" H 3700 6550 50  0001 C CNN "MPN"
+F 5 "DNP" H 3700 6550 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 150 1550 50  0001 C CNN "MYPN"
+	1    3700 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 4450 3500 4450
+	3700 6650 3700 6900
+Connection ~ 3700 6900
 Wire Wire Line
-	3500 4600 3150 4600
+	3700 6250 3700 6450
+$Comp
+L Device:R_Small R13
+U 1 1 5DBF79F0
+P 4050 7050
+F 0 "R13" V 4050 7050 50  0000 C CNN
+F 1 "0201, 0ohm (DNP)" V 4150 7250 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 4050 7050 50  0001 C CNN
+F 3 "" H 4050 7050 50  0001 C CNN
+F 4 "DNP" H 4050 7050 50  0001 C CNN "MPN"
+F 5 "DNP" H 4050 7050 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 500 2050 50  0001 C CNN "MYPN"
+	1    4050 7050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3150 4750 3500 4750
-Text Label 3150 4450 0    50   ~ 0
-SPI_IO2
-Text Label 3150 4600 0    50   ~ 0
-SPI_IO3
-Text Label 3150 4750 0    50   ~ 0
-SPI_CS
+	4050 7200 4050 7150
+Wire Wire Line
+	4050 6950 4050 6900
+Text Label 9250 5000 0    50   ~ 0
+VCCPLL
+Wire Wire Line
+	9600 5000 9150 5000
+Wire Wire Line
+	9600 5100 9500 5100
+Wire Wire Line
+	9500 5100 9500 5200
+Connection ~ 9500 5200
+Wire Wire Line
+	9500 5200 9600 5200
+Wire Wire Line
+	5700 2550 5800 2550
+Wire Wire Line
+	5800 2550 5800 2450
+Wire Wire Line
+	5800 2450 5850 2450
+Wire Wire Line
+	5700 2450 5750 2450
+Wire Wire Line
+	5850 2550 5850 2650
+Wire Wire Line
+	5850 2650 5750 2650
+Wire Wire Line
+	5750 2450 5750 2650
+Wire Wire Line
+	8400 2250 8650 2250
+Wire Wire Line
+	8200 2250 8050 2250
+Wire Wire Line
+	8050 2250 8050 2650
+Wire Wire Line
+	8650 2250 8650 2650
+Wire Wire Line
+	8400 2650 8650 2650
+Connection ~ 8650 2650
+Wire Wire Line
+	8200 2650 8050 2650
+Connection ~ 8050 2650
+Wire Wire Line
+	8050 2650 8050 2800
+Wire Wire Line
+	8650 2800 8400 2800
+Wire Wire Line
+	8650 2800 8650 3200
+Wire Wire Line
+	8650 3200 8400 3200
+Connection ~ 8650 2800
+Wire Wire Line
+	8200 2800 8050 2800
+Connection ~ 8050 2800
+Wire Wire Line
+	8200 3200 8050 3200
+Connection ~ 8050 3200
+Wire Wire Line
+	8050 3200 8050 3300
+Wire Wire Line
+	8050 2800 8050 3200
+Wire Wire Line
+	2150 5600 2100 5600
+Wire Wire Line
+	2100 5600 2100 6000
+Wire Wire Line
+	2100 6000 2050 6000
+Wire Wire Line
+	2050 5600 2100 5600
+Connection ~ 2100 5600
+Wire Wire Line
+	1850 6000 1700 6000
+Connection ~ 1700 6000
+Wire Wire Line
+	1850 5600 1700 5600
+Wire Wire Line
+	1700 5600 1700 6000
+Text Label 9650 3200 0    50   ~ 0
+LED_B
+Text Label 9650 3300 0    50   ~ 0
+LED_G
+Text Label 9650 3400 0    50   ~ 0
+LED_R
+Wire Wire Line
+	2150 5350 2550 5350
+Wire Wire Line
+	3800 4900 3800 4850
+Wire Wire Line
+	10000 3200 9950 3200
+Wire Wire Line
+	9950 3200 9950 3500
+Wire Wire Line
+	9950 3500 9800 3500
+Wire Wire Line
+	9650 3200 9900 3200
+Wire Wire Line
+	10000 3300 9900 3300
+Wire Wire Line
+	9900 3300 9900 3200
+Wire Wire Line
+	9850 3400 9850 3300
+Wire Wire Line
+	9850 3300 9650 3300
+Wire Wire Line
+	9850 3400 10000 3400
+Wire Wire Line
+	9650 3400 9800 3400
+Wire Wire Line
+	9800 3400 9800 3500
+NoConn ~ 4800 5200
+NoConn ~ 4800 5300
+NoConn ~ 6400 6200
+NoConn ~ 6400 6100
+NoConn ~ 6400 5300
+NoConn ~ 6400 5200
+NoConn ~ 6400 4500
+NoConn ~ 6400 4600
+NoConn ~ 10000 2900
+NoConn ~ 10000 2800
+NoConn ~ 10000 2700
+NoConn ~ 10000 2600
+NoConn ~ 10000 2500
+NoConn ~ 10000 2400
+NoConn ~ 10000 2200
+NoConn ~ 5850 2150
+NoConn ~ 5850 1950
+NoConn ~ 4800 5400
+NoConn ~ 4800 6000
+NoConn ~ 10000 2300
 $EndSCHEMATC
