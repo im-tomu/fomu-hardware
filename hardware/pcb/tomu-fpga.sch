@@ -378,12 +378,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR035
 U 1 1 5BD8C8EF
-P 8850 2200
-F 0 "#PWR035" H 8850 1950 50  0001 C CNN
-F 1 "GND" H 8855 2027 50  0000 C CNN
-F 2 "" H 8850 2200 50  0001 C CNN
-F 3 "" H 8850 2200 50  0001 C CNN
-	1    8850 2200
+P 8850 2050
+F 0 "#PWR035" H 8850 1800 50  0001 C CNN
+F 1 "GND" H 8855 1877 50  0000 C CNN
+F 2 "" H 8850 2050 50  0001 C CNN
+F 3 "" H 8850 2050 50  0001 C CNN
+	1    8850 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -434,7 +434,7 @@ L Device:R_Small R12
 U 1 1 5BDB00B1
 P 9400 1900
 F 0 "R12" V 9500 1900 50  0000 C CNN
-F 1 "0805, 22ohm, 1/16W, 1%" V 9550 1950 50  0000 C CNN
+F 1 "0805, 22ohm, 1/16W, 1%" V 9550 2000 50  0000 C CNN
 F 2 "" H 9400 1900 50  0001 C CNN
 F 3 "" H 9400 1900 50  0001 C CNN
 F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
@@ -459,8 +459,6 @@ F 6 "ANY" H 650 100 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	9500 1800 10000 1800
-Wire Wire Line
-	8700 1900 9000 1900
 Text Label 9600 1900 0    50   ~ 0
 ICE_USBP
 Text Label 9600 1800 0    50   ~ 0
@@ -471,34 +469,21 @@ Wire Wire Line
 	8700 1800 9000 1800
 Wire Wire Line
 	8850 1700 8700 1700
-Wire Wire Line
-	10000 2100 9850 2100
-Wire Wire Line
-	9850 2100 9850 2300
 $Comp
 L Device:R_Small R9
 U 1 1 5BDC6632
-P 9150 2300
-F 0 "R9" V 9250 2250 50  0000 C CNN
-F 1 "0805, 1.5k, 1/16W, 1%" V 9350 2550 50  0000 C CNN
-F 2 "" H 9150 2300 50  0001 C CNN
-F 3 "" H 9150 2300 50  0001 C CNN
-F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
-F 5 "ANY" H 650 100 50  0001 C CNN "MYPN"
-F 6 "ANY" H 650 100 50  0001 C CNN "Manufacturer"
-	1    9150 2300
+P 9150 2350
+F 0 "R9" V 9050 2300 50  0000 C CNN
+F 1 "0805, 1.5k, 1/16W, 1%" V 9250 2350 50  0000 C CNN
+F 2 "" H 9150 2350 50  0001 C CNN
+F 3 "" H 9150 2350 50  0001 C CNN
+F 4 "ANY" H 650 150 50  0001 C CNN "MPN"
+F 5 "ANY" H 650 150 50  0001 C CNN "MYPN"
+F 6 "ANY" H 650 150 50  0001 C CNN "Manufacturer"
+	1    9150 2350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9000 2300 9000 1900
-Wire Wire Line
-	9000 2300 9050 2300
-Connection ~ 9000 1900
-Wire Wire Line
-	9000 1900 9300 1900
-Wire Wire Line
-	9850 2300 9250 2300
-Text Label 9250 2300 0    50   ~ 0
+Text Label 9600 2200 2    50   ~ 0
 USBP_PU_CTRL
 Wire Wire Line
 	9650 3400 10000 3400
@@ -776,13 +761,6 @@ F 6 "DNP" H -1100 350 50  0001 C CNN "MYPN"
 	1    3750 5900
 	0    1    1    0   
 $EndComp
-NoConn ~ 10000 2900
-NoConn ~ 10000 2800
-NoConn ~ 10000 2500
-NoConn ~ 10000 2400
-NoConn ~ 10000 2300
-NoConn ~ 10000 2200
-NoConn ~ 5850 2150
 Wire Wire Line
 	8850 1550 8850 1700
 $Comp
@@ -864,7 +842,7 @@ User I/O
 Wire Wire Line
 	3150 4950 3150 4850
 Wire Wire Line
-	8850 2000 8850 2200
+	8850 2000 8850 2050
 Wire Notes Line
 	4100 600  7150 600 
 Wire Notes Line
@@ -1811,31 +1789,6 @@ F 6 "Lattice" H 350 100 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L tomu-fpga:ICE40UP5K-SG48ITR U5
-U 1 1 5C1225F9
-P 10400 2400
-F 0 "U5" H 10100 1250 50  0000 L CNN
-F 1 "ICE40UP5K-SG48I" H 10100 1150 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 10400 1050 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 10000 3400 50  0001 C CNN
-F 4 "ICE40UP5K-SG48I" H 650 100 50  0001 C CNN "MPN"
-F 5 "220-2212-1-ND" H 650 100 50  0001 C CNN "DPN"
-F 6 "Lattice" H 650 100 50  0001 C CNN "Manufacturer"
-	1    10400 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Raspberry_Pi_2_3 J1
-U 1 1 5C14D2BF
-P 5600 5400
-F 0 "J1" H 4950 6650 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 6150 6650 50  0000 C CNN
-F 2 "" H 5600 5400 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5600 5400 50  0001 C CNN
-	1    5600 5400
-	1    0    0    -1  
-$EndComp
-$Comp
 L tomu-fpga:SPI-Flash U4
 U 1 1 5C1645BF
 P 1650 7000
@@ -2044,22 +1997,6 @@ Wire Wire Line
 	3800 5750 3800 5350
 Wire Wire Line
 	1700 4600 1900 4600
-NoConn ~ 4800 4800
-NoConn ~ 4800 5200
-NoConn ~ 4800 5300
-NoConn ~ 4800 5400
-NoConn ~ 4800 6000
-NoConn ~ 6400 6100
-NoConn ~ 6400 6200
-NoConn ~ 6400 4500
-NoConn ~ 6400 4600
-NoConn ~ 6400 5200
-NoConn ~ 6400 5300
-NoConn ~ 6400 5500
-NoConn ~ 2650 5850
-NoConn ~ 2650 5950
-NoConn ~ 2650 6050
-NoConn ~ 2650 6350
 Wire Wire Line
 	4800 5700 4450 5700
 Wire Wire Line
@@ -2201,4 +2138,135 @@ Wire Wire Line
 Wire Wire Line
 	3400 3600 2500 3600
 Connection ~ 2500 3600
+Wire Wire Line
+	6400 4500 6750 4500
+Wire Wire Line
+	6400 4600 6750 4600
+Wire Wire Line
+	6400 5200 6750 5200
+Wire Wire Line
+	6400 5300 6750 5300
+Text Label 6450 4500 0    50   ~ 0
+DBG_7
+Text Label 6450 4600 0    50   ~ 0
+DBG_8
+Text Label 6450 5200 0    50   ~ 0
+DBG_9
+Text Label 6450 5300 0    50   ~ 0
+DBG_10
+Wire Wire Line
+	6400 5500 6750 5500
+Text Label 6450 5500 0    50   ~ 0
+DBG_11
+Text Label 6450 6100 0    50   ~ 0
+DBG_12
+Text Label 6450 6200 0    50   ~ 0
+DBG_13
+Wire Wire Line
+	6400 6100 6750 6100
+Wire Wire Line
+	6400 6200 6750 6200
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5C14D2BF
+P 5600 5400
+F 0 "J1" H 4950 6650 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 6150 6650 50  0000 C CNN
+F 2 "" H 5600 5400 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5600 5400 50  0001 C CNN
+	1    5600 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6000 4450 6000
+Wire Wire Line
+	4800 5400 4450 5400
+Wire Wire Line
+	4800 5300 4450 5300
+Wire Wire Line
+	4800 5200 4450 5200
+Text Label 4450 6000 0    50   ~ 0
+DBG_14
+Text Label 4450 5400 0    50   ~ 0
+DBG_15
+Text Label 4450 5300 0    50   ~ 0
+DBG_16
+Text Label 4450 5200 0    50   ~ 0
+DBG_17
+Text Label 2300 6350 0    50   ~ 0
+DBG_7
+Text Label 2300 6050 0    50   ~ 0
+DBG_8
+Text Label 2300 5950 0    50   ~ 0
+DBG_9
+Text Label 2300 5850 0    50   ~ 0
+DBG_10
+Wire Wire Line
+	2300 5850 2650 5850
+Wire Wire Line
+	2650 5950 2300 5950
+Wire Wire Line
+	2300 6050 2650 6050
+Wire Wire Line
+	2650 6350 2300 6350
+Text Label 9650 2900 0    50   ~ 0
+DBG_11
+Text Label 9650 2800 0    50   ~ 0
+DBG_12
+Text Label 9650 2500 0    50   ~ 0
+DBG_13
+Text Label 9650 2400 0    50   ~ 0
+DBG_14
+Text Label 9650 2300 0    50   ~ 0
+DBG_15
+Text Label 9650 2200 0    50   ~ 0
+DBG_16
+Text Label 5550 2150 0    50   ~ 0
+DBG_17
+Text Label 7100 4500 0    50   ~ 0
+DBG_18
+$Comp
+L tomu-fpga:ICE40UP5K-SG48ITR U5
+U 1 1 5C1225F9
+P 10400 2400
+F 0 "U5" H 10100 1250 50  0000 L CNN
+F 1 "ICE40UP5K-SG48I" H 10100 1150 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 10400 1050 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 10000 3400 50  0001 C CNN
+F 4 "ICE40UP5K-SG48I" H 650 100 50  0001 C CNN "MPN"
+F 5 "220-2212-1-ND" H 650 100 50  0001 C CNN "DPN"
+F 6 "Lattice" H 650 100 50  0001 C CNN "Manufacturer"
+	1    10400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1900 9000 1900
+Connection ~ 9000 1900
+Wire Wire Line
+	9000 1900 9300 1900
+Wire Wire Line
+	9650 2500 10000 2500
+Wire Wire Line
+	10000 2400 9650 2400
+Wire Wire Line
+	9650 2300 10000 2300
+Wire Wire Line
+	10000 2200 9650 2200
+Wire Wire Line
+	5550 2150 5850 2150
+Wire Wire Line
+	9650 2800 10000 2800
+Wire Wire Line
+	10000 2900 9650 2900
+Wire Wire Line
+	9600 2100 9600 2350
+Wire Wire Line
+	9600 2100 10000 2100
+Wire Wire Line
+	9050 2350 9000 2350
+Wire Wire Line
+	9000 2350 9000 1900
+Wire Wire Line
+	9600 2350 9250 2350
+NoConn ~ 4800 4800
 $EndSCHEMATC
