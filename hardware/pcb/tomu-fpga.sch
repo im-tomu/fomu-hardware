@@ -480,7 +480,7 @@ F 6 "ANY" H 650 200 50  0001 C CNN "Manufacturer"
 	1    9150 2400
 	0    1    1    0   
 $EndComp
-Text Label 9950 2800 2    50   ~ 0
+Text Label 9950 2700 2    50   ~ 0
 PU_CTRL_USBP
 $Comp
 L tomu-fpga:Oscillator U6
@@ -893,7 +893,7 @@ Wire Wire Line
 Connection ~ 9000 1800
 Wire Wire Line
 	9000 1800 9300 1800
-Text Label 9550 2700 1    50   ~ 0
+Text Label 9550 2600 1    50   ~ 0
 PU_CTRL_USBN
 Text Notes 8600 1200 0    50   ~ 0
 Activate this PU to enable LS mode
@@ -2181,24 +2181,12 @@ NoConn ~ 4800 6000
 NoConn ~ 10000 2300
 Text Label 9650 2500 1    50   ~ 0
 ICE_USBP
-Text Label 9800 2500 1    50   ~ 0
+Text Label 9800 2450 1    50   ~ 0
 ICE_USBN
-Wire Wire Line
-	10000 2500 9800 2500
-Wire Wire Line
-	9350 2400 9350 2800
-Wire Wire Line
-	9350 2800 10000 2800
-Wire Wire Line
-	10000 2700 9550 2700
 Wire Wire Line
 	9550 1250 9550 2700
 Wire Wire Line
-	9800 2500 9800 1800
-Wire Wire Line
 	9500 1900 9650 1900
-Wire Wire Line
-	9650 2600 10000 2600
 Wire Wire Line
 	5750 2250 5750 1400
 Wire Wire Line
@@ -2304,7 +2292,7 @@ F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 1900 9650 2600
+	9650 1900 9650 2500
 Wire Wire Line
 	10000 1800 10000 1400
 NoConn ~ 5850 2550
@@ -2313,4 +2301,20 @@ NoConn ~ 5850 2350
 NoConn ~ 2650 5650
 Wire Wire Line
 	8600 1250 8600 950 
+Wire Wire Line
+	10000 2500 9800 2500
+Wire Wire Line
+	9800 2500 9650 2500
+Wire Wire Line
+	10000 2600 9800 2600
+Wire Wire Line
+	9800 1800 9800 2600
+Wire Wire Line
+	9350 2400 9350 2700
+Wire Wire Line
+	9550 2700 9550 2800
+Wire Wire Line
+	9550 2800 10000 2800
+Wire Wire Line
+	9350 2700 10000 2700
 $EndSCHEMATC
