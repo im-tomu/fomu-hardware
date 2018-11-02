@@ -366,8 +366,8 @@ $Comp
 L tomu-fpga:USB-B U9
 U 1 1 5BD8B24F
 P 8300 1600
-F 0 "U9" H 8244 1485 50  0000 C CNN
-F 1 "USB-B" H 8244 1576 50  0000 C CNN
+F 0 "U9" H 8550 1600 50  0000 C CNN
+F 1 "USB-B" H 8150 1600 50  0000 C CNN
 F 2 "tomu-fpga:USB-B" H 8300 1600 50  0001 C CNN
 F 3 "" H 8300 1600 50  0001 C CNN
 F 4 "DNP" H 8300 1600 50  0001 C CNN "MPN"
@@ -412,6 +412,8 @@ F 3 "https://www.cree.com/led-components/media/documents/ds-UHD1110-FKA.pdf" H 9
 F 4 "UHD1110-FKA" H 9250 3450 50  0001 C CNN "MPN"
 F 5 "Cree" H 9250 3450 50  0001 C CNN "Manufacturer"
 F 6 "N/A" H 0   0   50  0001 C CNN "DPN"
+F 7 "CL-505S-X-SD-T" H 9250 3450 50  0001 C CNN "APN"
+F 8 "Citizen" H 9250 3450 50  0001 C CNN "AManufacturer"
 	1    9250 3450
 	1    0    0    -1  
 $EndComp
@@ -485,7 +487,7 @@ L tomu-fpga:Oscillator U6
 U 1 1 5BDD6B36
 P 4750 1600
 F 0 "U6" H 5050 1550 50  0000 C CNN
-F 1 "MEMS Oscillator" H 4650 1550 50  0000 C CNN
+F 1 "MEMS Oscillator (DNP)" H 4650 1550 50  0000 C CNN
 F 2 "tomu-fpga:MEMS-20005625B" H 4750 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005625B.pdf" H 4750 1600 50  0001 C CNN
 F 4 "DSC6001HI2A-048.0000T" H 4750 1600 50  0001 C CNN "MPN"
@@ -2215,13 +2217,16 @@ Wire Wire Line
 	9900 1900 9900 1400
 NoConn ~ 4800 5700
 $Comp
-L Connector:Conn_01x06_Female J3
+L tomu-fpga:Conn_01x06_Female J3
 U 1 1 5EC9746F
 P 7950 1150
-F 0 "J3" H 7900 750 50  0000 C CNN
-F 1 "PMOD" V 8000 1100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7950 1150 50  0001 C CNN
+F 0 "J3" H 7950 750 50  0000 C CNN
+F 1 "PMOD" H 7900 1450 50  0000 C CNN
+F 2 "tomu-fpga:Pin_Header_Straight_1x06_Pitch2.54mm" H 7950 1150 50  0001 C CNN
 F 3 "~" H 7950 1150 50  0001 C CNN
+F 4 "DNP" H 7950 1150 50  0001 C CNN "MPN"
+F 5 "DNP" H 7950 1150 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 7950 1150 50  0001 C CNN "DPN"
 	1    7950 1150
 	-1   0    0    1   
 $EndComp
