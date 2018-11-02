@@ -434,8 +434,8 @@ $Comp
 L Device:R_Small R12
 U 1 1 5BDB00B1
 P 9400 1900
-F 0 "R12" V 9500 1900 50  0000 C CNN
-F 1 "0805, 22ohm, 1/16W, 1%" V 9550 2000 50  0000 C CNN
+F 0 "R12" V 9400 1900 50  0000 C CNN
+F 1 "0805, 22ohm, 1/16W, 1%" V 9500 1900 50  0000 C CNN
 F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 1900 50  0001 C CNN
 F 3 "" H 9400 1900 50  0001 C CNN
 F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
@@ -448,8 +448,8 @@ $Comp
 L Device:R_Small R11
 U 1 1 5BDB01D9
 P 9400 1800
-F 0 "R11" V 9300 1800 50  0000 C CNN
-F 1 "0805, 22ohm, 1/16W, 1%" V 9250 1800 50  0000 C CNN
+F 0 "R11" V 9400 1800 50  0000 C CNN
+F 1 "0805, 22ohm, 1/16W, 1%" V 9300 1800 50  0000 C CNN
 F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 1800 50  0001 C CNN
 F 3 "" H 9400 1800 50  0001 C CNN
 F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
@@ -459,13 +459,7 @@ F 6 "ANY" H 650 100 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9500 1800 10000 1800
-Text Label 9600 1900 0    50   ~ 0
-ICE_USBP
-Text Label 9600 1800 0    50   ~ 0
-ICE_USBN
-Wire Wire Line
-	9500 1900 10000 1900
+	9500 1800 9800 1800
 Wire Wire Line
 	8700 1800 9000 1800
 Wire Wire Line
@@ -473,19 +467,19 @@ Wire Wire Line
 $Comp
 L Device:R_Small R9
 U 1 1 5BDC6632
-P 9150 2350
-F 0 "R9" V 9050 2300 50  0000 C CNN
-F 1 "0805, 1.5k, 1/16W, 1%" V 9250 2350 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 2350 50  0001 C CNN
-F 3 "" H 9150 2350 50  0001 C CNN
-F 4 "ANY" H 650 150 50  0001 C CNN "MPN"
-F 5 "ANY" H 650 150 50  0001 C CNN "MYPN"
-F 6 "ANY" H 650 150 50  0001 C CNN "Manufacturer"
-	1    9150 2350
+P 9150 2400
+F 0 "R9" V 9150 2400 50  0000 C CNN
+F 1 "0805, 1.5k, 1/16W, 1%" V 9050 2300 50  0000 C CNN
+F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 2400 50  0001 C CNN
+F 3 "" H 9150 2400 50  0001 C CNN
+F 4 "ANY" H 650 200 50  0001 C CNN "MPN"
+F 5 "ANY" H 650 200 50  0001 C CNN "MYPN"
+F 6 "ANY" H 650 200 50  0001 C CNN "Manufacturer"
+	1    9150 2400
 	0    1    1    0   
 $EndComp
-Text Label 9600 2200 2    50   ~ 0
-USBP_PU_CTRL
+Text Label 9950 2800 2    50   ~ 0
+PU_CTRL_USBP
 $Comp
 L tomu-fpga:Oscillator U6
 U 1 1 5BDD6B36
@@ -568,23 +562,21 @@ Wire Wire Line
 $Comp
 L tomu-fpga:PADS SW2
 U 1 1 5BE44C19
-P 5500 2200
-F 0 "SW2" H 5550 2650 50  0000 C CNN
-F 1 "Captouch Pads" H 5350 2750 50  0000 C CNN
-F 2 "tomu-fpga:Touchpads" H 5550 2200 50  0001 C CNN
-F 3 "" H 5550 2200 50  0001 C CNN
-F 4 "DNP" H 5500 2200 50  0001 C CNN "MPN"
-F 5 "DNP" H 5500 2200 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 5500 2200 50  0001 C CNN "MYPN"
-F 7 "" H 5500 2200 50  0001 C CNN "DPN"
-F 8 "PCB-etched captouch pads" H 0   0   50  0001 C CNN "Description"
-	1    5500 2200
-	-1   0    0    1   
+P 5800 1200
+F 0 "SW2" H 5850 1650 50  0000 C CNN
+F 1 "Captouch Pads" H 5650 1750 50  0000 C CNN
+F 2 "tomu-fpga:Touchpads" H 5850 1200 50  0001 C CNN
+F 3 "" H 5850 1200 50  0001 C CNN
+F 4 "DNP" H 5800 1200 50  0001 C CNN "MPN"
+F 5 "DNP" H 5800 1200 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 5800 1200 50  0001 C CNN "MYPN"
+F 7 "" H 5800 1200 50  0001 C CNN "DPN"
+F 8 "PCB-etched captouch pads" H 300 -1000 50  0001 C CNN "Description"
+	1    5800 1200
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5700 2350 5850 2350
-Wire Wire Line
-	5850 2250 5700 2250
+	5850 2250 5750 2250
 $Comp
 L power:GND #PWR041
 U 1 1 5BE564F6
@@ -815,11 +807,11 @@ Wire Wire Line
 Wire Wire Line
 	9200 3100 10000 3100
 Wire Wire Line
-	10000 3000 9350 3000
+	10000 3000 9300 3000
 Wire Wire Line
-	9350 3000 9350 2650
+	9300 3000 9300 2650
 Wire Wire Line
-	9350 2650 8650 2650
+	9300 2650 8650 2650
 $Comp
 L power:GND #PWR030
 U 1 1 5C20065F
@@ -879,33 +871,29 @@ Wire Wire Line
 $Comp
 L Device:R_Small R8
 U 1 1 5C39F47B
-P 9150 1250
-F 0 "R8" V 9250 1200 50  0000 C CNN
-F 1 "0805, 1.5k, 1/16W, 1%" V 9350 1500 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 1250 50  0001 C CNN
-F 3 "" H 9150 1250 50  0001 C CNN
-F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
-F 5 "ANY" H 650 100 50  0001 C CNN "MYPN"
-F 6 "ANY" H 650 100 50  0001 C CNN "Manufacturer"
-	1    9150 1250
+P 9300 1250
+F 0 "R8" V 9300 1250 50  0000 C CNN
+F 1 "0805, 1.5k, 1/16W, 1%" V 9400 1350 50  0000 C CNN
+F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9300 1250 50  0001 C CNN
+F 3 "" H 9300 1250 50  0001 C CNN
+F 4 "ANY" H 800 100 50  0001 C CNN "MPN"
+F 5 "ANY" H 800 100 50  0001 C CNN "MYPN"
+F 6 "ANY" H 800 100 50  0001 C CNN "Manufacturer"
+	1    9300 1250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10000 2000 9550 2000
+	9550 1250 9400 1250
 Wire Wire Line
-	9550 2000 9550 1250
-Wire Wire Line
-	9550 1250 9250 1250
-Wire Wire Line
-	9050 1250 9000 1250
+	9200 1250 9000 1250
 Wire Wire Line
 	9000 1250 9000 1800
 Connection ~ 9000 1800
 Wire Wire Line
 	9000 1800 9300 1800
-Text Label 9350 1250 0    50   ~ 0
-USBN_PU_CTRL
-Text Notes 7950 1200 0    50   ~ 0
+Text Label 9550 2700 1    50   ~ 0
+PU_CTRL_USBN
+Text Notes 8600 1200 0    50   ~ 0
 Activate this PU to enable LS mode
 $Comp
 L power:GND #PWR019
@@ -1853,13 +1841,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 4600 1900 4600
 Wire Wire Line
-	4800 5700 4450 5700
-Wire Wire Line
 	4800 5600 4450 5600
 Text Label 4450 5600 0    50   ~ 0
 DBG_1
-Text Label 4450 5700 0    50   ~ 0
-DBG_2
 Wire Wire Line
 	6400 5100 6750 5100
 Wire Wire Line
@@ -1871,17 +1855,13 @@ Wire Wire Line
 Wire Wire Line
 	6400 4800 6750 4800
 Wire Wire Line
-	5850 1850 5550 1850
-Text Label 5550 1850 0    50   ~ 0
+	5850 1850 5650 1850
+Text Label 9900 1650 1    50   ~ 0
 DBG_4
-Text Label 2400 5650 0    50   ~ 0
-DBG_2
-Text Label 2400 5750 0    50   ~ 0
+Text Label 2300 5850 0    50   ~ 0
 DBG_1
 Wire Wire Line
-	2400 5750 2650 5750
-Wire Wire Line
-	2650 5650 2400 5650
+	2300 5750 2650 5750
 Wire Notes Line
 	4400 7450 6850 7450
 Wire Notes Line
@@ -1997,7 +1977,7 @@ Text Label 2300 6050 0    50   ~ 0
 DBG_8
 Text Label 2300 5950 0    50   ~ 0
 DBG_9
-Text Label 2300 5850 0    50   ~ 0
+Text Label 2300 5750 0    50   ~ 0
 DBG_10
 Wire Wire Line
 	2300 5850 2650 5850
@@ -2009,36 +1989,17 @@ Wire Wire Line
 	2650 6350 2300 6350
 Text Label 7100 4500 0    50   ~ 0
 DBG_18
-$Comp
-L tomu-fpga:ICE40UP5K-SG48ITR U5
-U 1 1 5C1225F9
-P 10400 2400
-F 0 "U5" H 10100 1250 50  0000 L CNN
-F 1 "ICE40UP5K-SG48I" H 10100 1150 50  0000 L CNN
-F 2 "tomu-fpga:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 10400 1050 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 10000 3400 50  0001 C CNN
-F 4 "ICE40UP5K-SG48I" H 650 100 50  0001 C CNN "MPN"
-F 5 "220-2212-1-ND" H 650 100 50  0001 C CNN "DPN"
-F 6 "Lattice" H 650 100 50  0001 C CNN "Manufacturer"
-F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 0   0   50  0001 C CNN "Description"
-	1    10400 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 1900 9000 1900
 Connection ~ 9000 1900
 Wire Wire Line
 	9000 1900 9300 1900
 Wire Wire Line
-	9600 2100 9600 2350
+	9050 2400 9000 2400
 Wire Wire Line
-	9600 2100 10000 2100
+	9000 2400 9000 1900
 Wire Wire Line
-	9050 2350 9000 2350
-Wire Wire Line
-	9000 2350 9000 1900
-Wire Wire Line
-	9600 2350 9250 2350
+	9350 2400 9250 2400
 NoConn ~ 4800 4800
 Connection ~ 4200 2150
 Wire Wire Line
@@ -2122,20 +2083,6 @@ Wire Wire Line
 Connection ~ 9500 5200
 Wire Wire Line
 	9500 5200 9600 5200
-Wire Wire Line
-	5700 2550 5800 2550
-Wire Wire Line
-	5800 2550 5800 2450
-Wire Wire Line
-	5800 2450 5850 2450
-Wire Wire Line
-	5700 2450 5750 2450
-Wire Wire Line
-	5850 2550 5850 2650
-Wire Wire Line
-	5850 2650 5750 2650
-Wire Wire Line
-	5750 2450 5750 2650
 Wire Wire Line
 	8400 2250 8650 2250
 Wire Wire Line
@@ -2226,15 +2173,139 @@ NoConn ~ 6400 5200
 NoConn ~ 6400 4500
 NoConn ~ 6400 4600
 NoConn ~ 10000 2900
-NoConn ~ 10000 2800
-NoConn ~ 10000 2700
-NoConn ~ 10000 2600
-NoConn ~ 10000 2500
 NoConn ~ 10000 2400
-NoConn ~ 10000 2200
-NoConn ~ 5850 2150
-NoConn ~ 5850 1950
 NoConn ~ 4800 5400
 NoConn ~ 4800 6000
 NoConn ~ 10000 2300
+Text Label 9650 2500 1    50   ~ 0
+ICE_USBP
+Text Label 9800 2500 1    50   ~ 0
+ICE_USBN
+Wire Wire Line
+	10000 2500 9800 2500
+Wire Wire Line
+	9350 2400 9350 2800
+Wire Wire Line
+	9350 2800 10000 2800
+Wire Wire Line
+	10000 2700 9550 2700
+Wire Wire Line
+	9550 1250 9550 2700
+Wire Wire Line
+	9800 2500 9800 1800
+Wire Wire Line
+	9500 1900 9650 1900
+Wire Wire Line
+	9650 2600 10000 2600
+Wire Wire Line
+	5750 2250 5750 1400
+Wire Wire Line
+	5850 1950 5550 1950
+Wire Wire Line
+	5650 1850 5650 1400
+Wire Wire Line
+	5550 1950 5550 1400
+Wire Wire Line
+	5450 1400 5450 2150
+Wire Wire Line
+	5450 2150 5850 2150
+Wire Wire Line
+	10000 1900 9900 1900
+Wire Wire Line
+	9900 1900 9900 1400
+NoConn ~ 4800 5700
+$Comp
+L Connector:Conn_01x06_Female J3
+U 1 1 5EC9746F
+P 7950 1150
+F 0 "J3" H 7900 750 50  0000 C CNN
+F 1 "PMOD" V 8000 1100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7950 1150 50  0001 C CNN
+F 3 "~" H 7950 1150 50  0001 C CNN
+	1    7950 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR022
+U 1 1 5EC97A9C
+P 8250 800
+F 0 "#PWR022" H 8250 650 50  0001 C CNN
+F 1 "+3V3" H 8350 800 50  0000 C CNN
+F 2 "" H 8250 800 50  0001 C CNN
+F 3 "" H 8250 800 50  0001 C CNN
+	1    8250 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 800  8250 850 
+Wire Wire Line
+	8250 850  8150 850 
+$Comp
+L power:GND #PWR023
+U 1 1 5ECB779F
+P 8600 1250
+F 0 "#PWR023" H 8600 1000 50  0001 C CNN
+F 1 "GND" H 8605 1077 50  0000 C CNN
+F 2 "" H 8600 1250 50  0001 C CNN
+F 3 "" H 8600 1250 50  0001 C CNN
+	1    8600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 950  8150 950 
+Text Label 8150 1050 0    50   ~ 0
+PMOD_4
+Text Label 8150 1150 0    50   ~ 0
+PMOD_3
+Text Label 8150 1250 0    50   ~ 0
+PMOD_2
+Text Label 8150 1350 0    50   ~ 0
+PMOD_1
+Wire Wire Line
+	8150 1350 8450 1350
+Wire Wire Line
+	8150 1250 8450 1250
+Wire Wire Line
+	8150 1150 8450 1150
+Wire Wire Line
+	8150 1050 8450 1050
+Text Label 10000 1800 1    50   ~ 0
+PMOD_1
+Text Label 9700 2200 0    50   ~ 0
+PMOD_4
+Text Label 9700 2000 0    50   ~ 0
+PMOD_3
+Text Label 9700 2100 0    50   ~ 0
+PMOD_2
+Wire Wire Line
+	9700 2200 10000 2200
+Wire Wire Line
+	10000 2100 9700 2100
+Wire Wire Line
+	9700 2000 10000 2000
+$Comp
+L tomu-fpga:ICE40UP5K-SG48ITR U5
+U 1 1 5C1225F9
+P 10400 2400
+F 0 "U5" H 10100 1250 50  0000 L CNN
+F 1 "ICE40UP5K-SG48I" H 10100 1150 50  0000 L CNN
+F 2 "tomu-fpga:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 10400 1050 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 10000 3400 50  0001 C CNN
+F 4 "ICE40UP5K-SG48I" H 650 100 50  0001 C CNN "MPN"
+F 5 "220-2212-1-ND" H 650 100 50  0001 C CNN "DPN"
+F 6 "Lattice" H 650 100 50  0001 C CNN "Manufacturer"
+F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 0   0   50  0001 C CNN "Description"
+	1    10400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1900 9650 2600
+Wire Wire Line
+	10000 1800 10000 1400
+NoConn ~ 5850 2550
+NoConn ~ 5850 2450
+NoConn ~ 5850 2350
+NoConn ~ 2650 5650
+Wire Wire Line
+	8600 1250 8600 950 
 $EndSCHEMATC
