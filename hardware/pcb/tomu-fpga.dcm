@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_01x06_Female
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP ICE40UP5K-SG48ITR
 D iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN
 K FPGA programmable logic
