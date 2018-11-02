@@ -1,0 +1,58 @@
+Reference,Value,Footprint,Count,Datasheet,FootprintLib,AMPN,AManufacturer,DPN,Description,MPN,Manufacturer,MYPN
+U2,LDO-SOT23-3.3V,SOT-23-5_HandSoldering,1,http://www.ti.com/lit/ds/symlink/lp5907.pdf,tomu-fpga,MIC5504-3.3YMT,Microchip,296-38557-1-ND, IC REG LINEAR 3.3V 250MA SOT23-5,LP5907MFX-3.3/NOPB,TI,
+U3,LDO-SOT23-2.5V,SOT-23-5_HandSoldering,1,http://www.ti.com/lit/ds/symlink/lp5907.pdf,tomu-fpga,MIC5504-2.5YMT,Microchip,296-40356-1-ND,IC REG LINEAR 2.5V 250MA SOT23-5,LP5907MFX-2.5/NOPB,TI,
+U1,LDO-SOT23-1.2V,SOT-23-5_HandSoldering,1,http://www.ti.com/lit/ds/symlink/lp5907.pdf,tomu-fpga,MIC5504-1.2YMT,Microchip,296-39062-1-ND,IC REG LINEAR 1.2V 250MA SOT23-5,LP5907MFX-1.2/NOPB,TI,
+C10,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C9,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C8,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C3,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C1,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C2,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+U9,USB-B,USB-B,1,,tomu-fpga,,,,PCB-etched USB pads,DNP,DNP,DNP
+U10,RGB-LED,LED-RGB-5DS-UHD1110-FKA,1,https://www.cree.com/led-components/media/documents/ds-UHD1110-FKA.pdf,tomu-fpga,,,N/A,,UHD1110-FKA,Cree,
+R12,"0805, 22ohm, 1/16W, 1%",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+R11,"0805, 22ohm, 1/16W, 1%",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+R9,"0805, 1.5k, 1/16W, 1%",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+U6,MEMS Oscillator,MEMS-20005625B,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20005625B.pdf,tomu-fpga,,,DSC6001HI2A-048.0000T-ND,MEMS OSC XO 48.0000MHZ CMOS SMD,DSC6001HI2A-048.0000T,Microchip,
+C4,"0805, 100nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+SW2,Captouch Pads,Touchpads,1,,tomu-fpga,,,,PCB-etched captouch pads,DNP,DNP,DNP
+C23,"0805, 100nF, 10V, X5R, 20% (DNP)",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,DNP,DNP,DNP
+C22,"0805, 10uF, 10V, X5R, 20% (DNP)",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,DNP,DNP,DNP
+R10,"0805, 100ohm, 1/16W, 1% (DNP)",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,DNP,DNP,DNP
+R1,"0805, 10k, 1/16W",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+SW3,USER1,SPST-NO-Button,1,http://www.ckswitches.com/media/1467/pts525.pdf,tomu-fpga,,,CKN9104CT-ND,SWITCH TACTILE SPST-NO 0.02A 15V,PTS525SM15SMTR2 LFS,C&K,SW-PB-5X5-1.6
+SW4,USER2,SPST-NO-Button,1,http://www.ckswitches.com/media/1467/pts525.pdf,tomu-fpga,,,CKN9104CT-ND,SWITCH TACTILE SPST-NO 0.02A 15V,PTS525SM15SMTR2 LFS,C&K,SW-PB-5X5-1.6
+R8,"0805, 1.5k, 1/16W, 1%",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+R4,"0805, 10k, 1/16W (DNP)",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,DNP,DNP,DNP
+R5,"0805, 10k, 1/16W",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C21,"0805, 100nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C20,"0805, 100nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C18,"0805, 10nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C17,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C13,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C14,"0805, 10nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C15,"0805, 100nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C24,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C26,"0805, 10nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C28,"0805, 100nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C5,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C6,"0805, 10nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C7,"0805, 100nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+U8,LDO-SOT23-1.2V,SOT-23-5_HandSoldering,1,http://www.ti.com/lit/ds/symlink/lp5907.pdf,tomu-fpga,MIC5504-1.2YMT,Microchip,296-39062-1-ND,IC REG LINEAR 1.2V 250MA SOT23-5,LP5907MFX-1.2/NOPB,TI,
+C19,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C16,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C27,"0805, 10nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+C25,"0805, 1uF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+U7,Crystal Oscillator,XTAL-2520,1,https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf,tomu-fpga,,,XC2756CT-ND,XTAL OSC XO 48.0000MHZ CMOS SMD,XC2756CT-ND,ECS,
+R7,"0201, 0ohm (DNP)",R_0201_0603Metric,1,,tomu-fpga,,,,,DNP,DNP,DNP
+R6,"0201, 0ohm (DNP)",R_0201_0603Metric,1,,tomu-fpga,,,,,DNP,DNP,DNP
+C11,"0805, 100nF, 10V, X5R, 20%",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+U5,ICE40UP5K-SG48I,QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,1,http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra,tomu-fpga,,,220-2212-1-ND,"ICE40-ULTRAPLUS, 5280 LUTS, 1.2V",ICE40UP5K-SG48I,Lattice,
+U4,SPI Flash,SOIC-8,1,http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf,tomu-fpga,,,W25Q128JVSIMCT-ND,IC FLASH 128M SPI 133MHZ 8SOIC,W25Q128JVSIM,Winbond Electronics,
+SW1,RESET,SPST-NO-Button,1,http://www.ckswitches.com/media/1467/pts525.pdf,tomu-fpga,,,CKN9104CT-ND,SWITCH TACTILE SPST-NO 0.02A 15V,PTS525SM15SMTR2 LFS,C&K,SW-PB-5X5-1.6
+D1,Power LED,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,http://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf,tomu-fpga,,,160-1415-1-ND,LED RED CLEAR SMD,LTST-C170KRKT,Lite-On Inc.,
+R2,"0805, 1.5k, 1/16W, 1%",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,tomu-fpga,,,,,ANY,ANY,ANY
+J1,Raspberry_Pi_2_3,PinHeader_2x20_P2.54mm_Vertical,1,https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf,tomu-fpga,,,,Connector for development,,,
+R3,"0201, 0ohm (DNP)",R_0201_0603Metric,1,,tomu-fpga,,,,,DNP,DNP,DNP
+R13,"0201, 0ohm (DNP)",R_0201_0603Metric,1,,tomu-fpga,,,,,DNP,DNP,DNP
+J3,PMOD,Pin_Header_Straight_1x06_Pitch2.54mm,1,~,Pin_Headers,,,,,,,
