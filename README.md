@@ -42,6 +42,8 @@ Lattice iCE40UP5K FPGA and have the same set of features listed below;
 
 This PCB specification is currently a **work-in-progress**.
 
+|                                   | Requirement                                 |
+| --------------------------------- | ------------------------------------------- |
 |                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)           |
 |                   Board thickness | 0.6mm                                       |
 |                  Number of Layers | 2                                           |
@@ -70,6 +72,8 @@ This PCB specification is currently a **work-in-progress**.
 
 This PCB specification is currently a **work-in-progress**.
 
+|                                   | Requirement                                                        |
+| --------------------------------- | ------------------------------------------------------------------ |
 |                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)                                  |
 |                   Board thickness | 0.6mm                                                              |
 |                  Number of Layers | 4                                                                  |
