@@ -44,21 +44,21 @@ PCB Specification
 
 This PCB specification is currently a *work-in-progress*.
 
-[cols=">,",]
+[cols="h>,",]
 |================================================================
-|                        *Board Size* | 0.37 x 0.51 inches (9.5 x 13.1mm)
-|                   *Board thickness* | 0.6mm
-|                  *Number of Layers* | 2
-|                        *Components* | Single Side
-|                        *Silkscreen* | None, one side or all sides is fine.
-|           *Number of through holes* | 0
-| *Minimum trace width and clearance* | 4mil traces, 4mil clearance
-|                     *Vias + Drills* | 0.2mm via drills with 0.5mm annular rings
-|               *Smallest pitch size* | 0201 resistors, WCSP parts
-|                 *Control Impedance* | Not required
-|                 *Solder Mask color* | Blue
-|                           *Plating* | ENIG
-|                          *Material* | FR4
+|                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
+|                   Board thickness | 0.6mm
+|                  Number of Layers | 2
+|                        Components | Single Side
+|                        Silkscreen | None, one side or all sides is fine.
+|           Number of through holes | 0
+| Minimum trace width and clearance | 4mil traces, 4mil clearance
+|                     Vias + Drills | 0.2mm via drills with 0.5mm annular rings
+|               Smallest pitch size | 0201 resistors, WCSP parts
+|                 Control Impedance | Not required
+|                 Solder Mask color | Blue
+|                           Plating | ENIG
+|                          Material | FR4
 |================================================================
 
 [[production-version]]
@@ -75,26 +75,25 @@ PCB Specification
 
 This PCB specification is currently a *work-in-progress*.
 
-[width="100%",cols=">37%,63%",]
+[width="100%",cols="h>37%,63%"]
 |=======================================================================
-|                        *Board Size* | 0.37 x 0.51 inches (9.5 x 13.1mm)
-|                   *Board thickness* | 0.6mm
-|                  *Number of Layers* | 4
-|                        *Components* | Single Side
-|                        *Silkscreen* | Both
-|           *Number of through holes* | 0
-| *Minimum trace width and clearance* | 0.1mm track width, minimum clearance is 0.1mm
-|                     *Vias + Drills* | * Between layers 1 and 2 - Laser-drilled - 0.2mm/0.1mm blind vias
-|                                     | * Between layers 3 and 4 - Laser-drilled - 0.2mm/0.1mm blind vias
-|                                     | * Between layers 2 and 3 - Mechanical - 0.5mm/0.2mm buried vias
-|               *Smallest pitch size* | 0201 resistors, WCSP parts
-|                 *Control Impedance* | Not required
-|                 *Solder Mask color* | Not-green
-|                           *Plating* | * ENIG on the top.
-|                                     | * Hard gold on the fingers on the underside.
-|                                     | * Hard gold on the edge of the top.
-
-|*Material* |FR4
+|                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
+|                   Board thickness | 0.6mm
+|                  Number of Layers | 4
+|                        Components | Single Side
+|                        Silkscreen | Both
+|           Number of through holes | 0
+| Minimum trace width and clearance | 0.1mm track width, minimum clearance is 0.1mm
+|                     Vias + Drills | * Between layers 1 and 2 - Laser-drilled - 0.2mm/0.1mm blind vias
+                                      * Between layers 3 and 4 - Laser-drilled - 0.2mm/0.1mm blind vias
+                                      * Between layers 2 and 3 - Mechanical - 0.5mm/0.2mm buried vias
+|               Smallest pitch size | 0201 resistors, WCSP parts
+|                 Control Impedance | Not required
+|                 Solder Mask color | Not-green
+|                           Plating | * ENIG on the top.
+                                      * Hard gold on the fingers on the underside.
+                                      * Hard gold on the edge of the top.
+|                          Material | FR4
 |=======================================================================
 
 [[development-firmware]]
