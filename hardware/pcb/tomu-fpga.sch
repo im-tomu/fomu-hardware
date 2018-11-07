@@ -421,7 +421,7 @@ F 6 "ANY" H 650 200 50  0001 C CNN "Manufacturer"
 $EndComp
 Text Label 9250 2400 0    50   ~ 0
 PU_CTRL_USBP
-Text Label 5550 2050 0    50   ~ 0
+Text Label 5400 2400 0    50   ~ 0
 OSC_IN
 Wire Wire Line
 	1050 6950 1000 6950
@@ -497,7 +497,7 @@ F 7 "PCB-etched captouch pads" H -200 -1000 50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5850 2250 5400 2250
+	5850 2050 5250 2050
 $Comp
 L power:GND #PWR041
 U 1 1 5BE564F6
@@ -1191,10 +1191,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 2750 4450 2600
 Connection ~ 4450 2600
-Wire Wire Line
-	5150 2400 5250 2400
-Wire Wire Line
-	5250 2050 5850 2050
 $Comp
 L Device:C_Small C11
 U 1 1 5C1F1DFB
@@ -1265,7 +1261,7 @@ U 1 1 5C1645BF
 P 1650 7000
 F 0 "U4" H 1675 7815 50  0000 C CNN
 F 1 "SPI Flash" H 1675 7724 50  0000 C CNN
-F 2 "tomu-fpga:USON8_2X3MM" H 1450 7000 50  0001 C CNN
+F 2 "tomu-fpga:SON50P300X200X60-9N" H 1450 7000 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 1450 7000 50  0001 C CNN
 F 4 "W25Q128JVSIMCT-ND" H -450 -1450 50  0001 C CNN "DPN"
 F 5 "W25Q128JVSIM" H -450 -1450 50  0001 C CNN "MPN"
@@ -1360,21 +1356,9 @@ LED_G
 Text Label 9050 2800 0    50   ~ 0
 LED_R
 Wire Wire Line
-	9850 2600 9700 2600
-Wire Wire Line
-	9700 2600 9700 2900
-Wire Wire Line
-	9700 2900 9400 2900
-Wire Wire Line
-	9850 2700 9600 2700
-Wire Wire Line
-	9600 2700 9600 2600
-Wire Wire Line
 	9500 2800 9500 2700
 Wire Wire Line
 	9500 2800 9850 2800
-Wire Wire Line
-	9400 2800 9400 2900
 Text Label 9550 1900 0    50   ~ 0
 ICE_USBP
 Text Label 9550 1800 0    50   ~ 0
@@ -1407,19 +1391,9 @@ F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 1900 9650 2300
-Wire Wire Line
-	9800 1800 9800 2200
-Wire Wire Line
-	5250 2050 5250 2400
+	9650 1900 9650 2200
 Wire Wire Line
 	4200 1600 4200 2600
-Wire Wire Line
-	5400 2250 5400 1500
-Wire Wire Line
-	5400 1500 5250 1500
-Wire Wire Line
-	5250 1500 5250 1400
 Text Notes 1150 7400 0    50   ~ 0
 To program SPI flash, put FPGA in RESET\nTo program FPGA, keep SPI_IO3 LOW
 Wire Wire Line
@@ -1670,9 +1644,9 @@ Text Label 5450 4400 0    50   ~ 0
 Text Label 5450 6050 0    50   ~ 0
 GND
 Text Label 5450 5900 0    50   ~ 0
-ICE_USBP
+USB_P
 Text Label 5450 5750 0    50   ~ 0
-ICE_USBN
+USB_N
 $Comp
 L tomu-fpga:Testpoint TP10
 U 1 1 5C0EA6CF
@@ -1730,7 +1704,6 @@ F 3 "" H 6000 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2650 5950
-NoConn ~ 2650 6050
 NoConn ~ 1450 1200
 Wire Wire Line
 	8700 1800 9300 1800
@@ -1777,21 +1750,15 @@ Wire Wire Line
 	10850 5100 10850 5200
 Connection ~ 10850 5200
 Wire Wire Line
-	9850 2200 9800 2200
-Wire Wire Line
-	9850 2300 9650 2300
-Wire Wire Line
 	9850 2500 9800 2500
 Wire Wire Line
 	9800 2500 9800 2400
 Wire Wire Line
 	9250 2400 9800 2400
 Wire Wire Line
-	8950 2800 9400 2800
+	8950 2800 9300 2800
 Wire Wire Line
 	8950 2700 9500 2700
-Wire Wire Line
-	8950 2600 9600 2600
 Wire Wire Line
 	8100 2400 8100 2600
 Wire Wire Line
@@ -1802,7 +1769,7 @@ Wire Wire Line
 	10450 1600 10450 1200
 Wire Wire Line
 	10450 1200 10850 1200
-Text Label 5500 2250 0    50   ~ 0
+Text Label 5250 1800 1    50   ~ 0
 TOUCH_4
 Text Label 5150 1800 1    50   ~ 0
 TOUCH_3
@@ -1810,10 +1777,6 @@ Text Label 5050 1800 1    50   ~ 0
 TOUCH_2
 Text Label 4950 1800 1    50   ~ 0
 TOUCH_1
-Text Label 2300 6350 0    50   ~ 0
-TOUCH_4
-Wire Wire Line
-	2650 6350 2300 6350
 NoConn ~ 9850 2400
 Wire Notes Line
 	4550 4000 6800 4000
@@ -1877,4 +1840,34 @@ F 6 "ANY" H 250 100 50  0001 C CNN "Manufacturer"
 	1    5250 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8950 2600 9850 2600
+Wire Wire Line
+	9800 2750 9800 2700
+Wire Wire Line
+	9800 2700 9850 2700
+Wire Wire Line
+	9300 2750 9300 2800
+Wire Wire Line
+	9300 2750 9800 2750
+Wire Wire Line
+	5150 2400 5850 2400
+Text Label 2200 6050 0    50   ~ 0
+OSC_IN
+Wire Wire Line
+	2650 6050 2100 6050
+Wire Wire Line
+	5250 1400 5250 2050
+NoConn ~ 2650 6350
+NoConn ~ 4800 2600
+Wire Wire Line
+	9850 2200 9650 2200
+Wire Wire Line
+	9850 2300 9800 2300
+Wire Wire Line
+	9800 1800 9800 2300
+Text Label 8800 1900 0    50   ~ 0
+USB_P
+Text Label 8800 1800 0    50   ~ 0
+USB_N
 $EndSCHEMATC
