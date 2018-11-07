@@ -24,7 +24,7 @@
   (pad 7 smd rect (at 1.42 -0.25 180) (size 0.89 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 1.42 -0.75 180) (size 0.89 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 0 0) (size 0.2 1.6) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Housings_SON.3dshapes/Texas_S-PVSON-N8.step
+  (model ${KIPRJMOD}/tomu-fpga.pretty/Texas_S-PVSON-N8.step
     (at (xyz 0 0 0))
     (scale (xyz 1.1 0.75 0.7))
     (rotate (xyz 0 0 0))

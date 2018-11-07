@@ -104,7 +104,7 @@
     (solder_paste_margin_ratio -0.2))
   (pad 49 smd rect (at -1.93125 -1.93125) (size 1.2875 1.2875) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin_ratio -0.2))
-  (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_Pitch0.5mm.wrl
+  (model ${KIPRJMOD}/tomu-fpga.pretty/QFN-48-1EP_7x7mm_Pitch0.5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

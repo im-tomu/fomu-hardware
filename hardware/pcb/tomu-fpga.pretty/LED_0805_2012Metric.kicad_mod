@@ -26,7 +26,7 @@
   (pad 1 smd roundrect (at -0.9375 0) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at 0.9375 0) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad "" smd circle (at -2 0 180) (size 0.3 0.3) (layers F.SilkS))
-  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl
+  (model ${KIPRJMOD}/tomu-fpga.pretty/LED_0805_2012Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

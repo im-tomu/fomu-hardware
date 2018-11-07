@@ -16,7 +16,7 @@
   (pad 1 smd trapezoid (at -0.641 0.56 180) (size 0.13 0.13) (rect_delta 0 0.129 ) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.705 0.31) (size 0.13 0.37) (layers F.Cu F.Paste F.Mask))
   (pad "" smd circle (at -1.1 0.4 180) (size 0.3 0.3) (layers F.SilkS))
-  (model ${KISYS3DMOD}/Oscillators.3dshapes/Oscillator_SMD_TCXO_G158.wrl
+  (model ${KIPRJMOD}/tomu-fpga.pretty/Oscillator_SMD_TCXO_G158.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.06 0.1 0.05))
     (rotate (xyz 0 0 0))

@@ -28,7 +28,7 @@
   (pad 4 smd rect (at 1.1 0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.1 -0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask))
   (pad "" smd circle (at -2.3 -0.9 180) (size 0.6 0.6) (layers F.SilkS))
-  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl
+  (model ${KIPRJMOD}/tomu-fpga.pretty/SOT-23-5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -15,7 +15,7 @@
   (pad 3 smd rect (at -0.3 0.3) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0.3 0.3) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad "" smd circle (at -0.65 -0.65 180) (size 0.2 0.2) (layers F.SilkS))
-  (model ${KISYS3DMOD}/LEDs.3dshapes/LED_WS2812B-PLCC4.wrl
+  (model ${KIPRJMOD}/tomu-fpga.pretty/LED_WS2812B-PLCC4.wrl
     (offset (xyz 0 0 -0.03))
     (scale (xyz 0.07000000000000001 0.07000000000000001 0.05))
     (rotate (xyz 0 0 0))

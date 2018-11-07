@@ -23,7 +23,7 @@
   (pad 3 smd rect (at -1.25 0.25) (size 0.4 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.25 -0.25) (size 0.4 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.25 -0.75) (size 0.4 0.25) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Housings_SON.3dshapes/X2SON-8_1.4x1mm_Pitch0.35mm.wrl
+  (model ${KIPRJMOD}/tomu-fpga.pretty/X2SON-8_1.4x1mm_Pitch0.35mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 2.7 1.4 1))
     (rotate (xyz 0 0 0))
