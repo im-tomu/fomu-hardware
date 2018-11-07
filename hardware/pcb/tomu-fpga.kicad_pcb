@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.6)
-    (drawings 102)
+    (drawings 103)
     (tracks 759)
     (zones 0)
     (modules 55)
@@ -79,8 +79,8 @@
     (pad_to_mask_clearance 0.05)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 150.425 100.4)
-    (grid_origin 22.1 24.875)
-    (visible_elements 7FFFFD6F)
+    (grid_origin 17 26.525)
+    (visible_elements 7FFFFF6F)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
       (usegerberextensions true)
@@ -2333,7 +2333,10 @@
       (net 4 /SPI_CS))
   )
 
-  (gr_text "tomu.im v0.4" (at 26.416 26.035 90) (layer F.SilkS)
+  (gr_text "DVT1 11/18 SG" (at 17.65 21.875 90) (layer F.SilkS)
+    (effects (font (size 0.4 0.3) (thickness 0.075)))
+  )
+  (gr_text "tomu.im FPGA" (at 26.45 26.225 90) (layer F.SilkS)
     (effects (font (size 0.7 0.84) (thickness 0.1)) (justify left))
   )
   (gr_arc (start 28.725 22.65) (end 28.125 22.65) (angle -180) (layer Edge.Cuts) (width 0.01) (tstamp 5A77BB40))
