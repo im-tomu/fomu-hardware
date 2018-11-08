@@ -1,5 +1,7 @@
 = Tomu FPGA - **Hacker** Version
 
+CAUTION: This design is currently a *work-in-progress* and undergoing major revisions.
+
 This directory contains the **hacker** version of the Tomu FPGA. The hacker
 version is designed for people who are up to the challenge of building their
 own board.
@@ -13,7 +15,7 @@ yield and long term reliability making it **unsuitable** for mass production.
 
 CAUTION: This PCB specification is currently a *work-in-progress*.
 
-[cols=">h,",]
+[width="100%",cols=">h,"]
 |================================================================
 |                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
 |                   Board thickness | 0.6mm
