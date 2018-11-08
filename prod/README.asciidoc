@@ -1,0 +1,48 @@
+= Tomu FPGA - **Production** Version
+
+This directory contains the **production** version of the Tomu FPGA. The
+production version is designed for mass production. It uses advanced PCB
+technologies like laser drilled and blind vias.
+
+You get a production version if you order from
+https://xobs.io/[Sean \'xobs' Cross]
+https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
+
+== PCB Specification
+
+CAUTION: This PCB specification is currently a *work-in-progress*.
+
+[width="100%",cols=">h,"]
+|=======================================================================
+|                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
+|                   Board thickness | 0.6mm
+|                  Number of Layers | 4
+|                        Components | Single Side
+|                        Silkscreen | Both
+|           Number of through holes | 0
+| Minimum trace width and clearance | 0.1mm track width, minimum clearance is 0.1mm
+|                     Vias + Drills
+a|
+* Between layers 1 and 2 - Laser-drilled - 0.2mm/0.1mm blind vias
+* Between layers 3 and 4 - Laser-drilled - 0.2mm/0.1mm blind vias
+* Between layers 2 and 3 - Mechanical - 0.5mm/0.2mm buried vias
+|               Smallest pitch size | 0201 resistors, WCSP parts
+|                 Control Impedance | Not required
+|                 Solder Mask color | Not-green
+|                           Plating
+a|
+* ENIG on the top.
+* Hard gold on the fingers on the underside.
+* Hard gold on the edge of the top.
+
+|                          Material | FR4
+|=======================================================================
+
+== Bill of Materials
+
+* TBD
+
+== Images
+
+* TBD
+

@@ -1,0 +1,40 @@
+= Tomu FPGA - **Hacker** Version
+
+This directory contains the **hacker** version of the Tomu FPGA. The hacker
+version is designed for people who are up to the challenge of building their
+own board.
+
+It has a simpler PCB which makes it cheaper to produce in a small quantities.
+
+*However*, it uses a non-standard footprint for the FPGA WSCP which reduces
+yield and long term reliability making it **unsuitable** for mass production.
+
+== PCB Specification
+
+CAUTION: This PCB specification is currently a *work-in-progress*.
+
+[cols=">h,",]
+|================================================================
+|                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
+|                   Board thickness | 0.6mm
+|                  Number of Layers | 2
+|                        Components | Single Side
+|                        Silkscreen | None, one side or all sides is fine.
+|           Number of through holes | 0
+| Minimum trace width and clearance | 4mil traces, 4mil clearance
+|                     Vias + Drills | 0.2mm via drills with 0.5mm annular rings
+|               Smallest pitch size | 0201 resistors, WCSP parts
+|                 Control Impedance | Not required
+|                 Solder Mask color | Blue
+|                           Plating | ENIG
+|                          Material | FR4
+|================================================================
+
+== Bill of Materials
+
+* TBD
+
+== Images
+
+* TBD
+
