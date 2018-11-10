@@ -294,11 +294,6 @@
       (net 2 GND))
     (pad 6 thru_hole oval (at 0 12.7 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 3 +3V3))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x06_Pitch2.54mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tomu-fpga:USB-B (layer F.Cu) (tedit 5BDC3E7B) (tstamp 5BED8C50)
@@ -1583,11 +1578,6 @@
       (net 2 GND))
     (pad 40 thru_hole oval (at 2.54 48.26 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 59 "Net-(J1-Pad40)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tomu-fpga:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm (layer F.Cu) (tedit 5BD9505B) (tstamp 5BED8E2E)
