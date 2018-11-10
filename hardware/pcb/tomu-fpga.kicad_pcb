@@ -256,6 +256,7 @@
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
     (path /5EC9746F)
+    (attr virtual)
     (fp_text reference J3 (at 0 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -305,6 +306,7 @@
     (solder_mask_margin 0.000001)
     (solder_paste_margin 0.000001)
     (clearance 0.000001)
+    (attr virtual)
     (fp_text reference U9 (at 3 2 135) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -336,6 +338,7 @@
   (module tomu-fpga:SPST-NO-Button (layer F.Cu) (tedit 5BDAE4D3) (tstamp 5BED8C6C)
     (at 88 37 180)
     (path /5C1DD9BA)
+    (attr smd)
     (fp_text reference SW3 (at 3.4 3.9 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1472,6 +1475,7 @@
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (path /5C14D2BF)
+    (attr virtual)
     (fp_text reference J1 (at 1.27 -2.33 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2428,6 +2432,7 @@
   (module tomu-fpga:SPST-NO-Button (layer F.Cu) (tedit 5BDAE4D0) (tstamp 5BED8C8C)
     (at 78 37 180)
     (path /5C1DDAF6)
+    (attr smd)
     (fp_text reference SW4 (at 3.4 3.9 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2460,6 +2465,7 @@
   (module tomu-fpga:SPST-NO-Button (layer F.Cu) (tedit 5BDADBEA) (tstamp 5BED8C7C)
     (at 32 60 270)
     (path /5D126443)
+    (attr smd)
     (fp_text reference SW1 (at 5.5 1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2492,6 +2498,7 @@
   (module tomu-fpga:Touchpads (layer F.Cu) (tedit 5BD9311D) (tstamp 5BED8C5C)
     (at 49 36)
     (path /5BE44C19)
+    (attr virtual)
     (fp_text reference SW2 (at -24 3 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
