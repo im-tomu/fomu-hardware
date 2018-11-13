@@ -29,6 +29,12 @@ $CMP RGB-LED
 D RGB LED
 $ENDCMP
 #
+$CMP Raspberry_Pi_2_3
+D expansion header for Raspberry Pi 2 & 3
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
+$ENDCMP
+#
 $CMP SPI-Flash
 D SPI ROM 8SOIC
 $ENDCMP
