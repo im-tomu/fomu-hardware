@@ -1962,7 +1962,7 @@ DBG_10
 Wire Wire Line
 	6400 5500 6750 5500
 $Comp
-L Connector:Raspberry_Pi_2_3 J1
+L tomu-fpga:Raspberry_Pi_2_3 J1
 U 1 1 5C14D2BF
 P 5600 5400
 F 0 "J1" H 4950 6650 50  0000 C CNN
