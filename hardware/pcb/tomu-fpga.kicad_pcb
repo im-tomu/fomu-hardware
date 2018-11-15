@@ -1982,12 +1982,12 @@
     )
   )
 
-  (module tomu-fpga:USB-PCB (layer F.Cu) (tedit 5A77B315) (tstamp 5BE17434)
+  (module tomu-fpga:USB-PCB (layer F.Cu) (tedit 5BED16DB) (tstamp 5BE17434)
     (at 16.85 27.35)
     (path /5BD8B24F)
     (solder_mask_margin 0.000001)
     (attr virtual)
-    (fp_text reference U9 (at 1.25 1.65) (layer Cmts.User)
+    (fp_text reference U9 (at 1.25 1.65) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value USB-B (at 3.575 0.2) (layer F.Fab)
