@@ -612,22 +612,22 @@ Oscillator and Captouch
 $Comp
 L Device:R_Small R1
 U 1 1 5C0F3302
-P 2550 5000
-F 0 "R1" V 2550 5000 50  0000 C CNN
-F 1 "0201, 10k, 1/16W" H 2700 4900 50  0000 C CNN
-F 2 "tomu-fpga:R_0201_0603Metric" H 2550 5000 50  0001 C CNN
-F 3 "" H 2550 5000 50  0001 C CNN
-F 4 "ANY" H 2550 5000 50  0001 C CNN "MPN"
-F 5 "ANY" H 2550 5000 50  0001 C CNN "Manufacturer"
-F 6 "ANY" H -1000 0   50  0001 C CNN "MYPN"
-F 7 "R" H 2550 5000 50  0001 C CNN "Spice_Primitive"
-F 8 "10k" H 2550 5000 50  0001 C CNN "Spice_Model"
-F 9 "Y" H 2550 5000 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    2550 5000
+P 2550 5150
+F 0 "R1" V 2550 5150 50  0000 C CNN
+F 1 "0201, 10k, 1/16W" H 2700 5050 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 2550 5150 50  0001 C CNN
+F 3 "" H 2550 5150 50  0001 C CNN
+F 4 "ANY" H 2550 5150 50  0001 C CNN "MPN"
+F 5 "ANY" H 2550 5150 50  0001 C CNN "Manufacturer"
+F 6 "ANY" H -1000 150 50  0001 C CNN "MYPN"
+F 7 "R" H 2550 5150 50  0001 C CNN "Spice_Primitive"
+F 8 "10k" H 2550 5150 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 2550 5150 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    2550 5150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2550 4850 2550 4900
+	2550 4850 2550 5050
 Wire Notes Line
 	600  4250 600  7450
 Wire Notes Line
@@ -770,23 +770,6 @@ $EndComp
 Wire Wire Line
 	8700 5200 8850 5200
 $Comp
-L Device:C_Small C18
-U 1 1 5C64A04D
-P 8450 5300
-F 0 "C18" H 8550 5300 50  0000 L CNN
-F 1 "0201, 10nF, 10V, X5R, 20%" H 7700 5200 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 8450 5300 50  0001 C CNN
-F 3 "" H 8450 5300 50  0001 C CNN
-F 4 "ANY" H 200 100 50  0001 C CNN "MPN"
-F 5 "ANY" H 200 100 50  0001 C CNN "MYPN"
-F 6 "ANY" H 200 100 50  0001 C CNN "Manufacturer"
-F 7 "10n" H 0   0   50  0001 C CNN "Spice_Model"
-F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
-F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
-	1    8450 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C17
 U 1 1 5C64A110
 P 7950 5200
@@ -806,8 +789,6 @@ $EndComp
 Wire Wire Line
 	8850 5300 8850 5200
 Connection ~ 8850 5200
-Wire Wire Line
-	8350 5200 8450 5200
 Connection ~ 8700 5200
 Wire Wire Line
 	8350 5200 8350 5100
@@ -821,99 +802,11 @@ Connection ~ 8600 5600
 Wire Wire Line
 	8600 5600 8600 5700
 Wire Wire Line
-	8450 5400 8450 5600
-Wire Wire Line
-	8450 5600 8600 5600
-Wire Wire Line
-	8450 5600 7950 5600
-Wire Wire Line
 	7950 5600 7950 5300
-Connection ~ 8450 5600
-$Comp
-L Device:C_Small C13
-U 1 1 5C71BA4C
-P 5800 950
-F 0 "C13" H 5650 1000 50  0000 L CNN
-F 1 "0201, 1uF, 10V, X5R, 20%" H 4950 900 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 5800 950 50  0001 C CNN
-F 3 "" H 5800 950 50  0001 C CNN
-F 4 "ANY" H 200 -600 50  0001 C CNN "MPN"
-F 5 "ANY" H 200 -600 50  0001 C CNN "MYPN"
-F 6 "ANY" H 200 -600 50  0001 C CNN "Manufacturer"
-F 7 "C" H 5800 950 50  0001 C CNN "Spice_Primitive"
-F 8 "1u" H 5800 950 50  0001 C CNN "Spice_Model"
-F 9 "Y" H 5800 950 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    5800 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C14
-U 1 1 5C71BAD4
-P 6150 950
-F 0 "C14" H 6000 1000 50  0000 L CNN
-F 1 "0201, 10nF, 10V, X5R, 20%" H 5400 1100 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 6150 950 50  0001 C CNN
-F 3 "" H 6150 950 50  0001 C CNN
-F 4 "ANY" H 200 -600 50  0001 C CNN "MPN"
-F 5 "ANY" H 200 -600 50  0001 C CNN "MYPN"
-F 6 "ANY" H 200 -600 50  0001 C CNN "Manufacturer"
-F 7 "C" H 6150 950 50  0001 C CNN "Spice_Primitive"
-F 8 "10n" H 6150 950 50  0001 C CNN "Spice_Model"
-F 9 "Y" H 6150 950 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    6150 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C15
-U 1 1 5C71BB44
-P 6500 950
-F 0 "C15" H 6350 1000 50  0000 L CNN
-F 1 "0201, 100nF, 10V, X5R, 20%" H 6000 750 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 6500 950 50  0001 C CNN
-F 3 "" H 6500 950 50  0001 C CNN
-F 4 "ANY" H 200 -600 50  0001 C CNN "MPN"
-F 5 "ANY" H 200 -600 50  0001 C CNN "MYPN"
-F 6 "ANY" H 200 -600 50  0001 C CNN "Manufacturer"
-F 7 "C" H 6500 950 50  0001 C CNN "Spice_Primitive"
-F 8 "100n" H 6500 950 50  0001 C CNN "Spice_Model"
-F 9 "Y" H 6500 950 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    6500 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 850  6500 850 
-Wire Wire Line
-	5800 850  6150 850 
-Connection ~ 6150 850 
-Connection ~ 6500 850 
-Wire Wire Line
-	6500 850  6150 850 
 Wire Wire Line
 	6750 1200 6450 1200
 Wire Wire Line
 	6750 850  6750 1200
-Wire Wire Line
-	6500 1050 6150 1050
-Connection ~ 6150 1050
-Wire Wire Line
-	6150 1050 5900 1050
-$Comp
-L power:GND #PWR026
-U 1 1 5C78A49F
-P 5900 1150
-F 0 "#PWR026" H 5900 900 50  0001 C CNN
-F 1 "GND" H 5905 977 50  0000 C CNN
-F 2 "" H 5900 1150 50  0001 C CNN
-F 3 "" H 5900 1150 50  0001 C CNN
-	1    5900 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 1150 5900 1050
-Connection ~ 5900 1050
-Wire Wire Line
-	5900 1050 5800 1050
-Connection ~ 6750 850 
 $Comp
 L power:+3V3 #PWR040
 U 1 1 5C7EE938
@@ -943,23 +836,6 @@ F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C26
-U 1 1 5C7EE944
-P 10250 950
-F 0 "C26" H 10100 1000 50  0000 L CNN
-F 1 "0201, 10nF, 10V, X5R, 20%" H 9500 1100 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 10250 950 50  0001 C CNN
-F 3 "" H 10250 950 50  0001 C CNN
-F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
-F 5 "ANY" H 650 100 50  0001 C CNN "MYPN"
-F 6 "ANY" H 650 100 50  0001 C CNN "Manufacturer"
-F 7 "10n" H 0   0   50  0001 C CNN "Spice_Model"
-F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
-F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
-	1    10250 950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C28
 U 1 1 5C7EE94A
 P 10600 950
@@ -978,20 +854,10 @@ F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
 $EndComp
 Wire Wire Line
 	10850 850  10600 850 
-Wire Wire Line
-	9900 850  10250 850 
-Connection ~ 10250 850 
 Connection ~ 10600 850 
-Wire Wire Line
-	10600 850  10250 850 
 Wire Wire Line
 	10850 850  10850 1200
 Connection ~ 10850 850 
-Wire Wire Line
-	10600 1050 10250 1050
-Connection ~ 10250 1050
-Wire Wire Line
-	10250 1050 10050 1050
 $Comp
 L power:GND #PWR039
 U 1 1 5C881269
@@ -1034,23 +900,6 @@ F 7 "1u" H 0   0   50  0001 C CNN "Spice_Model"
 F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1100 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 5C8902B0
-P 1500 4950
-F 0 "C6" H 1250 4950 50  0000 L CNN
-F 1 "0201, 10nF, 10V, X5R, 20%" H 1050 4850 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 1500 4950 50  0001 C CNN
-F 3 "" H 1500 4950 50  0001 C CNN
-F 4 "ANY" H -3550 500 50  0001 C CNN "MPN"
-F 5 "ANY" H -3550 500 50  0001 C CNN "MYPN"
-F 6 "ANY" H -3550 500 50  0001 C CNN "Manufacturer"
-F 7 "10n" H 0   0   50  0001 C CNN "Spice_Model"
-F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
-F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
-	1    1500 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1160,23 +1009,6 @@ Connection ~ 8450 5000
 Wire Wire Line
 	8450 5000 7550 5000
 $Comp
-L Device:C_Small C27
-U 1 1 5BECECF0
-P 10500 5900
-F 0 "C27" H 10600 5900 50  0000 L CNN
-F 1 "0201, 10nF, 10V, X5R, 20%" H 9800 5800 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 10500 5900 50  0001 C CNN
-F 3 "" H 10500 5900 50  0001 C CNN
-F 4 "ANY" H 2250 700 50  0001 C CNN "MPN"
-F 5 "ANY" H 2250 700 50  0001 C CNN "MYPN"
-F 6 "ANY" H 2250 700 50  0001 C CNN "Manufacturer"
-F 7 "10n" H 0   0   50  0001 C CNN "Spice_Model"
-F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
-F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
-	1    10500 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C25
 U 1 1 5BECED7C
 P 10000 5800
@@ -1211,21 +1043,11 @@ Wire Wire Line
 Connection ~ 9500 5550
 Wire Wire Line
 	9500 5550 9500 5600
-Wire Wire Line
-	10000 5650 10500 5650
-Wire Wire Line
-	10500 5650 10500 5800
-Connection ~ 10000 5650
-Wire Wire Line
-	10500 6000 10500 6100
-Wire Wire Line
-	10500 6100 10000 6100
 Connection ~ 9500 6100
 Wire Wire Line
 	9500 6100 9500 6150
 Wire Wire Line
 	10000 5900 10000 6100
-Connection ~ 10000 6100
 Wire Wire Line
 	10000 6100 9500 6100
 $Comp
@@ -1385,8 +1207,6 @@ Wire Wire Line
 Wire Notes Line
 	600  4250 4300 4250
 Wire Wire Line
-	1500 5050 1500 5350
-Wire Wire Line
 	1900 5250 1900 5350
 Wire Wire Line
 	1900 5350 1500 5350
@@ -1399,20 +1219,10 @@ Wire Wire Line
 	1100 4850 1100 5350
 Wire Wire Line
 	1100 4650 1100 4600
-Wire Wire Line
-	1100 4600 1500 4600
 Connection ~ 1700 4600
 Wire Wire Line
-	1700 4600 1500 4600
-Wire Wire Line
 	1900 4600 1900 4850
-Wire Wire Line
-	1500 4600 1500 4850
-Connection ~ 1500 4600
 Connection ~ 2550 4850
-Connection ~ 8450 5200
-Wire Wire Line
-	8450 5200 8700 5200
 Wire Wire Line
 	1700 4600 1900 4600
 Wire Wire Line
@@ -1794,7 +1604,6 @@ F 3 "" H 6000 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2650 5950
-NoConn ~ 1450 1200
 Wire Wire Line
 	8700 1800 9300 1800
 Wire Wire Line
@@ -1821,7 +1630,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 6150 2550 6150
 Wire Wire Line
-	2550 5100 2550 6150
+	2550 5250 2550 6150
 Wire Wire Line
 	3400 5300 3400 4850
 Wire Wire Line
@@ -1958,7 +1767,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 1400 5250 2050
 NoConn ~ 2650 6350
-NoConn ~ 4800 2600
 Wire Wire Line
 	9850 2200 9650 2200
 Wire Wire Line
@@ -1969,4 +1777,14 @@ Text Label 8800 1900 0    50   ~ 0
 USB_P
 Text Label 8800 1800 0    50   ~ 0
 USB_N
+Wire Wire Line
+	9900 850  10600 850 
+Wire Wire Line
+	10050 1050 10600 1050
+Wire Wire Line
+	8350 5200 8700 5200
+Wire Wire Line
+	7950 5600 8600 5600
+Wire Wire Line
+	1100 4600 1700 4600
 $EndSCHEMATC
