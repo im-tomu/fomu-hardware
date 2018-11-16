@@ -326,7 +326,7 @@ Wire Wire Line
 	900  2100 1150 2100
 Connection ~ 1150 2100
 $Comp
-L tomu-fpga-rescue:USB-B-tomu-fpga U9
+L tomu-fpga:USB-B U9
 U 1 1 5BD8B24F
 P 8300 1600
 F 0 "U9" H 8550 1600 50  0000 C CNN
@@ -365,7 +365,7 @@ F 3 "" H 8850 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tomu-fpga-rescue:RGB-LED-tomu-fpga U10
+L tomu-fpga:RGB-LED U10
 U 1 1 5BD90F18
 P 8550 2850
 F 0 "U10" H 8350 2800 50  0000 C CNN
@@ -512,7 +512,7 @@ F 3 "" H 6750 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tomu-fpga-rescue:PADS-tomu-fpga SW2
+L tomu-fpga:PADS SW2
 U 1 1 5BE44C19
 P 5300 1200
 F 0 "SW2" H 5350 1650 50  0000 C CNN
@@ -1051,7 +1051,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 6100 9500 6100
 $Comp
-L tomu-fpga-rescue:Oscillator-tomu-fpga U7
+L tomu-fpga:Oscillator U7
 U 1 1 5C0E8D0F
 P 4800 2350
 F 0 "U7" H 4550 2300 50  0000 C CNN
@@ -1138,7 +1138,7 @@ SPI_IO3
 Text Label 2300 6250 0    50   ~ 0
 CDONE
 $Comp
-L tomu-fpga-rescue:ICE40UP5K-UWG30-tomu-fpga U5
+L tomu-fpga:ICE40UP5K-UWG30 U5
 U 3 1 5C122A3A
 P 6450 1750
 F 0 "U5" H 6050 1200 50  0000 L CNN
@@ -1153,7 +1153,7 @@ F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 200 -300 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L tomu-fpga-rescue:ICE40UP5K-UWG30-tomu-fpga U5
+L tomu-fpga:ICE40UP5K-UWG30 U5
 U 4 1 5C122B60
 P 10200 4800
 F 0 "U5" H 9850 4250 50  0000 C CNN
@@ -1168,7 +1168,7 @@ F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 200 -400 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L tomu-fpga-rescue:SPI-Flash-tomu-fpga U4
+L tomu-fpga:SPI-Flash U4
 U 1 1 5C1645BF
 P 1650 7000
 F 0 "U4" H 1675 7815 50  0000 C CNN
@@ -1276,7 +1276,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 2150 5850 2150
 $Comp
-L tomu-fpga-rescue:ICE40UP5K-UWG30-tomu-fpga U5
+L tomu-fpga:ICE40UP5K-UWG30 U5
 U 1 1 5C1225F9
 P 10400 2400
 F 0 "U5" H 10100 1250 50  0000 L CNN
@@ -1301,7 +1301,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 5000 9600 5000
 $Comp
-L tomu-fpga-rescue:LDO-X2SON-tomu-fpga U1
+L tomu-fpga:LDO-X2SON U1
 U 1 1 5BF1A34B
 P 1650 1300
 F 0 "U1" H 1650 1825 50  0000 C CNN
@@ -1326,7 +1326,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1150 2050 1250
 $Comp
-L tomu-fpga-rescue:LDO-X2SON-tomu-fpga U2
+L tomu-fpga:LDO-X2SON U2
 U 1 1 5BF61C95
 P 1650 2400
 F 0 "U2" H 1650 2925 50  0000 C CNN
@@ -1352,7 +1352,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1800 1300 2350
 $Comp
-L tomu-fpga-rescue:LDO-X2SON-tomu-fpga U3
+L tomu-fpga:LDO-X2SON U3
 U 1 1 5BFAB7F1
 P 1650 3500
 F 0 "U3" H 1650 4025 50  0000 C CNN
@@ -1374,7 +1374,7 @@ Connection ~ 2050 3450
 Wire Wire Line
 	2050 3450 2050 3600
 $Comp
-L tomu-fpga-rescue:LDO-X2SON-tomu-fpga U6
+L tomu-fpga:LDO-X2SON U6
 U 1 1 5BFF652A
 P 8150 4800
 F 0 "U6" H 8000 4750 50  0000 C CNN
@@ -1398,7 +1398,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 4500 7850 4750
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP2
+L tomu-fpga:Testpoint TP2
 U 1 1 5C03018F
 P 5250 4500
 F 0 "TP2" H 5400 4550 50  0000 C CNN
@@ -1415,7 +1415,7 @@ SPI_MOSI
 Text Label 5450 4700 0    50   ~ 0
 SPI_MISO
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP3
+L tomu-fpga:Testpoint TP3
 U 1 1 5C042DE8
 P 5250 4650
 F 0 "TP3" H 5400 4700 50  0000 C CNN
@@ -1428,7 +1428,7 @@ $EndComp
 Wire Wire Line
 	5400 4700 5850 4700
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP4
+L tomu-fpga:Testpoint TP4
 U 1 1 5C068EF3
 P 5250 4800
 F 0 "TP4" H 5400 4850 50  0000 C CNN
@@ -1441,7 +1441,7 @@ $EndComp
 Wire Wire Line
 	5400 4850 5850 4850
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP5
+L tomu-fpga:Testpoint TP5
 U 1 1 5C068EFC
 P 5250 4950
 F 0 "TP5" H 5400 5000 50  0000 C CNN
@@ -1462,7 +1462,7 @@ SPI_IO2
 Text Label 5450 5300 0    50   ~ 0
 SPI_IO3
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP6
+L tomu-fpga:Testpoint TP6
 U 1 1 5C07C50C
 P 5250 5100
 F 0 "TP6" H 5400 5150 50  0000 C CNN
@@ -1473,7 +1473,7 @@ F 3 "" H 5250 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP7
+L tomu-fpga:Testpoint TP7
 U 1 1 5C07C63D
 P 5250 5250
 F 0 "TP7" H 5400 5300 50  0000 C CNN
@@ -1490,7 +1490,7 @@ Wire Wire Line
 Text Label 5450 5450 0    50   ~ 0
 CRESET
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP8
+L tomu-fpga:Testpoint TP8
 U 1 1 5C0A39C6
 P 5250 5400
 F 0 "TP8" H 5400 5450 50  0000 C CNN
@@ -1505,7 +1505,7 @@ Wire Wire Line
 Text Label 5450 5600 0    50   ~ 0
 CDONE
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP9
+L tomu-fpga:Testpoint TP9
 U 1 1 5C0B4DBE
 P 5250 5550
 F 0 "TP9" H 5400 5600 50  0000 C CNN
@@ -1518,7 +1518,7 @@ $EndComp
 Wire Wire Line
 	5400 5600 5850 5600
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP1
+L tomu-fpga:Testpoint TP1
 U 1 1 5C0C6529
 P 5250 4350
 F 0 "TP1" H 5400 4400 50  0000 C CNN
@@ -1529,7 +1529,7 @@ F 3 "" H 5250 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP12
+L tomu-fpga:Testpoint TP12
 U 1 1 5C0C65AF
 P 5250 6000
 F 0 "TP12" H 5400 6050 50  0000 C CNN
@@ -1548,7 +1548,7 @@ USB_P
 Text Label 5450 5750 0    50   ~ 0
 USB_N
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP10
+L tomu-fpga:Testpoint TP10
 U 1 1 5C0EA6CF
 P 5250 5700
 F 0 "TP10" H 5400 5750 50  0000 C CNN
@@ -1559,7 +1559,7 @@ F 3 "" H 5250 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L tomu-fpga-rescue:Testpoint-tomu-fpga TP11
+L tomu-fpga:Testpoint TP11
 U 1 1 5C0EA757
 P 5250 5850
 F 0 "TP11" H 5400 5900 50  0000 C CNN
@@ -1611,7 +1611,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 7250 3850 6900
 $Comp
-L tomu-fpga-rescue:ICE40UP5K-UWG30-tomu-fpga U5
+L tomu-fpga:ICE40UP5K-UWG30 U5
 U 2 1 5C122971
 P 3250 6500
 F 0 "U5" H 2900 5950 50  0000 C CNN
@@ -1688,7 +1688,7 @@ Wire Notes Line
 Text Notes 6400 4100 0    50   ~ 0
 Test Pads
 $Comp
-L tomu-fpga-rescue:Touchpad-Note-tomu-fpga XX1
+L tomu-fpga:Touchpad-Note XX1
 U 1 1 5C0024CC
 P 5900 3500
 F 0 "XX1" H 5978 3696 50  0000 L CNN
@@ -1705,7 +1705,7 @@ F 9 "N" H 5900 3500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L tomu-fpga-rescue:Case-tomu-fpga XX2
+L tomu-fpga:Case XX2
 U 1 1 5C011D36
 P 5900 3750
 F 0 "XX2" H 6028 3896 50  0000 L CNN
@@ -1732,7 +1732,7 @@ Wire Notes Line
 Text Notes 4150 3750 0    50   ~ 0
 Manufacturing Notes
 $Comp
-L tomu-fpga-rescue:Case-tomu-fpga XX3
+L tomu-fpga:Case XX3
 U 1 1 5C0476E4
 P 5250 3450
 F 0 "XX3" H 5378 3596 50  0000 L CNN
