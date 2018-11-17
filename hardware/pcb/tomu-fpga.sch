@@ -337,6 +337,7 @@ F 4 "DNP" H 8300 1600 50  0001 C CNN "MPN"
 F 5 "DNP" H 8300 1600 50  0001 C CNN "Manufacturer"
 F 6 "DNP" H 8300 1600 50  0001 C CNN "MYPN"
 F 7 "PCB-etched USB pads" H 0   0   50  0001 C CNN "Description"
+F 8 "X" H 0   0   50  0001 C CNN "DNP"
 	1    8300 1600
 	-1   0    0    1   
 $EndComp
@@ -521,6 +522,7 @@ F 4 "DNP" H 5300 1200 50  0001 C CNN "MPN"
 F 5 "DNP" H 5300 1200 50  0001 C CNN "Manufacturer"
 F 6 "DNP" H 5300 1200 50  0001 C CNN "MYPN"
 F 7 "PCB-etched captouch pads" H -200 -1000 50  0001 C CNN "Description"
+F 8 "X" V 5300 1200 50  0001 C CNN "DNP"
 	1    5300 1200
 	0    -1   -1   0   
 $EndComp
@@ -1160,7 +1162,7 @@ F 5 "GD25Q16CEIGR" H -450 -1450 50  0001 C CNN "MPN"
 F 6 "GigaDevice Semiconductor (HK) Limited" H -450 -1450 50  0001 C CNN "Manufacturer"
 F 7 "IC FLASH 128M SPI 133MHZ 8SOIC" H 0   0   50  0001 C CNN "Description"
 F 8 "MX25R1635FZUIH0" H 1650 7000 50  0001 C CNN "APN"
-F 9 " Macronix" H 1650 7000 50  0001 C CNN "AManufacturer"
+F 9 "Macronix" H 1650 7000 50  0001 C CNN "AManufacturer"
 	1    1650 7000
 	1    0    0    -1  
 $EndComp
@@ -1377,6 +1379,7 @@ F 0 "TP2" H 5400 4550 50  0000 C CNN
 F 1 "Testpoint" H 5700 4550 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 4500 50  0001 C CNN
 F 3 "" H 5250 4500 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 4500
 	-1   0    0    1   
 $EndComp
@@ -1394,6 +1397,7 @@ F 0 "TP3" H 5400 4700 50  0000 C CNN
 F 1 "Testpoint" H 5700 4700 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 4650 50  0001 C CNN
 F 3 "" H 5250 4650 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 4650
 	-1   0    0    1   
 $EndComp
@@ -1407,6 +1411,7 @@ F 0 "TP4" H 5400 4850 50  0000 C CNN
 F 1 "Testpoint" H 5700 4850 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 4800 50  0001 C CNN
 F 3 "" H 5250 4800 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 4800
 	-1   0    0    1   
 $EndComp
@@ -1420,6 +1425,7 @@ F 0 "TP5" H 5400 5000 50  0000 C CNN
 F 1 "Testpoint" H 5700 5000 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 4950 50  0001 C CNN
 F 3 "" H 5250 4950 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 4950
 	-1   0    0    1   
 $EndComp
@@ -1441,6 +1447,7 @@ F 0 "TP6" H 5400 5150 50  0000 C CNN
 F 1 "Testpoint" H 5700 5150 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 5100 50  0001 C CNN
 F 3 "" H 5250 5100 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 5100
 	-1   0    0    1   
 $EndComp
@@ -1452,6 +1459,7 @@ F 0 "TP7" H 5400 5300 50  0000 C CNN
 F 1 "Testpoint" H 5700 5300 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 5250 50  0001 C CNN
 F 3 "" H 5250 5250 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 5250
 	-1   0    0    1   
 $EndComp
@@ -1469,6 +1477,7 @@ F 0 "TP8" H 5400 5450 50  0000 C CNN
 F 1 "Testpoint" H 5700 5450 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 5400 50  0001 C CNN
 F 3 "" H 5250 5400 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 5400
 	-1   0    0    1   
 $EndComp
@@ -1484,6 +1493,7 @@ F 0 "TP9" H 5400 5600 50  0000 C CNN
 F 1 "Testpoint" H 5700 5600 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 5550 50  0001 C CNN
 F 3 "" H 5250 5550 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 5550
 	-1   0    0    1   
 $EndComp
@@ -1497,6 +1507,7 @@ F 0 "TP1" H 5400 4400 50  0000 C CNN
 F 1 "Testpoint" H 5700 4400 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 4350 50  0001 C CNN
 F 3 "" H 5250 4350 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 4350
 	-1   0    0    1   
 $EndComp
@@ -1508,6 +1519,7 @@ F 0 "TP12" H 5400 6050 50  0000 C CNN
 F 1 "Testpoint" H 5700 6050 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 6000 50  0001 C CNN
 F 3 "" H 5250 6000 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 6000
 	-1   0    0    1   
 $EndComp
@@ -1527,6 +1539,7 @@ F 0 "TP10" H 5400 5750 50  0000 C CNN
 F 1 "Testpoint" H 5700 5750 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 5700 50  0001 C CNN
 F 3 "" H 5250 5700 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 5700
 	-1   0    0    1   
 $EndComp
@@ -1538,6 +1551,7 @@ F 0 "TP11" H 5400 5900 50  0000 C CNN
 F 1 "Testpoint" H 5700 5900 50  0000 C CNN
 F 2 "tomu-fpga:testpoint" H 5250 5850 50  0001 C CNN
 F 3 "" H 5250 5850 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 5850
 	-1   0    0    1   
 $EndComp
@@ -1663,6 +1677,7 @@ F 6 "DNP" H 5900 3500 50  0001 C CNN "Manufacturer"
 F 7 "X" H 5900 3500 50  0001 C CNN "Spice_Primitive"
 F 8 "Touchpad Mask Removal" H 5900 3500 50  0001 C CNN "Spice_Model"
 F 9 "N" H 5900 3500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 10 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5900 3500
 	1    0    0    -1  
 $EndComp
@@ -1680,6 +1695,7 @@ F 6 "Jiada" H 900 400 50  0001 C CNN "Manufacturer"
 F 7 "X" H 5900 3750 50  0001 C CNN "Spice_Primitive"
 F 8 "Case" H 5900 3750 50  0001 C CNN "Spice_Model"
 F 9 "N" H 5900 3750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 10 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5900 3750
 	1    0    0    -1  
 $EndComp
@@ -1707,6 +1723,7 @@ F 6 "ANY" H 250 100 50  0001 C CNN "Manufacturer"
 F 7 "X" H 5250 3450 50  0001 C CNN "Spice_Primitive"
 F 8 "ESD Bag" H 5250 3450 50  0001 C CNN "Spice_Model"
 F 9 "N" H 5250 3450 50  0001 C CNN "Spice_Netlist_Enabled"
+F 10 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5250 3450
 	1    0    0    -1  
 $EndComp
