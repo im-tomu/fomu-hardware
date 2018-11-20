@@ -1077,12 +1077,6 @@ F 3 "" H 850 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	850  5650 850  5950
-Wire Wire Line
-	1750 5850 1750 6000
-Wire Wire Line
-	1750 6000 1050 6000
-Wire Wire Line
-	1050 6000 1050 5850
 $Comp
 L Device:C_Small C11
 U 1 1 5C1F1DFB
@@ -1780,7 +1774,6 @@ Wire Wire Line
 	750  5500 750  5850
 Wire Wire Line
 	2100 6050 2100 5650
-Connection ~ 1050 5850
 Connection ~ 950  5650
 $Comp
 L Device:D_Small D1
@@ -1946,10 +1939,10 @@ U 1 1 5C2141E6
 P 9000 1300
 F 0 "D5" H 9050 1400 50  0000 L CNN
 F 1 "D5V0L1B2LP3-7" H 8400 1400 50  0000 L CNN
-F 2 "tomu-fpga:X1-DFN1006-2" V 9000 1300 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf" V 9000 1300 50  0001 C CNN
-F 4 "Diodes Incorporated" V 9000 1300 50  0001 C CNN "Manufacturer"
-F 5 "D5V0L1B2LP3-7" V 9000 1300 50  0001 C CNN "MPN"
+F 2 "tomu-fpga:TVS-11V" V 9000 1300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85900/vcut05e1-sd0.pdf" V 9000 1300 50  0001 C CNN
+F 4 "Vishay Semiconductor Diodes Division" V 9000 1300 50  0001 C CNN "Manufacturer"
+F 5 "VCUT05E1-SD0-G4-08" V 9000 1300 50  0001 C CNN "MPN"
 	1    9000 1300
 	1    0    0    -1  
 $EndComp
@@ -2005,4 +1998,5 @@ Wire Wire Line
 Connection ~ 10450 1150
 Wire Wire Line
 	10450 1150 10650 1150
+NoConn ~ 1750 5850
 $EndSCHEMATC
