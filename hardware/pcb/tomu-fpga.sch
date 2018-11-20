@@ -465,7 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 1800 9000 1800
 Wire Wire Line
-	8850 1700 8700 1700
+	8850 1700 8750 1700
 $Comp
 L Device:R_Small R9
 U 1 1 5BDC6632
@@ -486,7 +486,7 @@ $Comp
 L tomu-fpga:Oscillator U6
 U 1 1 5BDD6B36
 P 4750 1600
-F 0 "U6" H 5050 1550 50  0000 C CNN
+F 0 "U6" H 4950 1950 50  0000 C CNN
 F 1 "MEMS Oscillator (DNP)" H 4650 1550 50  0000 C CNN
 F 2 "tomu-fpga:MEMS-20005625B" H 4750 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005625B.pdf" H 4750 1600 50  0001 C CNN
@@ -497,7 +497,7 @@ F 7 "MEMS OSC XO 48.0000MHZ CMOS SMD" H 50  -50 50  0001 C CNN "Description"
 	1    4750 1600
 	-1   0    0    1   
 $EndComp
-Text Label 5550 2050 0    50   ~ 0
+Text Label 5300 2050 0    50   ~ 0
 OSC_IN
 Wire Wire Line
 	1050 6950 1000 6950
@@ -565,8 +565,8 @@ $Comp
 L tomu-fpga:PADS SW2
 U 1 1 5BE44C19
 P 5800 1200
-F 0 "SW2" H 5850 1650 50  0000 C CNN
-F 1 "Captouch Pads" H 5650 1750 50  0000 C CNN
+F 0 "SW2" V 5750 1700 50  0000 C CNN
+F 1 "Captouch Pads" V 5850 1900 50  0000 C CNN
 F 2 "tomu-fpga:Touchpads" H 5850 1200 50  0001 C CNN
 F 3 "" H 5850 1200 50  0001 C CNN
 F 4 "DNP" H 5800 1200 50  0001 C CNN "MPN"
@@ -740,13 +740,13 @@ Wire Wire Line
 Wire Wire Line
 	8850 2000 8850 2050
 Wire Notes Line
-	4100 600  7150 600 
+	4000 600  7150 600 
 Wire Notes Line
 	7150 600  7150 3000
 Wire Notes Line
-	7150 3000 4100 3000
+	7150 3000 4000 3000
 Wire Notes Line
-	4100 3000 4100 600 
+	4000 3000 4000 600 
 Text Notes 6200 2950 0    50   ~ 0
 Oscillator and Captouch
 $Comp
@@ -892,7 +892,7 @@ Wire Wire Line
 	9000 1250 9000 1800
 Connection ~ 9000 1800
 Wire Wire Line
-	9000 1800 9300 1800
+	9000 1800 9200 1800
 Text Label 9550 2600 1    50   ~ 0
 PU_CTRL_USBN
 Text Notes 8600 1200 0    50   ~ 0
@@ -948,18 +948,18 @@ F 3 "" H 3700 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R5
+L Device:R_Small R3
 U 1 1 5C493DB2
-P 3600 7250
-F 0 "R5" V 3600 7250 50  0000 C CNN
-F 1 "0805, 10k, 1/16W" V 3500 7350 50  0000 C CNN
-F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 7250 50  0001 C CNN
-F 3 "" H 3600 7250 50  0001 C CNN
-F 4 "ANY" H -1400 400 50  0001 C CNN "MPN"
-F 5 "ANY" H -1400 400 50  0001 C CNN "MYPN"
-F 6 "ANY" H -1400 400 50  0001 C CNN "Manufacturer"
-	1    3600 7250
-	0    -1   -1   0   
+P 3700 6550
+F 0 "R3" V 3700 6550 50  0000 C CNN
+F 1 "0805, 10k, 1/16W" V 3600 6500 50  0000 C CNN
+F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 6550 50  0001 C CNN
+F 3 "" H 3700 6550 50  0001 C CNN
+F 4 "ANY" H -1300 -300 50  0001 C CNN "MPN"
+F 5 "ANY" H -1300 -300 50  0001 C CNN "MYPN"
+F 6 "ANY" H -1300 -300 50  0001 C CNN "Manufacturer"
+	1    3700 6550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C21
@@ -1474,7 +1474,7 @@ $Comp
 L tomu-fpga:Oscillator U7
 U 1 1 5C0E8D0F
 P 4800 2350
-F 0 "U7" H 4550 2300 50  0000 C CNN
+F 0 "U7" H 4500 2300 50  0000 C CNN
 F 1 "Crystal Oscillator" H 4950 2300 50  0000 C CNN
 F 2 "tomu-fpga:XTAL-2520" H 4800 2350 50  0001 C CNN
 F 3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 4800 2350 50  0001 C CNN
@@ -1488,18 +1488,18 @@ $EndComp
 $Comp
 L power:+3V3 #PWR020
 U 1 1 5C122FDC
-P 4200 1600
-F 0 "#PWR020" H 4200 1450 50  0001 C CNN
-F 1 "+3V3" H 4215 1773 50  0000 C CNN
-F 2 "" H 4200 1600 50  0001 C CNN
-F 3 "" H 4200 1600 50  0001 C CNN
-	1    4200 1600
+P 4150 1600
+F 0 "#PWR020" H 4150 1450 50  0001 C CNN
+F 1 "+3V3" H 4165 1773 50  0000 C CNN
+F 2 "" H 4150 1600 50  0001 C CNN
+F 3 "" H 4150 1600 50  0001 C CNN
+	1    4150 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 1600 4200 2150
+	4150 1600 4150 2150
 Wire Wire Line
-	4200 2600 4350 2600
+	4150 2600 4350 2600
 Wire Wire Line
 	4450 2400 4350 2400
 $Comp
@@ -1516,54 +1516,15 @@ $EndComp
 Wire Wire Line
 	4250 2400 4250 2750
 Wire Wire Line
-	5150 2600 5150 2750
-Wire Wire Line
-	5150 2750 4450 2750
-Wire Wire Line
-	4450 2750 4450 2600
-Connection ~ 4450 2600
-$Comp
-L Device:R_Small R7
-U 1 1 5C1737EA
-P 5250 2250
-F 0 "R7" V 5250 2250 50  0000 C CNN
-F 1 "0201, 0ohm (DNP)" V 5150 2500 50  0000 C CNN
-F 2 "tomu-fpga:R_0201_0603Metric" H 5250 2250 50  0001 C CNN
-F 3 "" H 5250 2250 50  0001 C CNN
-F 4 "DNP" H 5250 2250 50  0001 C CNN "MPN"
-F 5 "DNP" H 5250 2250 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 1700 -2750 50  0001 C CNN "MYPN"
-	1    5250 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
 	5150 2400 5250 2400
 Wire Wire Line
-	5250 2400 5250 2350
-Wire Wire Line
-	5250 2150 5250 2050
-Wire Wire Line
 	5250 2050 5850 2050
-$Comp
-L Device:R_Small R6
-U 1 1 5C1B1B9B
-P 5250 1850
-F 0 "R6" V 5250 1850 50  0000 C CNN
-F 1 "0201, 0ohm (DNP)" V 5350 2050 50  0000 C CNN
-F 2 "tomu-fpga:R_0201_0603Metric" H 5250 1850 50  0001 C CNN
-F 3 "" H 5250 1850 50  0001 C CNN
-F 4 "DNP" H 5250 1850 50  0001 C CNN "MPN"
-F 5 "DNP" H 5250 1850 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 1700 -3150 50  0001 C CNN "MYPN"
-	1    5250 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C11
 U 1 1 5C1F1DFB
 P 4350 2500
 F 0 "C11" H 4400 2550 50  0000 L CNN
-F 1 "0805, 100nF, 10V, X5R, 20%" H 4200 2300 50  0000 L CNN
+F 1 "0805, 100nF, 10V, X5R, 20%" H 4350 2300 50  0000 L CNN
 F 2 "tomu-fpga:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 2500 50  0001 C CNN
 F 3 "" H 4350 2500 50  0001 C CNN
 F 4 "ANY" H -700 400 50  0001 C CNN "MPN"
@@ -1989,13 +1950,11 @@ Wire Wire Line
 	2300 6050 2650 6050
 Wire Wire Line
 	2650 6350 2300 6350
-Text Label 7100 4500 0    50   ~ 0
-DBG_18
 Wire Wire Line
 	8700 1900 9000 1900
 Connection ~ 9000 1900
 Wire Wire Line
-	9000 1900 9300 1900
+	9000 1900 9200 1900
 Wire Wire Line
 	9050 2400 9000 2400
 Wire Wire Line
@@ -2003,19 +1962,15 @@ Wire Wire Line
 Wire Wire Line
 	9350 2400 9250 2400
 NoConn ~ 4800 4800
-Connection ~ 4200 2150
+Connection ~ 4150 2150
 Wire Wire Line
-	4200 2150 4200 2600
+	4150 2150 4150 2600
 Wire Wire Line
 	4400 1650 4250 1650
 Wire Wire Line
 	4250 1650 4250 2400
 Connection ~ 4250 2400
-Wire Wire Line
-	5250 1950 5250 2050
 Connection ~ 5250 2050
-Wire Wire Line
-	5250 1750 5250 1650
 Wire Wire Line
 	5250 1650 5100 1650
 Wire Wire Line
@@ -2024,7 +1979,7 @@ Wire Wire Line
 	4350 1850 4400 1850
 Connection ~ 4350 2150
 Wire Wire Line
-	4350 2150 4200 2150
+	4350 2150 4150 2150
 Wire Wire Line
 	4350 2150 5150 2150
 Wire Wire Line
@@ -2032,44 +1987,14 @@ Wire Wire Line
 Wire Wire Line
 	5150 1850 5100 1850
 Wire Wire Line
-	3500 7250 2400 7250
-Wire Wire Line
 	3700 7250 3700 6900
 Wire Wire Line
 	3700 6900 4050 6900
-$Comp
-L Device:R_Small R3
-U 1 1 5DB7470B
-P 3700 6550
-F 0 "R3" V 3700 6550 50  0000 C CNN
-F 1 "0201, 0ohm (DNP)" V 3800 6600 50  0000 C CNN
-F 2 "tomu-fpga:R_0201_0603Metric" H 3700 6550 50  0001 C CNN
-F 3 "" H 3700 6550 50  0001 C CNN
-F 4 "DNP" H 3700 6550 50  0001 C CNN "MPN"
-F 5 "DNP" H 3700 6550 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 150 1550 50  0001 C CNN "MYPN"
-	1    3700 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 6650 3700 6900
 Connection ~ 3700 6900
 Wire Wire Line
 	3700 6250 3700 6450
-$Comp
-L Device:R_Small R13
-U 1 1 5DBF79F0
-P 4050 7050
-F 0 "R13" V 4050 7050 50  0000 C CNN
-F 1 "0201, 0ohm (DNP)" V 4150 7250 50  0000 C CNN
-F 2 "tomu-fpga:R_0201_0603Metric" H 4050 7050 50  0001 C CNN
-F 3 "" H 4050 7050 50  0001 C CNN
-F 4 "DNP" H 4050 7050 50  0001 C CNN "MPN"
-F 5 "DNP" H 4050 7050 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 500 2050 50  0001 C CNN "MYPN"
-	1    4050 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 7200 4050 7150
 Wire Wire Line
@@ -2300,7 +2225,7 @@ NoConn ~ 5850 2450
 NoConn ~ 5850 2350
 NoConn ~ 2650 5650
 Wire Wire Line
-	8600 1250 8600 950 
+	8600 1250 8600 1100
 Wire Wire Line
 	10000 2500 9800 2500
 Wire Wire Line
@@ -2317,4 +2242,216 @@ Wire Wire Line
 	9550 2800 10000 2800
 Wire Wire Line
 	9350 2700 10000 2700
+NoConn ~ 5150 2600
+Wire Wire Line
+	5250 1650 5250 2050
+Wire Wire Line
+	5250 2050 5250 2400
+$Comp
+L Device:R_Small R13
+U 1 1 5BFD305D
+P 4050 7050
+F 0 "R13" V 4050 7050 50  0000 C CNN
+F 1 "0805, 10k, 1/16W (DNP)" V 3950 6850 50  0000 C CNN
+F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4050 7050 50  0001 C CNN
+F 3 "" H 4050 7050 50  0001 C CNN
+F 4 "ANY" H -950 200 50  0001 C CNN "MPN"
+F 5 "ANY" H -950 200 50  0001 C CNN "MYPN"
+F 6 "ANY" H -950 200 50  0001 C CNN "Manufacturer"
+	1    4050 7050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 7250 3700 7250
+Text Notes 4600 3400 0    50   ~ 0
+When booting FPGA from RPi, MISO and MOSI switch.\nSend bitstream out MISO0.  This requires bitbanging the SPI stream.\nKeep SPI_CS low when driving CRESET high.
+$Comp
+L Device:D_Small D2
+U 1 1 5C0A0D6F
+P 5450 2400
+F 0 "D2" V 5404 2468 50  0000 L CNN
+F 1 "D_Small" V 5495 2468 50  0000 L CNN
+F 2 "tomu-fpga:TVM-5V" V 5450 2400 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CPDFR%20Series-HF-RevC392667.pdf" V 5450 2400 50  0001 C CNN
+F 4 "641-1219-1-ND" H 0   0   50  0001 C CNN "DPN"
+F 5 "CPDFR5V0" H 0   0   50  0001 C CNN "MPN"
+F 6 "Comchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+	1    5450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5C0A1030
+P 5550 2300
+F 0 "D3" V 5504 2368 50  0000 L CNN
+F 1 "D_Small" V 5595 2368 50  0000 L CNN
+F 2 "tomu-fpga:TVM-5V" V 5550 2300 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CPDFR%20Series-HF-RevC392667.pdf" V 5550 2300 50  0001 C CNN
+F 4 "641-1219-1-ND" H 0   0   50  0001 C CNN "DPN"
+F 5 "CPDFR5V0" H 0   0   50  0001 C CNN "MPN"
+F 6 "Comchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+	1    5550 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5C0A10BA
+P 5650 2450
+F 0 "D4" V 5604 2518 50  0000 L CNN
+F 1 "D_Small" V 5695 2518 50  0000 L CNN
+F 2 "tomu-fpga:TVM-5V" V 5650 2450 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CPDFR%20Series-HF-RevC392667.pdf" V 5650 2450 50  0001 C CNN
+F 4 "641-1219-1-ND" H 0   0   50  0001 C CNN "DPN"
+F 5 "CPDFR5V0" H 0   0   50  0001 C CNN "MPN"
+F 6 "Comchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+	1    5650 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5C0A1146
+P 5750 2350
+F 0 "D5" V 5704 2418 50  0000 L CNN
+F 1 "D_Small" V 5795 2418 50  0000 L CNN
+F 2 "tomu-fpga:TVM-5V" V 5750 2350 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CPDFR%20Series-HF-RevC392667.pdf" V 5750 2350 50  0001 C CNN
+F 4 "641-1219-1-ND" H 0   0   50  0001 C CNN "DPN"
+F 5 "CPDFR5V0" H 0   0   50  0001 C CNN "MPN"
+F 6 "Comchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+	1    5750 2350
+	0    1    1    0   
+$EndComp
+Connection ~ 5750 2250
+Wire Wire Line
+	5450 2500 5450 2650
+Wire Wire Line
+	5450 2650 5550 2650
+Wire Wire Line
+	5750 2650 5750 2450
+Wire Wire Line
+	5550 2400 5550 2650
+Connection ~ 5550 2650
+Wire Wire Line
+	5550 2650 5600 2650
+Wire Wire Line
+	5650 2550 5650 2650
+Connection ~ 5650 2650
+Wire Wire Line
+	5650 2650 5750 2650
+$Comp
+L power:GND #PWR0101
+U 1 1 5C105F95
+P 5600 2700
+F 0 "#PWR0101" H 5600 2450 50  0001 C CNN
+F 1 "GND" H 5605 2527 50  0000 C CNN
+F 2 "" H 5600 2700 50  0001 C CNN
+F 3 "" H 5600 2700 50  0001 C CNN
+	1    5600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2700 5600 2650
+Connection ~ 5600 2650
+Wire Wire Line
+	5600 2650 5650 2650
+Wire Wire Line
+	5450 2300 5450 2150
+Connection ~ 5450 2150
+Wire Wire Line
+	5550 2200 5550 1950
+Connection ~ 5550 1950
+Wire Wire Line
+	5650 1850 5650 2350
+Connection ~ 5650 1850
+$Comp
+L Device:D_Small D6
+U 1 1 5C191C29
+P 8750 1500
+F 0 "D6" V 8796 1432 50  0000 R CNN
+F 1 "D_Small" V 8705 1432 50  0000 R CNN
+F 2 "tomu-fpga:TVM-12V" V 8750 1500 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CPDF%20Series-HF-RevC%20cdr393273.pdf" V 8750 1500 50  0001 C CNN
+F 4 "641-1966-6-ND" H 0   0   50  0001 C CNN "DPN"
+F 5 "CPDF12V-HF" H 0   0   50  0001 C CNN "MPN"
+F 6 "Comchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+	1    8750 1500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8750 1700
+Wire Wire Line
+	8750 1700 8700 1700
+$Comp
+L Device:D_Small D7
+U 1 1 5C191F91
+P 9200 1700
+F 0 "D7" V 9246 1632 50  0000 R CNN
+F 1 "D_Small" V 9155 1632 50  0000 R CNN
+F 2 "tomu-fpga:TVM-5V" V 9200 1700 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CPDFR%20Series-HF-RevC392667.pdf" V 9200 1700 50  0001 C CNN
+F 4 "641-1219-1-ND" H 0   0   50  0001 C CNN "DPN"
+F 5 "CPDFR5V0" H 0   0   50  0001 C CNN "MPN"
+F 6 "Comchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+	1    9200 1700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9200 1800
+Wire Wire Line
+	9200 1800 9300 1800
+$Comp
+L Device:D_Small D8
+U 1 1 5C19202D
+P 9200 2000
+F 0 "D8" V 9154 2068 50  0000 L CNN
+F 1 "D_Small" V 9245 2068 50  0000 L CNN
+F 2 "tomu-fpga:TVM-5V" V 9200 2000 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/CPDFR%20Series-HF-RevC392667.pdf" V 9200 2000 50  0001 C CNN
+F 4 "641-1219-1-ND" H 0   0   50  0001 C CNN "DPN"
+F 5 "CPDFR5V0" H 0   0   50  0001 C CNN "MPN"
+F 6 "Comchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+	1    9200 2000
+	0    1    1    0   
+$EndComp
+Connection ~ 9200 1900
+Wire Wire Line
+	9200 1900 9300 1900
+$Comp
+L power:GND #PWR0102
+U 1 1 5C192151
+P 9200 2150
+F 0 "#PWR0102" H 9200 1900 50  0001 C CNN
+F 1 "GND" H 9205 1977 50  0000 C CNN
+F 2 "" H 9200 2150 50  0001 C CNN
+F 3 "" H 9200 2150 50  0001 C CNN
+	1    9200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2150 9200 2100
+$Comp
+L power:GND #PWR0103
+U 1 1 5C1B5E6D
+P 9350 1450
+F 0 "#PWR0103" H 9350 1200 50  0001 C CNN
+F 1 "GND" H 9355 1277 50  0000 C CNN
+F 2 "" H 9350 1450 50  0001 C CNN
+F 3 "" H 9350 1450 50  0001 C CNN
+	1    9350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1450 9200 1450
+Wire Wire Line
+	9200 1450 9200 1600
+Wire Wire Line
+	8750 1500 8750 1400
+Wire Wire Line
+	8750 1100 8600 1100
+Connection ~ 8600 1100
+Wire Wire Line
+	8600 1100 8600 950 
+Wire Wire Line
+	8750 1700 8750 1600
+Wire Wire Line
+	8750 1100 8750 1400
+Connection ~ 8750 1400
 $EndSCHEMATC
