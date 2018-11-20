@@ -53,4 +53,4 @@ D3,D5V0L1B2LP3-7,X1-DFN1006-2,1,https://www.diodes.com/assets/Datasheets/D5V0L1B
 D4,D5V0L1B2LP3-7,X1-DFN1006-2,1,https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf,tomu-fpga,D5V0L1B2LP3-7,,Diodes Incorporated,,,,,,,,,
 D6,D5V0L1B2LP3-7,X1-DFN1006-2,1,https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf,tomu-fpga,D5V0L1B2LP3-7,,Diodes Incorporated,,,,,,,,,
 D7,D5V0L1B2LP3-7,X1-DFN1006-2,1,https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf,tomu-fpga,D5V0L1B2LP3-7,,Diodes Incorporated,,,,,,,,,
-D5,D5V0L1B2LP3-7,X1-DFN1006-2,1,https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf,tomu-fpga,D5V0L1B2LP3-7,,Diodes Incorporated,,,,,,,,,
+D5,D5V0L1B2LP3-7,TVS-11V,1,http://www.vishay.com/docs/85900/vcut05e1-sd0.pdf,tomu-fpga,VCUT05E1-SD0-G4-08,,Vishay Semiconductor Diodes Division,,,,,,,,,
