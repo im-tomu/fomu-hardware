@@ -1809,7 +1809,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 5600 4450 5600
 Text Label 4450 5600 0    50   ~ 0
-DBG_1
+DBG_5
 Wire Wire Line
 	6400 5100 6750 5100
 Wire Wire Line
@@ -1825,7 +1825,7 @@ Wire Wire Line
 Text Label 9900 1650 1    50   ~ 0
 DBG_4
 Text Label 2300 5850 0    50   ~ 0
-DBG_1
+DBG_5
 Wire Wire Line
 	2300 5750 2650 5750
 Wire Notes Line
@@ -1916,13 +1916,13 @@ Wire Wire Line
 	3400 3600 2500 3600
 Connection ~ 2500 3600
 Text Label 6450 4800 0    50   ~ 0
-DBG_7
+DBG_1
 Text Label 6450 4900 0    50   ~ 0
-DBG_8
+DBG_2
 Text Label 6450 5100 0    50   ~ 0
-DBG_9
+DBG_3
 Text Label 6450 5500 0    50   ~ 0
-DBG_10
+DBG_6
 Wire Wire Line
 	6400 5500 6750 5500
 $Comp
@@ -1938,13 +1938,13 @@ F 4 "Connector for development" H 0   0   50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Text Label 2300 6350 0    50   ~ 0
-DBG_7
+DBG_1
 Text Label 2300 6050 0    50   ~ 0
-DBG_8
+DBG_2
 Text Label 2300 5950 0    50   ~ 0
-DBG_9
+DBG_3
 Text Label 2300 5750 0    50   ~ 0
-DBG_10
+DBG_6
 Wire Wire Line
 	2300 5850 2650 5850
 Wire Wire Line
