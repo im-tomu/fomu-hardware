@@ -632,12 +632,12 @@ L Device:C_Small C23
 U 1 1 5BE5ACB9
 P 9700 4850
 F 0 "C23" V 9650 4900 50  0000 L CNN
-F 1 "0805, 100nF, 10V, X5R, 20% (DNP)" V 9650 3450 50  0000 L CNN
+F 1 "0805, 100nF, 10V, X5R, 20%" V 9650 3700 50  0000 L CNN
 F 2 "tomu-fpga:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 4850 50  0001 C CNN
 F 3 "" H 9700 4850 50  0001 C CNN
-F 4 "DNP" H 350 100 50  0001 C CNN "MPN"
-F 5 "DNP" H 350 100 50  0001 C CNN "MYPN"
-F 6 "DNP" H 350 100 50  0001 C CNN "Manufacturer"
+F 4 "ANY" H 350 100 50  0001 C CNN "MPN"
+F 5 "ANY" H 350 100 50  0001 C CNN "MYPN"
+F 6 "ANY" H 350 100 50  0001 C CNN "Manufacturer"
 	1    9700 4850
 	0    -1   -1   0   
 $EndComp
@@ -646,12 +646,12 @@ L Device:C_Small C22
 U 1 1 5BE5AF99
 P 9700 4650
 F 0 "C22" V 9650 4450 50  0000 L CNN
-F 1 "0805, 10uF, 10V, X5R, 20% (DNP)" V 9650 4700 50  0000 L CNN
+F 1 "0805, 10uF, 10V, X5R, 20%" V 9650 4700 50  0000 L CNN
 F 2 "tomu-fpga:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 4650 50  0001 C CNN
 F 3 "" H 9700 4650 50  0001 C CNN
-F 4 "DNP" H 350 100 50  0001 C CNN "MPN"
-F 5 "DNP" H 350 100 50  0001 C CNN "MYPN"
-F 6 "DNP" H 350 100 50  0001 C CNN "Manufacturer"
+F 4 "ANY" H 350 100 50  0001 C CNN "MPN"
+F 5 "ANY" H 350 100 50  0001 C CNN "MYPN"
+F 6 "ANY" H 350 100 50  0001 C CNN "Manufacturer"
 	1    9700 4650
 	0    1    1    0   
 $EndComp
@@ -663,13 +663,13 @@ $Comp
 L Device:R_Small R10
 U 1 1 5BF5243E
 P 9150 4500
-F 0 "R10" H 9050 4400 50  0000 C CNN
-F 1 "0805, 100ohm, 1/16W, 1% (DNP)" H 8450 4500 50  0000 C CNN
+F 0 "R10" V 9150 4500 50  0000 C CNN
+F 1 "0805, 100ohm, 1/16W, 1%" H 8550 4500 50  0000 C CNN
 F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 4500 50  0001 C CNN
 F 3 "" H 9150 4500 50  0001 C CNN
-F 4 "DNP" H 350 100 50  0001 C CNN "MPN"
-F 5 "DNP" H 350 100 50  0001 C CNN "MYPN"
-F 6 "DNP" H 350 100 50  0001 C CNN "Manufacturer"
+F 4 "ANY" H 350 100 50  0001 C CNN "MPN"
+F 5 "ANY" H 350 100 50  0001 C CNN "MYPN"
+F 6 "ANY" H 350 100 50  0001 C CNN "Manufacturer"
 	1    9150 4500
 	-1   0    0    1   
 $EndComp
@@ -1305,7 +1305,7 @@ L tomu-fpga:LDO-SOT23 U8
 U 1 1 5BDB73B2
 P 8150 4750
 F 0 "U8" H 8400 4950 50  0000 C CNN
-F 1 "LDO-SOT23-1.2V" H 8050 4700 50  0000 C CNN
+F 1 "LDO-SOT23-1.2V (DNP)" H 8250 4700 50  0000 C CNN
 F 2 "tomu-fpga:SOT-23-5_HandSoldering" H 8200 4750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 8200 4750 50  0001 C CNN
 F 4 "LP5907MFX-1.2/NOPB" H 8150 4750 50  0001 C CNN "MPN"
@@ -1314,6 +1314,7 @@ F 6 "MIC5504-1.2YMT" H 8150 4750 50  0001 C CNN "AMPN"
 F 7 "Microchip" H 8150 4750 50  0001 C CNN "AManufacturer"
 F 8 "296-39062-1-ND" H 8150 4750 50  0001 C CNN "DPN"
 F 9 "IC REG LINEAR 1.2V 250MA SOT23-5" H 0   0   50  0001 C CNN "Description"
+F 10 "X" H 8150 4750 50  0001 C CNN "DNP"
 	1    8150 4750
 	1    0    0    -1  
 $EndComp
@@ -1322,12 +1323,13 @@ L Device:C_Small C19
 U 1 1 5BDC7C63
 P 8550 4600
 F 0 "C19" H 8650 4650 50  0000 L CNN
-F 1 "0805, 1uF, 10V, X5R, 20%" H 8000 4800 50  0000 L CNN
+F 1 "0805, 1uF, 10V, X5R, 20% (DNP)" H 7850 4800 50  0000 L CNN
 F 2 "tomu-fpga:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 4600 50  0001 C CNN
 F 3 "" H 8550 4600 50  0001 C CNN
 F 4 "ANY" H 6050 2050 50  0001 C CNN "MPN"
 F 5 "ANY" H 6050 2050 50  0001 C CNN "MYPN"
 F 6 "ANY" H 6050 2050 50  0001 C CNN "Manufacturer"
+F 7 "X" H 8550 4600 50  0001 C CNN "DNP"
 	1    8550 4600
 	1    0    0    -1  
 $EndComp
@@ -1336,12 +1338,13 @@ L Device:C_Small C16
 U 1 1 5BDC7CFF
 P 7550 4750
 F 0 "C16" H 7600 4850 50  0000 L CNN
-F 1 "0805, 1uF, 10V, X5R, 20%" V 7400 4350 50  0000 L CNN
+F 1 "0805, 1uF, 10V, X5R, 20% (DNP)" V 7400 4050 50  0000 L CNN
 F 2 "tomu-fpga:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 4750 50  0001 C CNN
 F 3 "" H 7550 4750 50  0001 C CNN
 F 4 "ANY" H 7550 4750 50  0001 C CNN "MPN"
 F 5 "ANY" H 7550 4750 50  0001 C CNN "Manufacturer"
 F 6 "ANY" H 6650 2150 50  0001 C CNN "MYPN"
+F 7 "X" H 7550 4750 50  0001 C CNN "DNP"
 	1    7550 4750
 	1    0    0    -1  
 $EndComp
@@ -1401,8 +1404,8 @@ Wire Wire Line
 Connection ~ 8450 5000
 Wire Wire Line
 	8450 5000 7550 5000
-Text Notes 9300 4250 0    50   ~ 0
-Note: Only populate regulator or filter circuit\nDo not populate both!
+Text Notes 9300 4450 0    50   ~ 0
+Note: Only populate regulator or filter circuit\nDo not populate both!\nThe Regulator circuit causes the ESD network\nto dump the regulator to GND, burning all\n250 mA of power, so please avoid it.
 $Comp
 L Device:C_Small C27
 U 1 1 5BECECF0
