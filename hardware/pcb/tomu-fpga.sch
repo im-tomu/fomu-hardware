@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Tomu FPGA"
-Date "2018-10-30"
-Rev "EVT1"
+Date "2018-11-23"
+Rev "EVT2"
 Comp "Foosn PTE Ltd."
 Comment1 "Stretch PCB for electrical verification"
 Comment2 ""
