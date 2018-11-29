@@ -374,6 +374,8 @@ F 4 "DNP" H 8300 1600 50  0001 C CNN "MPN"
 F 5 "DNP" H 8300 1600 50  0001 C CNN "Manufacturer"
 F 6 "DNP" H 8300 1600 50  0001 C CNN "MYPN"
 F 7 "PCB-etched USB pads" H 0   0   50  0001 C CNN "Description"
+F 8 "X" H 0   0   50  0001 C CNN "DNP"
+F 9 "DNP" H 0   0   50  0001 C CNN "DPN"
 	1    8300 1600
 	-1   0    0    1   
 $EndComp
@@ -494,6 +496,7 @@ F 4 "DSC6001HI2A-048.0000T" H 4750 1600 50  0001 C CNN "MPN"
 F 5 "Microchip" H 4750 1600 50  0001 C CNN "Manufacturer"
 F 6 "DSC6001HI2A-048.0000T-ND" H 4750 1600 50  0001 C CNN "DPN"
 F 7 "MEMS OSC XO 48.0000MHZ CMOS SMD" H 50  -50 50  0001 C CNN "Description"
+F 8 "X" H 4750 1600 50  0001 C CNN "DNP"
 	1    4750 1600
 	-1   0    0    1   
 $EndComp
@@ -572,8 +575,9 @@ F 3 "" H 5850 1200 50  0001 C CNN
 F 4 "DNP" H 5800 1200 50  0001 C CNN "MPN"
 F 5 "DNP" H 5800 1200 50  0001 C CNN "Manufacturer"
 F 6 "DNP" H 5800 1200 50  0001 C CNN "MYPN"
-F 7 "" H 5800 1200 50  0001 C CNN "DPN"
+F 7 "DNP" H 5800 1200 50  0001 C CNN "DPN"
 F 8 "PCB-etched captouch pads" H 300 -1000 50  0001 C CNN "Description"
+F 9 "X" H 0   0   50  0001 C CNN "DNP"
 	1    5800 1200
 	0    -1   -1   0   
 $EndComp
@@ -921,6 +925,8 @@ F 3 "" H 3800 5000 50  0001 C CNN
 F 4 "DNP" H 3800 5000 50  0001 C CNN "MPN"
 F 5 "DNP" H 3800 5000 50  0001 C CNN "Manufacturer"
 F 6 "DNP" H -1350 -50 50  0001 C CNN "MYPN"
+F 7 "X" H 0   0   50  0001 C CNN "DNP"
+F 8 "DNP" H 0   0   50  0001 C CNN "DPN"
 	1    3800 5000
 	1    0    0    -1  
 $EndComp
@@ -1934,6 +1940,10 @@ F 1 "Raspberry_Pi_2_3" H 6150 6650 50  0000 C CNN
 F 2 "tomu-fpga:PinHeader_2x20_P2.54mm_Vertical" H 5600 5400 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5600 5400 50  0001 C CNN
 F 4 "Connector for development" H 0   0   50  0001 C CNN "Description"
+F 5 "X" H 0   0   50  0001 C CNN "DNP"
+F 6 "DNP" H 0   0   50  0001 C CNN "DPN"
+F 7 "DNP" H 0   0   50  0001 C CNN "MPN"
+F 8 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5600 5400
 	1    0    0    -1  
 $EndComp
@@ -2143,6 +2153,7 @@ F 3 "~" H 7950 1150 50  0001 C CNN
 F 4 "DNP" H 7950 1150 50  0001 C CNN "MPN"
 F 5 "DNP" H 7950 1150 50  0001 C CNN "Manufacturer"
 F 6 "DNP" H 7950 1150 50  0001 C CNN "DPN"
+F 7 "X" H 0   0   50  0001 C CNN "DNP"
 	1    7950 1150
 	-1   0    0    1   
 $EndComp
@@ -2258,9 +2269,11 @@ F 0 "R13" V 4050 7050 50  0000 C CNN
 F 1 "0805, 10k, 1/16W (DNP)" V 3950 6850 50  0000 C CNN
 F 2 "tomu-fpga:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4050 7050 50  0001 C CNN
 F 3 "" H 4050 7050 50  0001 C CNN
-F 4 "ANY" H -950 200 50  0001 C CNN "MPN"
+F 4 "DNP" H -950 200 50  0001 C CNN "MPN"
 F 5 "ANY" H -950 200 50  0001 C CNN "MYPN"
-F 6 "ANY" H -950 200 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H -950 200 50  0001 C CNN "Manufacturer"
+F 7 "X" H 0   0   50  0001 C CNN "DNP"
+F 8 "DNP" H 0   0   50  0001 C CNN "DPN"
 	1    4050 7050
 	-1   0    0    1   
 $EndComp
