@@ -1,5 +1,4 @@
-(module nothing (layer F.Cu) (tedit 5C0155CD)
-  (attr virtual)
+(module nothing (layer F.Cu) (tedit 5C015BCE)
   (fp_text reference XX3 (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
