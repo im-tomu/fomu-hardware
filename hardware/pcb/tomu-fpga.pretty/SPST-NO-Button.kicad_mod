@@ -1,4 +1,5 @@
-(module SPST-NO-Button (layer F.Cu) (tedit 5BD9231F)
+(module SPST-NO-Button (layer F.Cu) (tedit 5C015653)
+  (attr smd)
   (fp_text reference SW? (at 3.4 3.9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

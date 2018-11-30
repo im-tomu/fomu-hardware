@@ -1,4 +1,5 @@
-(module iCE40UP5K-UWG30 (layer F.Cu) (tedit 5BED1564)
+(module iCE40UP5K-UWG30 (layer F.Cu) (tedit 5C01559C)
+  (attr smd)
   (fp_text reference U5 (at 0 1.5) (layer F.Fab)
     (effects (font (size 0.127 0.127) (thickness 0.03175)))
   )

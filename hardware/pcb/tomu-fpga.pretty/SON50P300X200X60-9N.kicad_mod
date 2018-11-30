@@ -1,4 +1,4 @@
-(module SON50P300X200X60-9N (layer F.Cu) (tedit 5BEFBA9E)
+(module SON50P300X200X60-9N (layer F.Cu) (tedit 5C015637)
   (attr smd)
   (fp_text reference U4 (at 0.375 -1.625) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
@@ -10,7 +10,7 @@
   (fp_line (start 1.775 1.25) (end -1.775 1.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.775 -1.25) (end 1.775 1.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.775 -1.25) (end 1.775 -1.25) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -2.3 -0.8) (end -2.25 -0.8) (layer F.SilkS) (width 0.1))
+  (fp_circle (center -1.95 -0.75) (end -1.9 -0.75) (layer F.SilkS) (width 0.1))
   (fp_line (start -1.5 1) (end -1.5 -1) (layer F.Fab) (width 0.05))
   (fp_line (start 1.5 1) (end -1.5 1) (layer F.Fab) (width 0.05))
   (fp_line (start 1.5 -1) (end 1.5 1) (layer F.Fab) (width 0.05))
