@@ -1,6 +1,6 @@
 = link:tomu.im[Tomu, I'm (FPGA version)]
 
-image:https://raw.githubusercontent.com/im-tomu/tomu-logo/master/fpga/Blue/Png.png
+image:https://raw.githubusercontent.com/im-tomu/tomu-logo/master/fpga/Blue/Png.png[]
 
 link:tomu.im[I'm Tomu] FPGA (Fomu for short!) a tiny FPGA board which fits in
 your USB port. People sometimes call me "Fomu" for short!
