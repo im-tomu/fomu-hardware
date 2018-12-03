@@ -7,6 +7,34 @@ your USB port. People sometimes call me "Fomu" for short!
 
 I have two buttons and an RBG LED.
 
+== Telling Tomu and Tomu FPGA apart!
+
+Professionally produced Tomu boards have the following color scheme;
+ * https://j.mp/tomu-fs[Tomu **FPGA** boards are **blue**].
+ * https://j.mp/tomu-cs[**Original** Tomu boards are **green**].
+
+However, as people are encouraged to produce their own Tomu boards, please look
+at the device **careful** to check what type you have. See the following table
+for what to look for;
+
+[cols="3",]
+|================================================================
+|             | **Original** Tomu                 | Tomu **FPGA**
+| Board Color | Green                             | Blue
+| LEDs        | One Green + One Red               | One Red Green Blue LED
+| Components
+| A single **large** black IC taking up most of the board.
+| Multiple little black ICs covering the board.
+
+| Test point pattern
+| **FIXME**
+| **FIXME**
+
+|================================================================
+
+The original Tomu has one large black IC on the board.
+
+
 == Contact
 
 * https://groups.google.com/forum/#!forum/tomu-announce/join[Announcement mailing list] - Low traffic list for announcements.
