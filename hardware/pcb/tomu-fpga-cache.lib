@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device:C_Small
+# Device_C_Small
 #
-DEF Device:C_Small C 0 10 N N 1 F N
+DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device:C_Small" 10 -80 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_Small
+# Device_D_Small
 #
-DEF Device:D_Small D 0 10 N N 1 F N
+DEF Device_D_Small D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "Device:D_Small" -150 -80 50 H V L CNN
+F1 "Device_D_Small" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R_Small
+# Device_R_Small
 #
-DEF Device:R_Small R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -58,11 +58,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+1V2
+# power_+1V2
 #
-DEF power:+1V2 #PWR 0 0 Y Y 1 F P
+DEF power_+1V2 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+1V2" 0 140 50 H V C CNN
+F1 "power_+1V2" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -73,11 +73,11 @@ X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+2V5
+# power_+2V5
 #
-DEF power:+2V5 #PWR 0 0 Y Y 1 F P
+DEF power_+2V5 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+2V5" 0 140 50 H V C CNN
+F1 "power_+2V5" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -88,11 +88,11 @@ X +2V5 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -104,11 +104,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -119,11 +119,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -132,11 +132,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# power_PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -145,11 +145,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:Case
+# tomu-fpga_Case
 #
-DEF tomu-fpga:Case XX 0 40 Y Y 1 F N
+DEF tomu-fpga_Case XX 0 40 Y Y 1 F N
 F0 "XX" 0 0 50 H V C CNN
-F1 "tomu-fpga:Case" 0 -100 50 H V C CNN
+F1 "tomu-fpga_Case" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -162,11 +162,11 @@ P 2 0 1 0 50 150 100 100 N
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:ICE40UP5K-UWG30
+# tomu-fpga_ICE40UP5K-UWG30
 #
-DEF tomu-fpga:ICE40UP5K-UWG30 U 0 40 Y Y 4 L N
+DEF tomu-fpga_ICE40UP5K-UWG30 U 0 40 Y Y 4 L N
 F0 "U" -200 -550 60 H V R CNN
-F1 "tomu-fpga:ICE40UP5K-UWG30" 500 -650 60 H V R CNN
+F1 "tomu-fpga_ICE40UP5K-UWG30" 500 -650 60 H V R CNN
 F2 "" 250 -200 50 V I C CNN
 F3 "" 250 -200 50 V I C CNN
 DRAW
@@ -207,11 +207,11 @@ X GND E2 600 -300 200 L 50 50 4 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:LDO-X2SON
+# tomu-fpga_LDO-X2SON
 #
-DEF tomu-fpga:LDO-X2SON U 0 40 Y Y 1 F N
+DEF tomu-fpga_LDO-X2SON U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga:LDO-X2SON" 0 -150 50 H V C CNN
+F1 "tomu-fpga_LDO-X2SON" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -224,11 +224,11 @@ X Thermal 5 300 150 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:Oscillator
+# tomu-fpga_Oscillator
 #
-DEF tomu-fpga:Oscillator U 0 40 Y Y 1 F N
+DEF tomu-fpga_Oscillator U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga:Oscillator" 0 -150 50 H V C CNN
+F1 "tomu-fpga_Oscillator" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -243,11 +243,11 @@ X VDD 4 350 250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:PADS
+# tomu-fpga_PADS
 #
-DEF tomu-fpga:PADS P 0 40 Y Y 1 F N
+DEF tomu-fpga_PADS P 0 40 Y Y 1 F N
 F0 "P" 0 -50 50 H V C CNN
-F1 "tomu-fpga:PADS" 0 -150 50 H V C CNN
+F1 "tomu-fpga_PADS" 0 -150 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -259,11 +259,11 @@ X ~ 4 -200 50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:RGB-LED
+# tomu-fpga_RGB-LED
 #
-DEF tomu-fpga:RGB-LED U 0 40 Y Y 1 F N
+DEF tomu-fpga_RGB-LED U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga:RGB-LED" 0 -150 50 H V C CNN
+F1 "tomu-fpga_RGB-LED" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -275,11 +275,11 @@ X VCC 4 -350 250 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:SPI-Flash
+# tomu-fpga_SPI-Flash
 #
-DEF tomu-fpga:SPI-Flash U 0 40 Y Y 1 F N
+DEF tomu-fpga_SPI-Flash U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga:SPI-Flash" 0 -150 50 H V C CNN
+F1 "tomu-fpga_SPI-Flash" 0 -150 50 H V C CNN
 F2 "" -200 0 50 H I C CNN
 F3 "" -200 0 50 H I C CNN
 DRAW
@@ -295,11 +295,11 @@ X VCC 8 -600 550 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:Testpoint
+# tomu-fpga_Testpoint
 #
-DEF tomu-fpga:Testpoint TP 0 40 Y Y 1 F N
+DEF tomu-fpga_Testpoint TP 0 40 Y Y 1 F N
 F0 "TP" 0 -50 50 H V C CNN
-F1 "tomu-fpga:Testpoint" 0 -100 50 H V C CNN
+F1 "tomu-fpga_Testpoint" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -308,11 +308,11 @@ X ~ 1 -150 50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:Touchpad-Note
+# tomu-fpga_Touchpad-Note
 #
-DEF tomu-fpga:Touchpad-Note XX 0 40 Y Y 1 F N
+DEF tomu-fpga_Touchpad-Note XX 0 40 Y Y 1 F N
 F0 "XX" 0 0 50 H V C CNN
-F1 "tomu-fpga:Touchpad-Note" 0 -100 50 H V C CNN
+F1 "tomu-fpga_Touchpad-Note" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -323,11 +323,11 @@ P 4 0 1 0 0 150 0 250 50 250 50 200 N
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga:USB-B
+# tomu-fpga_USB-B
 #
-DEF tomu-fpga:USB-B U 0 40 Y Y 1 F N
+DEF tomu-fpga_USB-B U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "tomu-fpga:USB-B" 0 -100 50 H V C CNN
+F1 "tomu-fpga_USB-B" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
