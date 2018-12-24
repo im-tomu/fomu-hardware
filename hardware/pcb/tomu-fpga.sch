@@ -1796,7 +1796,7 @@ L Device:D_Small D5
 U 1 1 5C2141E6
 P 9000 1300
 F 0 "D5" H 9050 1400 50  0000 L CNN
-F 1 "D5V0L1B2LP3-7" H 8400 1400 50  0000 L CNN
+F 1 "VCUT05E1-SD0" H 8400 1400 50  0000 L CNN
 F 2 "tomu-fpga:TVS-11V" V 9000 1300 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85900/vcut05e1-sd0.pdf" V 9000 1300 50  0001 C CNN
 F 4 "Vishay Semiconductor Diodes Division" V 9000 1300 50  0001 C CNN "Manufacturer"
