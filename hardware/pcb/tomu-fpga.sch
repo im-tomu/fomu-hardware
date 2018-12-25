@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Tomu FPGA"
+Title "Fomu"
 Date "2018-12-25"
 Rev "EVT3"
 Comp "Foosn PTE Ltd."
