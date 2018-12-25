@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Tomu FPGA"
-Date "2018-11-23"
-Rev "EVT2"
+Date "2018-12-25"
+Rev "EVT3"
 Comp "Foosn PTE Ltd."
 Comment1 "Stretch PCB for electrical verification"
 Comment2 ""
@@ -1936,14 +1936,13 @@ L tomu-fpga:Raspberry_Pi_2_3 J1
 U 1 1 5C14D2BF
 P 5600 5400
 F 0 "J1" H 4950 6650 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 6150 6650 50  0000 C CNN
+F 1 "2x20 pin 0.1\" female header" H 6250 6800 50  0000 C CNN
 F 2 "tomu-fpga:PinHeader_2x20_P2.54mm_Vertical" H 5600 5400 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5600 5400 50  0001 C CNN
 F 4 "Connector for development" H 0   0   50  0001 C CNN "Description"
-F 5 "X" H 0   0   50  0001 C CNN "DNP"
-F 6 "DNP" H 0   0   50  0001 C CNN "DPN"
-F 7 "DNP" H 0   0   50  0001 C CNN "MPN"
-F 8 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "ANY" H 0   0   50  0001 C CNN "DPN"
+F 6 "ANY" H 0   0   50  0001 C CNN "MPN"
+F 7 "ANY" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5600 5400
 	1    0    0    -1  
 $EndComp
