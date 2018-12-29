@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Fomu"
-Date "2018-12-25"
-Rev "EVT3"
+Date "2018-12-29"
+Rev "EVT3b"
 Comp "Foosn PTE Ltd."
 Comment1 "Stretch PCB for electrical verification"
 Comment2 ""
@@ -2142,7 +2142,7 @@ L tomu-fpga:Conn_01x06_Female J3
 U 1 1 5EC9746F
 P 7950 1150
 F 0 "J3" H 7950 750 50  0000 C CNN
-F 1 "PMOD" H 7900 1450 50  0000 C CNN
+F 1 "PMODa" H 7900 1450 50  0000 C CNN
 F 2 "tomu-fpga:Pin_Header_Straight_1x06_Pitch2.54mm" H 7950 1150 50  0001 C CNN
 F 3 "~" H 7950 1150 50  0001 C CNN
 F 4 "DNP" H 7950 1150 50  0001 C CNN "MPN"
@@ -2196,13 +2196,13 @@ Wire Wire Line
 	8150 1150 8450 1150
 Wire Wire Line
 	8150 1050 8450 1050
-Text Label 10000 1800 1    50   ~ 0
-PMODa_1
 Text Label 9850 2200 0    50   ~ 0
+PMODa_1
+Text Label 10000 1850 1    50   ~ 0
 PMODa_4
-Text Label 9850 2000 0    50   ~ 0
-PMODa_3
 Text Label 9850 2100 0    50   ~ 0
+PMODa_3
+Text Label 9850 2000 0    50   ~ 0
 PMODa_2
 Wire Wire Line
 	9850 2200 10200 2200
@@ -2462,7 +2462,7 @@ L tomu-fpga:Conn_01x06_Female J2
 U 1 1 5C23FD6C
 P 4400 1200
 F 0 "J2" H 4400 800 50  0000 C CNN
-F 1 "PMOD" H 4350 1500 50  0000 C CNN
+F 1 "PMODb" H 4350 1500 50  0000 C CNN
 F 2 "tomu-fpga:Pin_Header_Straight_1x06_Pitch2.54mm" H 4400 1200 50  0001 C CNN
 F 3 "~" H 4400 1200 50  0001 C CNN
 F 4 "DNP" H 4400 1200 50  0001 C CNN "MPN"
