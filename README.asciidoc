@@ -34,24 +34,6 @@ for what to look for;
 
 The original Tomu has one large black IC on the board.
 
-Programming jig
-===
-image:hacker/fomu-jig.jpg[Pogo-pin programming jig]
-
-hacker/fomu-jig.svg[Laser cut SVG for the programming jig] for use with
-https://github.com/im-tomu/fomu-flash[fomu-flash] tools.
-
-|====================
-| V | Vcc | 0.000 x 0.275 in
-| S | SPI_CS | 0.000 x 0.160 in
-| C | SPI_CLK | 0.000 x 0.0825 in
-| I | SPI_MOSI | 0.027 x 0.000 in
-| O | SPI_MISO | 0.100 x 0.000 in
-| R | RESET | 0.170 x 0.000 in
-| G | GND | 0.302 x 0.0000 in
-|====================
-
-
 
 == Contact
 
@@ -103,6 +85,23 @@ CAUTION: This PCB specification is currently a *work-in-progress*.
 |                           Plating | ENIG
 |                          Material | FR4
 |================================================================
+
+=== Programming jig
+image:hacker/fomu-jig.jpg[Pogo-pin programming jig]
+
+hacker/fomu-jig.svg[Laser cut SVG for the programming jig] for use with
+https://github.com/im-tomu/fomu-flash[fomu-flash] tools.
+
+|====================
+| V | Vcc | 0.000 x 0.275 in
+| S | SPI_CS | 0.000 x 0.160 in
+| C | SPI_CLK | 0.000 x 0.0825 in
+| I | SPI_MOSI | 0.027 x 0.000 in
+| O | SPI_MISO | 0.100 x 0.000 in
+| R | RESET | 0.170 x 0.000 in
+| G | GND | 0.302 x 0.0000 in
+|====================
+
 
 === link:./prod[Production version]
 
