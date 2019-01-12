@@ -57,7 +57,7 @@ features listed below;
 * 1 x RGB LED
 * 2 x touch buttons
 
-image:https://github.com/osresearch/up5k/raw/master/images/up5k.svg[]
+image:https://github.com/osresearch/up5k/raw/master/images/up5k.svg?sanitize=true[]
 
 === link:./hacker[Hacker version]
 
