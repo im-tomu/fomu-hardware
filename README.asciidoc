@@ -43,7 +43,7 @@ The original Tomu has one large black IC on the board.
 
 == Board Details
 
-image:hacker/fomu-0.0.jpg[]
+image:hacker/fomu-0.0.jpg[Fomu 0.0 board,width=480]
 
 There are currently *two* versions of Tomu FPGA. Both boards and based
 around mostly the same schematic and should be mostly compatible and
