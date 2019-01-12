@@ -43,17 +43,21 @@ The original Tomu has one large black IC on the board.
 
 == Board Details
 
+image:hacker/fomu-0.0.jpg[]
+
 There are currently *two* versions of Tomu FPGA. Both boards and based
 around mostly the same schematic and should be mostly compatible and
 based around the Lattice iCE40UP5K FPGA and have the same set of
 features listed below;
 
-* https://xxxx/[Lattice iCE40 UltraPlus 5K]
+* http://www.latticesemi.com/Products/FPGAandCPLD/iCE40UltraPlus[Lattice iCE40 UltraPlus 5K]
   - 5K 4 input LUTs + DSP tiles
   - 128 kilo**bytes** internal SRAM
   - 1024 kilo**bytes** (or more) flash (XIP possible)
 * 1 x RGB LED
 * 2 x touch buttons
+
+image:https://github.com/osresearch/up5k/raw/master/images/up5k.svg[]
 
 === link:./hacker[Hacker version]
 
