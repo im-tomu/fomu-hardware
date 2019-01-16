@@ -1,8 +1,8 @@
-= link:tomu.im[Tomu, I'm (FPGA version)]
+= link:https://tomu.im[Tomu, I'm (FPGA version)]
 
 image:fomu.png[I'm Fomu]
 
-link:tomu.im[I'm Tomu] FPGA (Fomu for short!) a tiny FPGA board that fits in
+link:https://tomu.im[I'm Tomu] FPGA (Fomu for short!) a tiny FPGA board that fits in
 your USB port. People sometimes call me "Fomu" for short!
 
 I have four buttons and an RGB LED.
