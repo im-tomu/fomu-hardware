@@ -10,6 +10,7 @@ It has a simpler PCB which makes it cheaper to produce in a small quantities.
 
 *However*, it uses a non-standard footprint for the FPGA WSCP which reduces
 yield and long term reliability making it **unsuitable** for mass production.
+Additionally, it has fewer power regulation components, which may impact stability.
 
 == PCB Specification
 
@@ -38,5 +39,43 @@ CAUTION: This PCB specification is currently a *work-in-progress*.
 
 == Images
 
-* TBD
+image:hacker/fomu-0.0.jpg[Fomu 0.0 board,width=480]
 
+
+==== PCB Specification
+
+CAUTION: This PCB specification is currently a *work-in-progress*.
+
+[cols=">h,",]
+|================================================================
+|                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
+|                   Board thickness | 0.6mm
+|                  Number of Layers | 2
+|                        Components | Single Side
+|                        Silkscreen | None, one side or all sides is fine.
+|           Number of through holes | 0
+| Minimum trace width and clearance | 4mil traces, 4mil clearance
+|                     Vias + Drills | 0.2mm via drills with 0.5mm annular rings
+|               Smallest pitch size | 0201 resistors, WCSP parts
+|                 Control Impedance | Not required
+|                 Solder Mask color | Blue
+|                           Plating | ENIG
+|                          Material | FR4
+|================================================================
+
+=== Programming jig
+image:hacker/fomu-jig.jpg[Pogo-pin programming jig]
+
+|====================
+| V | Vcc      | 0.000 x 0.275 in
+| S | SPI_CS   | 0.000 x 0.160 in
+| C | SPI_CLK  | 0.000 x 0.0825 in
+| I | SPI_MISO | 0.027 x 0.000 in
+| O | SPI_MOSI | 0.100 x 0.000 in
+| R | RESET    | 0.170 x 0.000 in
+| G | GND      | 0.302 x 0.0000 in
+|====================
+
+link:hacker/fomu-jig.svg[Laser cut SVG for the programming jig] for use with
+https://github.com/im-tomu/fomu-flash[fomu-flash] tools.  The pinout works
+for both the Pi 2 and Pi 3.

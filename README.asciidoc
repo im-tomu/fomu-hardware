@@ -1,11 +1,11 @@
 = link:tomu.im[Tomu, I'm (FPGA version)]
 
-image:https://raw.githubusercontent.com/im-tomu/tomu-logo/master/fpga/Blue/Png.png[]
+image:fomu.png[I'm Fomu]
 
-link:tomu.im[I'm Tomu] FPGA (Fomu for short!) a tiny FPGA board which fits in
+link:tomu.im[I'm Tomu] FPGA (Fomu for short!) a tiny FPGA board that fits in
 your USB port. People sometimes call me "Fomu" for short!
 
-I have two buttons and an RBG LED.
+I have four buttons and an RGB LED.
 
 == Telling Tomu and Tomu FPGA apart!
 
@@ -41,9 +41,34 @@ The original Tomu has one large black IC on the board.
 * https://groups.google.com/forum/#!forum/tomu-discuss/join[Discussion mailing list] - List for discussing development / new features / etc.
 * https://webchat.freenode.net/?channels=#tomu[IRC Channel - irc://irc.freenode.net/#tomu] - IRC channel for discussing anything related to the project.
 
-== Board Details
+== Board Variants
 
-image:hacker/fomu-0.0.jpg[Fomu 0.0 board,width=480]
+There are several variants of Fomu hardware
+
+=== link:./hacker[Hacker version]
+
+* The hacker version is designed for people who are up to the challenge of building their own board.
+* It has a simpler PCB which makes it cheaper to produce in a small quantities.
+* *However*, it uses a non-standard footprint for the FPGA WSCP which reduces yield and long term reliability making it unsuitable for mass production.
+* It's also missing some decoupling capacitors and power filters, which may impact stability
+* Only two SPI wires are connected, meaning it cannot handle quad SPI
+
+=== link:./prod/evt[Production version EVT]
+
+* This is a prototype board designed to fit on top of a Raspberry Pi
+* It does not fit on a USB port
+* The large size makes it easier to debug
+* The schematic serves as the basis for future production boards
+* It uses 6/6 design rules, making it very easy to produce
+
+=== link:./prod/dvt[Production version DVT]
+
+* The first test run using advanced PCB technologies like laser drilled and blind vias
+* If there are no changes, this will be mass produced
+* You get a production version if you order from https://xobs.io/[Sean \'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
+
+== FPGA Specifications
+
 
 There are currently *two* versions of Tomu FPGA. Both boards and based
 around mostly the same schematic and should be mostly compatible and
@@ -59,86 +84,6 @@ features listed below;
 
 image:https://github.com/osresearch/up5k/raw/master/images/up5k.svg?sanitize=true[]
 
-=== link:./hacker[Hacker version]
-
-* The hacker version is designed for people who are up to the challenge of building their own board.
-* It has a simpler PCB which makes it cheaper to produce in a small quantities.
-* *However*, it uses a non-standard footprint for the FPGA WSCP which reduces yield and long term reliability making it unsuitable for mass production.
-
-==== PCB Specification
-
-CAUTION: This PCB specification is currently a *work-in-progress*.
-
-[cols=">h,",]
-|================================================================
-|                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
-|                   Board thickness | 0.6mm
-|                  Number of Layers | 2
-|                        Components | Single Side
-|                        Silkscreen | None, one side or all sides is fine.
-|           Number of through holes | 0
-| Minimum trace width and clearance | 4mil traces, 4mil clearance
-|                     Vias + Drills | 0.2mm via drills with 0.5mm annular rings
-|               Smallest pitch size | 0201 resistors, WCSP parts
-|                 Control Impedance | Not required
-|                 Solder Mask color | Blue
-|                           Plating | ENIG
-|                          Material | FR4
-|================================================================
-
-=== Programming jig
-image:hacker/fomu-jig.jpg[Pogo-pin programming jig]
-
-|====================
-| V | Vcc      | 0.000 x 0.275 in
-| S | SPI_CS   | 0.000 x 0.160 in
-| C | SPI_CLK  | 0.000 x 0.0825 in
-| I | SPI_MISO | 0.027 x 0.000 in
-| O | SPI_MOSI | 0.100 x 0.000 in
-| R | RESET    | 0.170 x 0.000 in
-| G | GND      | 0.302 x 0.0000 in
-|====================
-
-link:hacker/fomu-jig.svg[Laser cut SVG for the programming jig] for use with
-https://github.com/im-tomu/fomu-flash[fomu-flash] tools.  The pinout works
-for both the Pi 2 and Pi 3.
-
-
-=== link:./prod[Production version]
-
-* The production version is designed for mass production.
-* It uses advanced PCB technologies like laser drilled and blind vias.
-* You get a production version if you order from https://xobs.io/[Sean \'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
-
-==== PCB Specification
-
-CAUTION: This PCB specification is currently a *work-in-progress*.
-
-[width="100%",cols=">h,"]
-|=======================================================================
-|                        Board Size | 0.37 x 0.51 inches (9.5 x 13.1mm)
-|                   Board thickness | 0.6mm
-|                  Number of Layers | 4
-|                        Components | Single Side
-|                        Silkscreen | Both
-|           Number of through holes | 0
-| Minimum trace width and clearance | 0.1mm track width, minimum clearance is 0.1mm
-|                     Vias + Drills
-a|
-* Between layers 1 and 2 - Laser-drilled - 0.2mm/0.1mm blind vias
-* Between layers 3 and 4 - Laser-drilled - 0.2mm/0.1mm blind vias
-* Between layers 2 and 3 - Mechanical - 0.5mm/0.2mm buried vias
-|               Smallest pitch size | 0201 resistors, WCSP parts
-|                 Control Impedance | Not required
-|                 Solder Mask color | Not-green
-|                           Plating
-a|
-* ENIG on the top.
-* Hard gold on the fingers on the underside.
-* Hard gold on the edge of the top.
-
-|                          Material | FR4
-|=======================================================================
 
 == Development Firmware
 
