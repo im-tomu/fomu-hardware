@@ -79,3 +79,37 @@ image:fomu-jig.jpg[Pogo-pin programming jig]
 link:fomu-jig.svg[Laser cut SVG for the programming jig] for use with
 https://github.com/im-tomu/fomu-flash[fomu-flash] tools.  The pinout works
 for both the Pi 2 and Pi 3.
+
+=== Programming with probes (the poor man's version)
+
+Building a jig is hard if you do not have maker tools readily
+available. But there is another way to make a poor man's programmer
+for fomu. Not rock solid, but it works.
+
+You have to make seven cables like this, with a DuPont female and and
+a probe on the other end. Basically, you behead one end of a DuPont
+cable, strip a little bit of the cable and solder a probe. My
+soldering is terrible, but you do not need fine art here.
+
+image:probe-cable.jpeg[Probe cable,width=400]
+image:probe-closeup.jpeg[Probe closeup,width=400]
+
+Then you connect the cables to the Raspberry and try to fit the probes
+on the fomu. The space is not much, but it is possible. I suggest to
+start from R and going clockwise. Leave G and V as the last ones. G
+tends to snap away quite easily, but it is also available on the other
+side, on the button pad. I is rather difficult too, because the board
+is really crowded there, but (with my probes, at least) it is possible
+to touch it just enough to have the contact done.
+
+The pinout is the one above, that has to be matched with the Raspberry
+pinout in https://github.com/im-tomu/fomu-flash[fomu-flash].
+
+V should be connected to 3.3V, not 5V. Once everything is connected,
+you can run `fomu-flash`. Be sure to verify the bitstream with `-v`,
+because of course the connection is quite brittle.
+
+image:raspberry-fomu.jpeg[Raspberry and fomu,width=400]
+image:fomu-closeup.jpeg[Fomu closeup,width=400]
+
+Have fun!
