@@ -39,7 +39,7 @@ CAUTION: This PCB specification is currently a *work-in-progress*.
 
 == Images
 
-image:hacker/fomu-0.0.jpg[Fomu 0.0 board,width=480]
+image:fomu-0.0.jpg[Fomu 0.0 board,width=480]
 
 
 ==== PCB Specification
@@ -64,7 +64,7 @@ CAUTION: This PCB specification is currently a *work-in-progress*.
 |================================================================
 
 === Programming jig
-image:hacker/fomu-jig.jpg[Pogo-pin programming jig]
+image:fomu-jig.jpg[Pogo-pin programming jig]
 
 |====================
 | V | Vcc      | 0.000 x 0.275 in
@@ -76,6 +76,6 @@ image:hacker/fomu-jig.jpg[Pogo-pin programming jig]
 | G | GND      | 0.302 x 0.0000 in
 |====================
 
-link:hacker/fomu-jig.svg[Laser cut SVG for the programming jig] for use with
+link:fomu-jig.svg[Laser cut SVG for the programming jig] for use with
 https://github.com/im-tomu/fomu-flash[fomu-flash] tools.  The pinout works
 for both the Pi 2 and Pi 3.
