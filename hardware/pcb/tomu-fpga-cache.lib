@@ -145,11 +145,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_Case
+# tomu-fpga-rescue_Case-tomu-fpga
 #
-DEF tomu-fpga_Case XX 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_Case-tomu-fpga XX 0 40 Y Y 1 F N
 F0 "XX" 0 0 50 H V C CNN
-F1 "tomu-fpga_Case" 0 -100 50 H V C CNN
+F1 "tomu-fpga-rescue_Case-tomu-fpga" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -162,11 +162,11 @@ P 2 0 1 0 50 150 100 100 N
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_ICE40UP5K-UWG30
+# tomu-fpga-rescue_ICE40UP5K-UWG30-tomu-fpga
 #
-DEF tomu-fpga_ICE40UP5K-UWG30 U 0 40 Y Y 4 L N
+DEF tomu-fpga-rescue_ICE40UP5K-UWG30-tomu-fpga U 0 40 Y Y 4 L N
 F0 "U" -200 -550 60 H V R CNN
-F1 "tomu-fpga_ICE40UP5K-UWG30" 500 -650 60 H V R CNN
+F1 "tomu-fpga-rescue_ICE40UP5K-UWG30-tomu-fpga" 500 -650 60 H V R CNN
 F2 "" 250 -200 50 V I C CNN
 F3 "" 250 -200 50 V I C CNN
 DRAW
@@ -207,11 +207,11 @@ X GND E2 600 -300 200 L 50 50 4 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_LDO-X2SON
+# tomu-fpga-rescue_LDO-X2SON-tomu-fpga
 #
-DEF tomu-fpga_LDO-X2SON U 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_LDO-X2SON-tomu-fpga U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga_LDO-X2SON" 0 -150 50 H V C CNN
+F1 "tomu-fpga-rescue_LDO-X2SON-tomu-fpga" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -224,11 +224,11 @@ X Thermal 5 300 150 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_Oscillator
+# tomu-fpga-rescue_Oscillator-tomu-fpga
 #
-DEF tomu-fpga_Oscillator U 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_Oscillator-tomu-fpga U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga_Oscillator" 0 -150 50 H V C CNN
+F1 "tomu-fpga-rescue_Oscillator-tomu-fpga" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -243,11 +243,11 @@ X VDD 4 350 250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_PADS
+# tomu-fpga-rescue_PADS-tomu-fpga
 #
-DEF tomu-fpga_PADS P 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_PADS-tomu-fpga P 0 40 Y Y 1 F N
 F0 "P" 0 -50 50 H V C CNN
-F1 "tomu-fpga_PADS" 0 -150 50 H V C CNN
+F1 "tomu-fpga-rescue_PADS-tomu-fpga" 0 -150 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -259,11 +259,11 @@ X ~ 4 -200 50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_RGB-LED
+# tomu-fpga-rescue_RGB-LED-tomu-fpga
 #
-DEF tomu-fpga_RGB-LED U 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_RGB-LED-tomu-fpga U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga_RGB-LED" 0 -150 50 H V C CNN
+F1 "tomu-fpga-rescue_RGB-LED-tomu-fpga" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -275,11 +275,11 @@ X VCC 4 -350 250 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_SPI-Flash
+# tomu-fpga-rescue_SPI-Flash-tomu-fpga
 #
-DEF tomu-fpga_SPI-Flash U 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_SPI-Flash-tomu-fpga U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "tomu-fpga_SPI-Flash" 0 -150 50 H V C CNN
+F1 "tomu-fpga-rescue_SPI-Flash-tomu-fpga" 0 -150 50 H V C CNN
 F2 "" -200 0 50 H I C CNN
 F3 "" -200 0 50 H I C CNN
 DRAW
@@ -295,11 +295,11 @@ X VCC 8 -600 550 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_Testpoint
+# tomu-fpga-rescue_Testpoint-tomu-fpga
 #
-DEF tomu-fpga_Testpoint TP 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_Testpoint-tomu-fpga TP 0 40 Y Y 1 F N
 F0 "TP" 0 -50 50 H V C CNN
-F1 "tomu-fpga_Testpoint" 0 -100 50 H V C CNN
+F1 "tomu-fpga-rescue_Testpoint-tomu-fpga" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -308,11 +308,11 @@ X ~ 1 -150 50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_Touchpad-Note
+# tomu-fpga-rescue_Touchpad-Note-tomu-fpga
 #
-DEF tomu-fpga_Touchpad-Note XX 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_Touchpad-Note-tomu-fpga XX 0 40 Y Y 1 F N
 F0 "XX" 0 0 50 H V C CNN
-F1 "tomu-fpga_Touchpad-Note" 0 -100 50 H V C CNN
+F1 "tomu-fpga-rescue_Touchpad-Note-tomu-fpga" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -323,11 +323,11 @@ P 4 0 1 0 0 150 0 250 50 250 50 200 N
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_USB-B
+# tomu-fpga-rescue_USB-B-tomu-fpga
 #
-DEF tomu-fpga_USB-B U 0 40 Y Y 1 F N
+DEF tomu-fpga-rescue_USB-B-tomu-fpga U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "tomu-fpga_USB-B" 0 -100 50 H V C CNN
+F1 "tomu-fpga-rescue_USB-B-tomu-fpga" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
