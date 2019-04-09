@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Fomu"
-Date "2019-03-22"
-Rev "DVT2"
+Date "2019-04-09"
+Rev "PVT1"
 Comp "Foosn PTE Ltd."
 Comment1 "Fomu - An FPGA in your USB port"
 Comment2 ""
