@@ -47,7 +47,7 @@ a|
 
 == Bill of Materials
 
-[format="csv",cols="^1,4*2",options="header"]
+[format="csv",cols="^1,11*2",options="header"]
 |===================================================
 Reference,Value,Description,Datasheet,Manufacturer,MPN,Alt Manufacturer,Alt PN,Alt MPN,Digikey PN,DNP?,Count
 C10,"0201, 1uF, 10V, X5R, 20%",,,ANY,ANY,,,,,,1
