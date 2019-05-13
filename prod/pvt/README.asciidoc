@@ -1,15 +1,10 @@
-= Tomu FPGA - **Production** Version (Design Test)
+= Tomu FPGA - **Production** Version
 
-CAUTION: This design is currently a *work-in-progress* and undergoing major revisions.
-
-This directory contains the **design validation** version of the **production** Tomu FPGA. The
+This directory contains the **production** version of the Tomu FPGA. The
 production version is designed for mass production. It uses advanced PCB
 technologies which are harder for the average maker and hobbyist to access.
 
-This is a test model an is **NOT INTENDED FOR PRODUCTION**.  You probably want
-the PVT version.
-
-These features are;
+These features are:
 
 * Laser drilled and blind vias -- this allows industry standard footprints for
   the WCSP parts, increasing long term reliability of the solder joints.
@@ -17,11 +12,12 @@ These features are;
 * Hard gold plating of USB pads and touch pads. This is designed to increase
   reliability and the number of insertions and removals before failure.
 
+* TVS protection on all inputs. This means Tomu FPGA should be able to withstand
+  more handling without getting destroyed.
+
 You get a production version if you order from https://xobs.io/[Sean 'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
 
 == PCB Specification
-
-CAUTION: This PCB specification has issues and should not be produced.  Use PVT instead!
 
 [width="100%",cols=">h,"]
 |================================================================
