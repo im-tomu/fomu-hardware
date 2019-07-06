@@ -53,7 +53,7 @@ There are several variants of Fomu hardware
 * It's also missing some decoupling capacitors and power filters, which may impact stability
 * Only two SPI wires are connected, meaning it cannot handle quad SPI
 
-=== link:./prod/evt[Production version EVT]
+=== link:./archive/evt[Production version EVT]
 
 * This is a prototype board designed to fit on top of a Raspberry Pi
 * It does not fit on a USB port
@@ -61,10 +61,13 @@ There are several variants of Fomu hardware
 * The schematic serves as the basis for future production boards
 * It uses 6/6 design rules, making it very easy to produce
 
-=== link:./prod/dvt[Production version DVT]
+=== link:./archive/dvt[Production version DVT]
 
 * The first test run using advanced PCB technologies like laser drilled and blind vias
 * If there are no changes, this will be mass produced
+
+=== link:./archive/pvt[Production version PVT]
+
 * You get a production version if you order from https://xobs.io/[Sean \'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
 
 == FPGA Specifications
