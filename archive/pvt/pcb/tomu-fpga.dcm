@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x06_Female
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP ICE40UP5K-SG48ITR
+D iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
+$ENDCMP
+#
+$CMP LDO-SOT23
+D LDO Regulator in SOT-23 package
+K sot23
+$ENDCMP
+#
+$CMP Oscillator
+D Oscillator (MEMS or Crystal)
+$ENDCMP
+#
+$CMP PADS
+D Captouch Pads
+$ENDCMP
+#
+$CMP RGB-LED
+D RGB LED
+$ENDCMP
+#
+$CMP Raspberry_Pi_2_3
+D expansion header for Raspberry Pi 2 & 3
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
+$ENDCMP
+#
+$CMP SPI-Flash
+D SPI ROM 8SOIC
+$ENDCMP
+#
+$CMP USB-B
+D USB connector
+K usb
+$ENDCMP
+#
+#End Doc Library
