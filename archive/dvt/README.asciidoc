@@ -1,6 +1,4 @@
-= Tomu FPGA - **Production** Version (Design Test)
-
-CAUTION: This design is currently a *work-in-progress* and undergoing major revisions.
+= Tomu FPGA - Design Test (DVT) of **Production** Tomu FPGA Board (Fomu)
 
 This directory contains the **design validation** version of the **production** Tomu FPGA. The
 production version is designed for mass production. It uses advanced PCB
