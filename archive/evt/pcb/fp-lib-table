@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name tomu-fpga)(type KiCad)(uri ${KIPRJMOD}/tomu-fpga.pretty)(options "")(descr ""))
+)
