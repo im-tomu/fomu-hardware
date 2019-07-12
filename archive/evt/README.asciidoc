@@ -1,0 +1,11 @@
+= Tomu FPGA - **EVT** Version
+
+Fomu EVT is a Raspberry Pi "hat", and is designed to make it easy to debug Fomu.  It is also used to validate the final Fomu schematic.
+
+[cols="4",]
+|================================================================
+| **Version**    | **Build Date** | **Description**        | **Links**
+| EVT1           | November 2018  |  This version suffered from three major issues: The SPI flash footprint was too small, the crystal oscillator was on upside-down, and the power regulator suffered from an ESD issue. | link:https://tomu.im/fomu-evt1/[Issues] link:https://github.com/im-tomu/fomu-hardware/tree/evt1[Source] link:https://github.com/im-tomu/fomu-hardware/tree/evt1/hardware/releases/evt1[Gerbers]
+| EVT2           | December 2018  | EVT2 solved these three issues, while also adding more silkscreen, as well as some test points and ESD diodes. | link:https://tomu.im/fomu-evt2/[Issues] link:https://github.com/im-tomu/fomu-hardware/tree/evt2/[Source] link:https://github.com/im-tomu/fomu-hardware/tree/evt2/hardware/releases/evt2[Gerbers]
+| EVT3           | January 2019   | Adds I2C on PMOD1, and adds a second PMOD connector on the touchpads. | link:https://tomu.im/fomu-evt3/[Issues] link:https://github.com/im-tomu/fomu-hardware/tree/evt3/[Source] link:https://github.com/im-tomu/fomu-hardware/tree/evt3/hardware/releases/evt3[Gerbers]
+|================================================================
