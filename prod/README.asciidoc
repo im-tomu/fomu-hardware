@@ -3,11 +3,11 @@
 This directory contains the **production** versions of the Tomu FPGA. The
 production versions are designed for mass production.
 
-Production goes through [three major phases](https://medium.com/@chris_boucher/the-different-engineering-validation-stages-in-a-nutshell-evt-dvt-pvt-41d1b4b2bc4a):
+Production goes through https://medium.com/@chris_boucher/the-different-engineering-validation-stages-in-a-nutshell-evt-dvt-pvt-41d1b4b2bc4a[three major phases]:
 
-* *EVT* (Engineering, Validation, and Testing): The alpha stage where you make sure the board works like you think it should
-* *DVT* (Design, Validation, and Testing): The beta stage where you fix all your EVT bugs, stabilize features, and start working on tooling
-* *PVT* (Production, Validation, and Testing): The final release stage where you produce products
+* https://github.com/im-tomu/fomu-hardware/tree/master/archive/evt[*EVT* (Engineering, Validation, and Testing): The alpha stage where you make sure the board works like you think it should]
+* https://github.com/im-tomu/fomu-hardware/tree/master/archive/dvt[*DVT* (Design, Validation, and Testing): The beta stage where you fix all your EVT bugs, stabilize features, and start working on tooling]
+* https://github.com/im-tomu/fomu-hardware/tree/master/archive/pvt[*PVT* (Production, Validation, and Testing): The final release stage where you produce products]
 
 Fomu is currently at the EVT stage, with DVT expected in early March 2019.
 
