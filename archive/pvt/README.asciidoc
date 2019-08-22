@@ -1,5 +1,7 @@
 = Tomu FPGA - **Production** Version
 
+https://github.com/im-tomu/fomu-hardware/tree/master/archive/pvt/releases/pvt1[Current EVT version is `pvt1`]
+
 This directory contains the **production** version of the Tomu FPGA. The
 production version is designed for mass production. It uses advanced PCB
 technologies which are harder for the average maker and hobbyist to access.

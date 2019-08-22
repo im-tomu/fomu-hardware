@@ -1,5 +1,7 @@
 = Tomu FPGA - **EVT** Version
 
+https://github.com/im-tomu/fomu-hardware/tree/master/archive/evt/releases/evt3b[Current EVT version is `evt3b`]
+
 Fomu EVT is a Raspberry Pi "hat", and is designed to make it easy to debug Fomu.  It is also used to validate the final Fomu schematic.
 
 [cols="4",]
