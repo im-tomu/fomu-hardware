@@ -9,8 +9,6 @@ Production goes through https://medium.com/@chris_boucher/the-different-engineer
 * https://github.com/im-tomu/fomu-hardware/blob/master/prod/dvt.md[*DVT* (Design, Validation, and Testing): The beta stage where you fix all your EVT bugs, stabilize features, and start working on tooling]
 * https://github.com/im-tomu/fomu-hardware/blob/master/prod/pvt.md[*PVT* (Production, Validation, and Testing): The final release stage where you produce products]
 
-Fomu is currently at the EVT stage, with DVT expected in early March 2019.
-
 Fomu EVT uses extremely simple PCB technologies, and can be constructed by any PCB vendor.  It's a two-layer board with 6/6 rules and large passives.  You can omit many of the decoupling capacitors and it will probably function just fine.  This simplifies assembly by quite a bit.  Additionally, the standard 8-SOIC memory chip means that just about any flash chip will work.
 
 Fomu DVT and Fomu EVT use advanced PCB features, such as:
@@ -21,5 +19,5 @@ Fomu DVT and Fomu EVT use advanced PCB features, such as:
 * Hard gold plating of USB pads and touch pads. This is designed to increase
   reliability and the number of insertions and removals before failure.
 
-You get a production version if you order from https://xobs.io/[Sean \'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
+You get a production version if you order from https://xobs.io/[Sean 'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
 
