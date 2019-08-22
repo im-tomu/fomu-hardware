@@ -10,6 +10,7 @@ I have four buttons and an RGB LED.
 == Telling Tomu and Tomu FPGA apart!
 
 Professionally produced Tomu boards have the following color scheme;
+
  * https://j.mp/tomu-fs[Tomu **FPGA** boards are **blue**].
  * https://j.mp/tomu-cs[**Original** Tomu boards are **green**].
 
