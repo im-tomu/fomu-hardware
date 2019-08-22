@@ -1,1 +1,1 @@
-[The current EVT version is `evt3b`](../archive/evt)
+[Find the FPGA Tomu (Fomu) **EVT** version here](../archive/evt)

@@ -1,1 +1,1 @@
-[The current DVT version is `dvt2a`](../archive/dvt)
+[Find the FPGA Tomu (Fomu) **DVT** version here](../archive/dvt)
