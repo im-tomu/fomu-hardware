@@ -69,7 +69,7 @@ There are several variants of Fomu hardware
 
 === link:./archive/pvt[Production version PVT]
 
-* You get a production version if you order from https://xobs.io/[Sean \'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
+* You get a production version if you order from https://xobs.io/[Sean 'xobs' Cross] https://j.mp/fomu-cs[through or after the Crowd Supply campaign].
 
 == FPGA Specifications
 
