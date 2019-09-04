@@ -1,8 +1,4 @@
-<<<<<<< HEAD:archive/evt/pcb/tomu-fpga.pro
-update=11/23/18 15:59:04
-=======
 update=03/22/19 17:14:38
->>>>>>> dvt:archive/dvt/pcb/tomu-fpga.pro
 version=1
 last_client=kicad
 [general]
