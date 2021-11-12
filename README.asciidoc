@@ -29,7 +29,7 @@ for what to look for;
 
 | Test point pattern
 | **FIXME**
-| **FIXME**
+| link:./archive/pvt[PVT board] image:archive/pvt/images/fomu_pvt_test_points.jpg[fomu pvt]
 
 |================================================================
 
