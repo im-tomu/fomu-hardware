@@ -109,6 +109,28 @@ C20,"0201, 100nF, 10V, X5R, 20%",,,ANY,ANY,,,,,,1
 C17,"0201, 1uF, 10V, X5R, 20%",,,ANY,ANY,,,,,,1
 |===================================================
 
+== Programming Jig
+
+image:images/fomu_pvt_jig.jpg[Pogo-pin programming jig]
+
+3D printable programming jig, freecad link:./fomu-pvt-jig.FCStd[design file].
+
+Used with the following (but surely variations would work as well):
+
+* print 3 layers
+** two to align the pins and one to hold the fomu
+* spring probe pogo pins
+** 0.48mm diameter point
+** 0.68mm diameter shaft
+** 16.55mm thimble length
+* mini grabber test hooks
+
+The pogo pin holes are quite tight and required a bit of clearing with a sewing
+pin. When using the mini grabbers, so as to not require soldering, the pins
+require a bit of a bend to make space.
+
+image:images/fomu_pvt_jig_active.jpg[Jig with test hooks]
+
 == Images
 
 * TBD
