@@ -102,7 +102,7 @@ https://github.com/timvideos/litex-buildenv/wiki/SoftCPU[choice of CPU architect
 * https://github.com/timvideos/litex-buildenv/wiki/RISC-V[RISC-V] - https://github.com/timvideos/litex-buildenv/wiki/RISC-V#PicoRV32[PicoRV32]
 * https://github.com/timvideos/litex-buildenv/wiki/RISC-V[RISC-V] - https://github.com/timvideos/litex-buildenv/wiki/RISC-V#VexRISCV[VexRISCV]
 
-As the board is supported by the LiteX BuildEnv, you can developed;
+As the board is supported by the LiteX BuildEnv, you can develop:
 
 * https://github.com/timvideos/litex-buildenv/wiki/Bare-Metal[Bare Metal C Firmware]
 * https://github.com/timvideos/litex-buildenv/wiki/Zephyr[Zephyr RTOS]
